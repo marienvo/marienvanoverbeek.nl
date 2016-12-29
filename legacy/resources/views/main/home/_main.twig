@@ -1,0 +1,159 @@
+<div id="profiel">
+    <div class="cv-project">
+        <div class="fixed-inner"><div class="container"><div class="row">
+            <div class="col-md-12"><div class="about">
+
+                <h1>Marien van Overbeek</h1>
+                <div class="home-sub">Webdesigner, Rotterdam</div>
+                <p class="hidden-xs about-text">
+                    {#Ervaren front-end developer, momenteel#}
+                    {#freelance werkzaam voor diverse kortlopende opdrachten.#}
+
+                    Ervaren front-end developer met expertise in
+                    vraagstukken
+                    waarbij vindbaarheid en
+                    conversie centraal staan.
+
+                    Bekijk
+                    <a href="#projecten" data-link="onpage">projecten</a> en <a href="/curriculum-vitae" data-push-state="true">CV</a> voor meer informatie.
+                </p>
+                <p class="visible-xs">
+                    <a href="#projecten" data-link="onpage" class="after-link">
+                        <span class="icon icon-circle-right"></span> Projecten</a>
+                    <a href="/curriculum-vitae" data-push-state="true" class="after-link">
+                        <span class="icon icon-circle-right"></span> Curriculum Vitae</a>
+                </p>
+                {#<p>#}
+                    {#<a href="#projecten" data-link="onpage" class="button">Projecten</a>#}
+                    {#&nbsp;#}
+                    {#<a href="/curriculum-vitae" class="button" data-push-state="true">#}
+                        {#Curriculum Vitae</a>#}
+                {#</p>#}
+
+            </div></div>
+            <img src="marien-van-overbeek.png" class="big-image hidden-xs" alt=""/>
+        </div></div></div>
+    </div>
+    <div class="cv-text home-text" id="home-text">
+        <div class="home-intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 pb120">
+                        <h2>Wie is Marien?</h2>
+                        <p>
+                            Marien staat er bij veel opdrachtgevers om bekend dat hij zijn mening
+                            niet onder stoelen of banken steekt. Voordeel hiervan is dat hij
+                            er snel achter komt wat het daadwerkelijke probleem is, zodat
+                            daarvoor de best mogelijke oplossing gezocht kan worden.
+                        </p>
+                        <p>
+                            Hij heeft oog voor detail,
+                            maar zorgt ook dat projecten
+                            tijdig en compleet
+                            afgewerkt en afgeleverd worden.
+                            Hoogwaardig design en een goede
+                            gebruikservaring dragen volgens
+                            hem het best bij aan een
+                            doeltreffende interface.
+                        </p>
+                    </div>
+                    <div class="col-md-5 hidden-sm hidden-xs pt80 pb80">
+                        <p class="small-header">Kwaliteiten</p>                        <ul>
+                        <p>
+                            Niet bang om zaken aan te kaarten<br>
+                            Interesse in alle grensvlakken van zijn vakgebied<br>
+                            Stelt zaken op een respectvolle manier ter discussie<br>
+                            Werkt graag samen<br>
+                        </p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grey-row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 pb120">
+
+                        <h2>Wat wil hij?</h2>
+                        <p>
+                            Hij wil meebouwen aan de toekomst van een wereld waarin alles
+                            met elkaar in verbinding staat. Uitdagende projecten waarbij
+                            innovatieve gebruikservaring centraal staat.
+                            </p><p>
+                            Zijn hart gaat vooral sneller kloppen als de uitwerking voor de beste
+                            conceptuele gebruikservaring in het design van een interface
+                            vraagt om degelijke, duurzame CSS en JavaScript.
+                            Uiteindelijk moet het eindproduct ook een fundering
+                            zijn om door te kunnen bouwen.
+
+                            <br/>
+                        </p>
+
+                    </div>
+                    <div class="col-md-4">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+        <div class="home-cases" id="projecten">
+            {% for project in projects %}
+                <div class="slide_{{ loop.index }} carousel_item_home_slide"
+                     data-color="{{ project.color }}">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-10 col-sm-offset-1
+                                        hidden-xs hidden-sm
+                                        col-md-5 col-md-offset-1 pt140">
+                                <h3>{{ project.data.title }}</h3>
+                                <p>{{ project.data.cv_text }}</p>
+                                <p>
+                                    <a href="/curriculum-vitae/{{ project.id }}"
+                                       style="color:{{ project.color }}"
+                                       data-push-state="true" class="button white">Case Study</a>
+                                </p>
+                            </div>
+                            <div class="col-sm-10 col-sm-offset-1
+                                        visible-xs visible-sm pt40">
+                                <h3>{{ project.data.title }}</h3>
+                                <p>{{ project.data.cv_text }}</p>
+                                <p class="center">
+                                    <a href="/curriculum-vitae/{{ project.id }}"
+                                       style="color:{{ project.color }}"
+                                       data-push-state="true" class="button white">Case Study</a>
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-md-offset-1 hidden-sm hidden-xs quote">
+                                <p class="quote_text">{{ project.quote.text }}</p>
+                                <p class="quote_name">{{ project.quote.name|raw }}</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="home-projects-mobile visible-sm visible-xs" id="projecten_mobile">
+            <a href="#prev" id="project_prev"><span class="icon-undo2"></span></a>
+            <a href="#next" id="project_next"><span class="icon-redo2"></span></a>
+        </div>
+        <div class="home-logos hidden-sm hidden-xs" id="carousel_home_logos">
+
+            {% for project in projects %}
+                <div class="logo_{{ loop.index }} carousel_item_logo
+                            {% if loop.index == 2 %}active{% endif %}">
+                    <div class="timeline"><span class="line"></span><span class="dot"></span></div>
+                    <span class="logo_click">{{ project.data.title }}</span>
+                </div>
+            {% endfor %}
+            {% for project in projects %}
+                <div class="logo_{{ loop.index }} carousel_item_logo">
+                    <div class="timeline"><span class="line"></span><span class="dot"></span></div>
+                    <span class="logo_click">{{ project.data.title }}</span>
+                </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</div>
+
+

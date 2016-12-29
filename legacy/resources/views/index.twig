@@ -1,0 +1,89 @@
+<!doctype html>
+<html dir="ltr" lang="nl-NL" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Marien van Overbeek - webdesigner Rotterdam</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/styles/main.min.css"/>
+    <style>
+        #home-text { background: {{ projects[0].color }}; }
+        {% for project in projects %}
+        #curriculum-vitae_{{ project.id }} .cv-project {background: {{ project.color }};}
+        #curriculum-vitae_{{ project.id }} .cv-project .bg-triangle:after {border-top-color: {{ project.color }};}
+        #curriculum-vitae_{{ project.id }} .cv-text .color {color: {{ project.color }};}
+        {% endfor %}
+    </style>
+    <script src="https://use.typekit.net/arx2wzt.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!--[if IEMobile]>
+    <link rel="stylesheet" type="text/css" href="/assets/styles/iemobile.css"/>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-4338632-12', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body><a name="prev"></a><a name="next"></a>
+{% include 'global/blocks/_top_html.twig' %}
+<section id="container">
+    <section id="content">
+        {% include 'global/blocks/_easytabs.twig' %}
+
+        {# Pages #}
+        {% include 'main/home/_main.twig' %}
+        {% include 'main/curriculum-vitae/_main.twig' %}
+
+        {# Projects #}
+        {% for project in projects %}
+            <div id="curriculum-vitae_{{ project.id }}"
+                 data-src="/ajax/{{ project.id }}"></div>
+        {% endfor %}
+
+
+        {# OLD non ajax: #}
+        {##}
+        {#{% for project in projects %}#}
+        {#{% include 'global/blocks/project.twig' with {#}
+        {#'project_id': project.id,#}
+        {#"data": project.data,#}
+        {#"index": loop.index-1,#}
+        {#"length": loop.length-1#}
+        {#} %}#}
+        {#{% endfor %}#}
+
+    </section>
+    {% include 'global/blocks/_footer.twig' %}
+    {#<div class="push"></div>#}
+</section>
+
+{#<div id="footer_copy"><div class="copyright">#}
+{#<strong> &copy; 2015, Marien van Overbeek<br/>alle rechten voorbehouden </strong>#}
+{#</div></div>#}
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenLite.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/jquery.gsap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/CSSPlugin.min.js"></script>
+
+<script type="text/javascript" src="/assets/files/scripts_old/jquery.easytabs.mavanov.js"></script>
+<script type="text/javascript" src="/assets/files/scripts_old/iscroll-lite.js"></script>
+<script type="text/javascript" src="/assets/files/scripts_old/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript" src="/assets/files/scripts_old/trianglify.min.js"></script>
+<script type="text/javascript" async src="/assets/files/scripts_old/respond.min.js"></script>
+<script type="text/javascript" async src="/assets/files/scripts_old/plugins.js"></script>
+<script type="text/javascript" async src="/assets/files/scripts_old/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" async src="/assets/files/scripts_old/custom.js"></script>
+{% include 'global/blocks/_script.twig'  %}
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "rules": {
+        "strict": 0
+    },
+    "env": {
+        "amd": true,
+        "es6": true,
+        "jquery": true,
+        "node": true,
+        "browser": true
+    },
+    "extends": "standard",
+    "globals": {
+        "$": false,
+        "jQuery": false,
+        "Modernizr": false,
+        "classie": false,
+        "require": false,
+        "NProgress": false,
+        "google": false
+    }
+}

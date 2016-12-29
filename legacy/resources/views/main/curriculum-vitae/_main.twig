@@ -1,0 +1,142 @@
+
+<section id="curriculum-vitae">
+    <div class="cv-project"><div class="bg-triangle"></div><div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="/" data-push-state="true" class="fixed_home"><span class="icon-home3"></span></a>
+                <div class="about">
+                    <h1 class="center pt60">Curriculum Vitae</h1>
+                    <h6 class="center">Marien van Overbeek</h6>
+                </div>
+            </div>
+        </div>
+    </div></div>
+    <div class="cv-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skills-section">
+                        <!-- Skills -->
+
+
+                        <h2>Skills</h2>
+                        <ul class="skills">
+                            {% for item in cv.skills %}
+                                <li>
+                                    <div class="skill">{{ item[0] }}</div>
+                                    {% if item[1] %}<div class="rating" data-rat="{{ item[1] }}"></div>{% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                        <h2>Tools</h2>
+                        <ul class="skills">
+                            {% for item in cv.tools %}
+                                <li>
+                                    <div class="skill">{{ item[0] }}</div>
+                                    <div class="rating" data-rat="{{ item[1] }}"></div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+
+                        <!-- /Skills -->
+                    </div>
+
+
+                    {#<a href="#" class="button transition">Download CV in PDF formaat</a>#}
+
+                    <div class="clear"></div>
+
+
+                </div>
+                <div class="col-md-7 col-md-offset-0">
+
+                    <div class="timeline-section">
+                        <!-- Timeline for Employment  -->
+                        <h2>Samenvatting</h2>
+                        <p>
+                            Front-end developer met expertise
+                            in vraagstukken waarbij concept en user experience
+                            centraal staan.
+
+                            Sinds december 2015 legt hij de focus op JavaScript.
+                            Interesse gaat in 2016 daarom extra
+                            uit naar projecten waarbij JavaScript een
+                            belangrijke rol speelt.
+                        </p>
+                        <h2>Werkervaring</h2>
+                        <ul class="timeline">
+                            {% for item in cv.werkervaring %}
+                                <li>
+
+                                    <div class="timelineUnit">
+                                        <h4>
+                                            {{ item.title }}
+                                            <span class="timelineDate">{{ item.time }}</span>
+                                        </h4>
+                                        <h5>{{ item.company }}</h5>
+                                        <p>{{ item.text|raw }}</p>
+                                    </div>
+                                </li>
+                            {% endfor %}
+                            <div class="clear"></div>
+                        </ul>
+                        <!-- /Timeline for Employment  -->
+
+
+                        <h2>Projecten</h2>
+                        <ul class="timeline">
+                            {% for item in projects %}
+                                <li>
+
+                                    <div class="timelineUnit">
+                                        <h4>
+                                            {{ item.data.title }}
+                                            <span class="timelineDate">{{ item.data.cv_time }}</span>
+                                        </h4>
+                                        <h5>{{ item.data.sub_title }}</h5>
+                                        <p>{{ item.data.cv_text }}</p>
+
+                                        <p>
+                                            <a href="/curriculum-vitae/{{ item.id }}"
+                                               data-push-state="true"
+                                               class="after-link">
+                                                <span class="icon icon-circle-right"></span>
+                                                Case Study</a>
+                                        </p>
+                                        {#<p><a href="/curriculum-vitae/{{ item.id }}"#}
+                                              {#data-push-state="true" class="button">#}
+                                                {#Case Study#}
+                                            {#</a></p>#}
+                                    </div>
+                                </li>
+                            {% endfor %}
+                            <div class="clear"></div>
+                        </ul>
+
+                        <!-- Timeline for Education  -->
+                        <h2>Opleiding</h2>
+                        <ul class="timeline">
+                            {% for item in cv.opleiding %}
+                                <li>
+
+                                    <div class="timelineUnit">
+                                        <h4>
+                                            {{ item.title }}
+                                            <span class="timelineDate">{{ item.time }}</span>
+                                        </h4>
+                                        <h5>{{ item.company }}</h5>
+                                        <p>{{ item.text }}</p>
+                                    </div>
+                                </li>
+                            {% endfor %}
+                            <div class="clear"></div>
+                        </ul>
+                        <!-- /Timeline for Education  -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>

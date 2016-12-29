@@ -1,0 +1,176 @@
+<section id="ajax-curriculum-vitae_{{ project_id }}">
+
+    <div class="cv-project"><div class="bg-triangle"></div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    {% set prev = (index-1==-1)?length:index-1 %}
+                    {% set next = (index==length)?0:index+1 %}
+                    <a href="/" data-push-state="true" class="fixed_home"><span class="icon-home3"></span></a>
+                    <a href="/curriculum-vitae/{{ projects[next].id }}" data-push-state="true" class="fixed_next"><span class="icon-redo2"></span></a>
+                    <a href="/curriculum-vitae/{{ projects[prev].id }}" data-push-state="true" class="fixed_prev"><span class="icon-undo2"></span></a>
+
+                    <div class="about">
+                        <h1 class="center pt60">{{ data.title }}</h1>
+                        <h6 class="center">{{ data.sub_title }}</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="{{ data.header_img }}" alt="" class="cv-head-img hidden-xs hidden-sm">
+    </div>
+    <div class="cv-text">
+        <div class="grey-row white-row"><div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 col-sm-offset-1 pt40">
+                    <p>{{ data.intro|raw }}</p>
+                </div><div class="col-sm-4 col-sm-offset-1 hidden-xs pt30">
+                    <p class="small-header">Geleverde diensten</p>
+                    <p>
+                        {% for service in data.services %}{{ service }}<br>{% endfor %}
+                    </p>
+                </div>
+            </div>
+        </div></div>
+
+        {% set blockTypes = ['quote','img_single','img_mobile', 'img_full', 'script'] %}
+        {% set car_index = 0 %}
+        {% set iphone_index = 0 %}
+        {% for section in data.sections %}
+
+            {% set type = 'default' %}
+            {% for paragraph in section %}
+
+                {% if loop.first %}
+                    {% if paragraph in blockTypes %}
+                        {% set type = paragraph %}
+                    {% else %}
+                        <div class="grey-row"><div class="container"><div class="row">
+                            <div class="col-md-8 col-md-offset-2"><h2 class="">{{ paragraph|raw }}</h2></div>
+                        </div></div></div>
+                    {% endif %}
+                {% elseif type == 'script' %}
+                    <div class="grey-row"><div class="container"><div class="row">
+                        <div class="col-md-10 col-md-offset-1 {{ type }}">
+
+
+
+
+                            <div class="browser-window">
+                                <div class="top-bar">
+                                    <div class="circles">
+                                        <div class="circle circle-red"></div>
+                                        <div class="circle circle-yellow"></div>
+                                        <div class="circle circle-green"></div>
+                                    </div>
+                                </div>
+                                <div class="window-content">
+<pre class="line-numbers"><code class="">/*
+ Main task
+ */
+grunt.registerTask('themes', '', function() {
+    grunt.log.write(('\nThemes found:')+(' ('+themes_folder+')\n')['grey']);
+    var i=0;
+    var comma = '';
+    grunt.file.expand(themes_folder+'/*').forEach(function (dir) {
+<span class="last-5">        if (grunt.file.isDir(dir)&&dir.indexOf('.')!==-1) {</span>
+<span class="last-4">            var theme = dir.substr(dir.lastIndexOf('/') + 1).replace('.','_');</span>
+<span class="last-3">            grunt.log.write(comma+dir.replace(themes_folder + '/', '')['yellow']);</span>
+<span class="last-2">            comma = ', ';</span>
+<span class="last-1">            i++;</span>
+
+<span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div></div></div>
+                {% elseif type == 'img_single' %}
+                    <div class="grey-row white-row"><div class="container"><div class="row">
+                        <div class="col-md-10 col-md-offset-1 {{ type }}">
+                            <figure class="{{ paragraph.figure_class }}">
+
+                                <img src="{{ paragraph.src }}" alt=""
+                                 width="{{ paragraph.width }}"
+                                 class="{{ paragraph.class }}">
+
+                            {% if paragraph.caption %}
+                                <br/><figcaption>{{ paragraph.caption|raw }}</figcaption>
+                            {% endif %}
+                            </figure>
+
+                        </div>
+                    </div></div></div>
+                {% elseif type == 'img_mobile' %}
+                    <div class="greyer-row visible-xs visible-sm pt30 pb30">
+                        <p class="center">[ placeholder for mobile ]</p>
+                    </div>
+                    <div class="greyer-row mt220 hidden-xs hidden-sm"><div class="container"><div class="row">
+                        <div class="col-md-10 col-md-offset-1 {{ type }} {{ paragraph.col_class }}">
+
+                            <div class="iphone-text">
+                                <h2>Mobielvriendelijk</h2>
+                                <p>In de Verenigde staten zoekt <a href="https://think.withgoogle.com/mobileplanet/en/downloads/" target="_blank"Mobielvriendelijk>94% van de mensen met een smartphone lokale informatie op hun telefoon</a>. Interessant is dat <a href="https://www.thinkwithgoogle.com/research-studies/creating-moments-that-matter.html" target="_blank">77% van alle mobiele zoekopdrachten thuis of op het werk wordt uitgevoerd</a>, dus op plaatsen waar waarschijnlijk ook desktopcomputers aanwezig zijn.</p>
+                                <p>Mobiel is essentieel voor ieder bedrijf en zal dit ook blijven, of u nu over uw favoriete sportteam blogt, werkt aan een website voor het lokale theater of producten verkoopt aan potentiële klanten. Zorg ervoor dat bezoekers een goede ervaring op uw site hebben wanneer ze deze bezoeken via een mobiel apparaat!</p>
+                            </div>
+
+                            <div class="case-screen-mobile">
+                                <div class="iphone-overlay"></div>
+                                <div class="screen-mobile-holder auto-iphone"
+                                     id="iphone_{{ index }}_{{ iphone_index }}">
+                                    {% set iphone_index = iphone_index+1 %}
+                                    <div class="inner-screenshot">
+                                        <img src="{{ paragraph.src }}" alt="" width="260">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div></div></div>
+                {% elseif type == 'img_full' %}
+                    <div class="grey-row"><div class="container"><div class="row">
+                        <div class="col-md-10 col-md-offset-1 {{ type }}">
+                            <div id="carousel_{{ index }}_{{ car_index }}"
+                                 class="auto-carousel">
+                                {% set car_index = car_index+1 %}
+                                {% for img in paragraph %}
+                                    <img src="{{ img }}" alt="">
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div></div></div>
+                {% elseif type == 'quote' %}
+                    <div class="grey-row"><div class="container"><div class="row">
+                        <div class="col-md-8 col-md-offset-3 {{ type }}">
+                            <p class="quote_text">{{ paragraph.quote|raw }}</p>
+                            <p class="quote_name">{{ paragraph.name|raw }}</p>
+                        </div>
+                    </div></div></div>
+                {% else %}
+                    <div class="grey-row"><div class="container"><div class="row">
+                        <div class="col-md-8 col-md-offset-2 {{ type }}">
+                            <p>{{ paragraph|raw }}</p>
+                        </div>
+                    </div></div></div>
+                {% endif %}
+
+            {% endfor %}
+        {% endfor %}
+        {% if data.results %}
+            <div class="grey-row"><div class="container">
+                <div class="row">
+                    <div class="col-md-12 center">
+                        <div class="result-figure line-1">{{ data.results[0] }}</div>
+                        <div class="result-figure line-2 color">{{ data.results[1] }}</div>
+                        <div class="result-figure line-3">{{ data.results[2] }}</div>
+                    </div>
+                </div>
+
+            </div></div>
+        {%  endif %}
+    </div>
+</section>

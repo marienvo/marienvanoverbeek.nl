@@ -1,0 +1,1268 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, textarea, input
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+  text-decoration: none
+
+/* HTML5 display-role reset for older browsers
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+  display: block
+
+body
+  line-height: 1
+
+ol, ul
+  list-style: none
+
+p
+  margin-bottom: 32px
+  font-size: 1.125em
+  color: $black
+  line-height: 36px
+  +breakpoint-max(xs)
+    margin-bottom: 32px
+    font-size: 1em
+    line-height: 32px
+  &.small-header
+    font-family: $sans-serif
+    font-weight: 700
+    font-size: 1em
+    margin-bottom: 0
+
+blockquote, q
+  quotes: none
+
+blockquote
+  &:before, &:after
+    content: ''
+    content: none
+
+q
+  &:before, &:after
+    content: ''
+    content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+a
+  color: inherit
+  text-decoration: none
+  &:hover
+    text-decoration: none
+  &.after-link
+    text-decoration: none
+    line-height: 22px
+    display: inline-block
+    margin: 0 10px
+    font-family: $sans-serif
+    &:hover, &:active, &:focus
+      color: $cs1
+    .icon
+      position: relative
+      top: 0.5px
+      font-size: .8em
+      color: $cs1
+      margin-right: 4px
+
+.project-image img
+  width: 350px
+
+/*-------------------------------------------------------
+/* Base styles
+/*-------------------------------------------------------
+
+*
+  margin: 0
+
+html, body
+  height: 100%
+
+html
+  overflow-y: scroll
+
+body
+  background-color: $footer_color
+  margin: 0
+  padding: 0
+  font-family: $serif
+  font-weight: 400
+  font-size: 16px
+
+
+/* Font face
+@font-face
+  font-family: 'icomoon'
+  src: url('/assets/marienvanoverbeek/fonts/icomoon/icomoon.eot')
+  src: url('/assets/marienvanoverbeek/fonts/icomoon/icomoon.eot?#iefix') format("embedded-opentype"), url('/assets/marienvanoverbeek/fonts/icomoon/icomoon.svg#icomoon') format("svg"), url('/assets/marienvanoverbeek/fonts/icomoon/icomoon.woff') format("woff"), url('/assets/marienvanoverbeek/fonts/icomoon/icomoon.ttf') format("truetype")
+
+.noheight
+  height: 0 !important
+  min-height: 0 !important
+
+/*-------------------------------------------------------
+/* Wrap
+/*-------------------------------------------------------
+
+#container
+  min-height: 100%
+  height: auto !important
+  /* This line and the next line are not necessary unless you need IE6 support
+  height: 100%
+  /* the bottom margin is the negative value of the footer's height
+  margin: 0
+  margin-bottom: -50px
+  width: 100%
+  -webkit-font-smoothing: antialiased
+
+#content
+  display: none
+  background-color: $profiel_color
+  //-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15), 0 0 40px rgba(0, 0, 0, 0.06) inset
+  //-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15), 0 0 40px rgba(0, 0, 0, 0.06) inset
+  //box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15), 0 0 40px rgba(0, 0, 0, 0.06) inset
+  //border: 1px solid #C1BFB7
+  //border-radius: 6px
+  overflow: hidden
+
+/*-------------------------------------------------------
+/* Generic Classes
+/*-------------------------------------------------------
+
+@import "vendor/icomoon"
+
+.hidden
+  display: none
+
+/* Clearfix
+
+.clear
+  clear: both
+  display: block
+  height: 0
+  overflow: hidden
+  visibility: hidden
+  width: 0
+
+.clearfix:after
+  clear: both
+  content: ' '
+  display: block
+  font-size: 0
+  height: 0
+  line-height: 0
+  visibility: hidden
+  width: 0
+
+* html .clearfix, :first-child + html .clearfix
+  zoom: 1
+
+.extra-text
+  font-size: 20px
+  padding: 24px 0
+  border-bottom: 1px solid #ededed
+  color: #999
+  margin-bottom: 20px
+  font-weight: 300
+
+.transition
+  -webkit-transition: all .5s ease
+  -moz-transition: all .5s ease
+  -ms-transition: all .5s ease
+  -o-transition: all .5s ease
+  transition: all .5s ease
+
+.word-wrap
+  word-wrap: break-word
+  -ms-word-break: break-all
+  word-break: break-all
+  -webkit-hyphens: auto
+  -moz-hyphens: auto
+  hyphens: auto
+
+/*-------------------------------------------------------
+/* Typography
+/*-------------------------------------------------------
+h1,h2,h3,h4,h5,h6,.home-sub
+  font-family: $sans-serif
+  font-weight: 700
+h1
+  font-size: 37px
+
+h2,.footer_header
+  font-size: 24px
+  margin: 80px 0 15px 0
+  +breakpoint-max(xs)
+    font-size: 20px
+
+h2
+  color: $black
+
+.footer_header
+  margin-top: 0
+  font-family: $sans-serif
+  font-weight: 700
+
+.home-sub
+  font-size: 20px
+h3
+  font-size: 20px
+
+h4
+  margin-top: 20px
+  line-height: 26px
+  font-size: 22px
+  color: #666
+
+h5
+  font-size: 16px
+  line-height: 28px
+  color: #999
+
+h6
+  font-size: 18px
+  line-height: 30px
+  color: #FFFFFF
+  font-family: $serif
+  font-weight: 400
+
++breakpoint-max(sm)
+  h1,.home-sub
+    text-align: center
+  h1
+    font-size: 26px
+
+strong
+  font-weight: bold
+  color: #333
+
+//h3.main-heading
+  margin: 0 2px 20px 0
+  border-bottom: 1px solid #ebebeb
+  padding-bottom: 14px
+  color: #333
+  line-height: 16px
+  font-size: 16px
+  font-weight: 600
+  display: block
+  clear: both
+  position: relative
+  &::after
+    content: ''
+    width: 40px
+    height: 1px
+    position: absolute
+    left: 0
+    bottom: -1px
+    background: #DD4B38
+.center
+  text-align: center
+
+
+
+
+/*-------------------------------------------------------
+/* Top Section
+/*-------------------------------------------------------
+
+header
+  height: 60px
+  margin-bottom: 20px
+  overflow: hidden
+
+
+/* Logo
+
+#logo
+  float: left
+  overflow: hidden
+  margin-left: 10px
+  display: none
+  h2
+    font-size: 30px
+    font-weight: 900
+    color: #D34618
+    line-height: 40px
+  h4
+    color: #666
+    line-height: 20px
+
+/* Social icons
+
+//.socialicons
+//  float: right
+//  margin-top: 18px
+//  li
+//    float: left
+//    display: inline
+//    margin: 0
+//    padding: 0
+//    margin-right: 2px
+//    a
+//      font-family: 'icomoon'
+//      font-size: 16px
+//      display: block
+//      padding: 6px 8px
+//      background-color: #222
+//      color: #FFF
+//      &:hover
+//        color: #DD4B38
+//
+//.social-icons li:last-child
+//  margin-right: 0
+//
+//.socialicons .socials-text
+//  padding: 9px
+//  height: 10px
+//  background-color: #222
+//  color: #FFF
+
+/* Global elements
+/*
+
+.loading-screen
+  z-index: 9999
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: $profiel_color
+  .inner-centered
+    width: 100%
+    position: absolute
+    top: 46%
+    text-align: center
+  .one
+    opacity: 0
+    -webkit-animation: dot 1.3s infinite
+    -webkit-animation-delay: 0.0s
+    animation: dot 1.3s infinite
+    animation-delay: 0.0s
+  .two
+    opacity: 0
+    -webkit-animation: dot 1.3s infinite
+    -webkit-animation-delay: 0.2s
+    animation: dot 1.3s infinite
+    animation-delay: 0.2s
+  .three
+    opacity: 0
+    -webkit-animation: dot 1.3s infinite
+    -webkit-animation-delay: 0.3s
+    animation: dot 1.3s infinite
+    animation-delay: 0.3s
+  @-webkit-keyframes dot
+    0%
+      opacity: 0
+
+    50%
+      opacity: 0
+
+    100%
+      opacity: 1
+  @keyframes dot
+    0%
+      opacity: 0
+
+    50%
+      opacity: 0
+
+    100%
+      opacity: 1
+
+.cv-project
+  background: $profiel_color
+  position: relative
+  overflow: hidden
+  .cv-head-img
+    width: 60%
+    position: absolute
+    bottom: 10%
+    left: 50%
+    margin-left: -30%
+
+.bg-triangle
+  position: absolute
+  top: 0
+
+#curriculum-vitae .cv-project
+  background: #428BCA
+
+/* --- Inline links --- */
+.cv-text, #profiel .about-text
+  a
+    color: #000
+    text-decoration: none
+    border-bottom: 1px $cs1 solid
+    +transition(color .2s, border-color, .2s)
+    &:hover
+      color: $cs1
+      text-decoration: none
+      border-color: transparent
+    &.after-link
+      &, &:hover
+        border-color: transparent
+.cv-text
+  background: #F8F7F7
+  padding-bottom: 120px
+  .result-figure
+    &.line-1
+      margin-top: 60px
+      font-size: 18px
+      font-weight: 700
+      font-family: $sans-serif
+    &.line-2
+      font-family: $sans-serif
+      font-size: 72px
+      font-weight: 700
+      margin: 12px 0
+    &.line-3
+      font-size: 18px
+      font-family: $serif
+      opacity: .6
+.grey-row
+  background-color: #F8F7F7
+
+.greyer-row
+  background-color: $dark-row
+
+.white-row
+  background-color: #ffffff
+
+/*
+/* Icons
+
+.fixed_home, .fixed_next, .fixed_prev, .btn-main-home, h1
+  text-shadow: rgba(#000, .3) 1px 2px 2px
+h6, .home-sub
+  text-shadow: rgba(#000, .2) 1px 2px 1px
+.fixed_home, .fixed_next, .fixed_prev, .btn-main-home
+  position: absolute
+  z-index: 999
+  opacity: .5
+  background-color: transparent
+  font-size: 32px
+  color: #ffffff
+  width: 50px
+  height: 50px
+  text-decoration: none
+  line-height: 50px
+  text-align: center
+  +transition(opacity .25s)
+  &:hover, &:focus, &:active
+    color: #FFFFFF
+    opacity: 1
+    text-decoration: none
+
+.btn-main-home
+  display: none
+  top: 40px
+  right: 20px
+
+.fixed_home, .fixed_next, .fixed_prev
+  bottom: 0
+.fixed_home
+  right: 20px
+  bottom: 60px
+.fixed_next
+  right: 20px
+.fixed_prev
+  left: 20px
+
+.script
+  margin-top: 30px
+  .browser-window
+    width: 100%
+    max-width: 670px
+    -webkit-font-smoothing: antialiased
+    background-color: rgb(255, 255, 255)
+    border-bottom-color: rgb(221, 221, 221)
+    border-bottom-left-radius: 4px
+    border-bottom-right-radius: 4px
+    border-bottom-style: solid
+    border-bottom-width: 1px
+    border-image-outset: 0
+    border-image-repeat: stretch
+    border-image-slice: 100%
+    border-image-source: none
+    border-image-width: 1
+    border-left-color: rgb(221, 221, 221)
+    border-left-style: solid
+    border-left-width: 1px
+    border-right-color: rgb(221, 221, 221)
+    border-right-style: solid
+    border-right-width: 1px
+    border-top-color: rgb(221, 221, 221)
+    border-top-left-radius: 4px
+    border-top-right-radius: 4px
+    border-top-style: solid
+    border-top-width: 1px
+    box-shadow: rgba(0, 0, 0, 0.09804) 0 2px 8px 0
+    box-sizing: border-box
+    color: rgb(82, 82, 82)
+    display: block
+    font-family: 'Source Sans Pro', sans-serif
+    font-size: 16px
+    height: (355px - 76px)
+    margin: 0 auto
+    overflow-x: hidden
+    overflow-y: hidden
+    text-align: left
+  .top-bar
+    -webkit-font-smoothing: antialiased
+    background-attachment: scroll
+    background-clip: border-box
+    background-color: rgb(235, 235, 235)
+    background-image: none
+    background-origin: padding-box
+    background-size: auto
+    border-bottom-color: rgb(223, 223, 222)
+    border-bottom-left-radius: 0
+    border-bottom-right-radius: 0
+    border-bottom-style: solid
+    border-bottom-width: 1px
+    border-top-color: rgb(234, 234, 233)
+    border-top-left-radius: 4px
+    border-top-right-radius: 4px
+    border-top-style: solid
+    border-top-width: 1px
+    box-sizing: border-box
+    color: rgb(82, 82, 82)
+    display: block
+    font-family: 'Source Sans Pro', sans-serif
+    font-size: 16px
+    height: 30px
+    text-align: left
+    width: 100%
+  .circles
+    -webkit-font-smoothing: antialiased
+    box-sizing: border-box
+    color: rgb(82, 82, 82)
+    display: block
+    font-family: 'Source Sans Pro', sans-serif
+    font-size: 16px
+    height: 20px
+    margin-bottom: 1px
+    margin-left: 10px
+    margin-right: 10px
+    margin-top: 1px
+    text-align: left
+    width: 580px
+    .circle
+      -webkit-font-smoothing: antialiased
+      background-color: rgb(255, 255, 255)
+      border-bottom-left-radius: 50%
+      border-bottom-right-radius: 50%
+      border-top-left-radius: 50%
+      border-top-right-radius: 50%
+      box-sizing: border-box
+      color: rgb(82, 82, 82)
+      display: inline-block
+      font-family: 'Source Sans Pro', sans-serif
+      font-size: 16px
+      height: 8px
+      text-align: left
+      width: 8px
+      &.circle-red
+        background-color: #FC615C
+      &.circle-yellow
+        background-color: #FDBC40
+      &.circle-green
+        background-color: #33C748
+  .window-content
+    -webkit-font-smoothing: antialiased
+    border-bottom-left-radius: 4px
+    border-bottom-right-radius: 4px
+    border-top-left-radius: 0
+    border-top-right-radius: 0
+    box-sizing: border-box
+    color: rgb(82, 82, 82)
+    display: inline-block
+    font-family: 'Source Sans Pro', sans-serif
+    font-size: 16px
+    height: 370px
+    margin-bottom: 0
+    margin-left: 0
+    margin-right: 0
+    margin-top: 0
+    min-height: 90%
+    overflow-x: hidden
+    overflow-y: hidden
+    text-align: left
+    width: 100%
+    .last-1
+      color: mix(#000,#fff,10)
+    .last-2
+      color: mix(#000,#fff,20)
+    .last-3
+      color: mix(#000,#fff,40)
+    .last-4
+      color: mix(#000,#fff,60)
+    .last-5
+      color: mix(#000,#fff,80)
+  .line-numbers
+    -webkit-font-smoothing: antialiased
+    background-attachment: scroll
+    background-clip: border-box
+    background-color: rgb(255, 255, 255)
+    background-image: none
+    background-origin: padding-box
+    background-size: auto
+    border-bottom-left-radius: 0
+    border-bottom-right-radius: 0
+    border-top-left-radius: 0
+    border-top-right-radius: 0
+    box-shadow: rgba(0, 0, 0, 0.12157) 0 1px 1px 0
+    box-sizing: border-box
+    color: rgb(0, 0, 0)
+    direction: ltr
+    display: block
+    font-family: Consolas, Monaco, 'Andale Mono', monospace
+    font-size: 11.5px
+    height: 370px
+    line-height: 19.5499992370605px
+    margin-bottom: 0
+    margin-left: 0
+    margin-right: 0
+    margin-top: 0
+    overflow-x: hidden
+    overflow-y: hidden
+    padding-bottom: 10px
+    padding-left: 43.7000007629395px
+    padding-right: 10px
+    padding-top: 0
+    position: relative
+    tab-size: 4
+    text-align: left
+    text-shadow: rgb(255, 255, 255) 0 1px 0
+    white-space: pre
+    width: 100%
+    max-width: 630px
+    word-break: normal
+    word-spacing: 0
+  .line-numbers-rows
+    -webkit-font-smoothing: antialiased
+    -webkit-user-select: none
+    background-attachment: scroll
+    background-clip: border-box
+    background-color: rgb(240, 242, 241)
+    background-image: none
+    background-origin: padding-box
+    background-size: auto
+    box-sizing: border-box
+    color: rgb(0, 0, 0)
+    direction: ltr
+    display: block
+    font-family: Consolas, Monaco, 'Andale Mono', monospace
+    font-size: 11.5px
+    height: 362px
+    left: 0
+    letter-spacing: -1px
+    line-height: 19.5499992370605px
+    padding-top: 2px
+    pointer-events: none
+    position: absolute
+    text-align: left
+    text-shadow: rgb(255, 255, 255) 0 1px 0
+    top: -2px
+    white-space: pre
+    width: 34.5px
+    word-spacing: 0
+    counter-reset: lines
+    span
+      -webkit-font-smoothing: antialiased
+      -webkit-user-select: none
+      box-sizing: border-box
+      direction: ltr
+      display: block
+      font-family: Consolas, Monaco, 'Andale Mono', monospace
+      font-size: 11.5px
+      height: 20px
+      letter-spacing: -1px
+      line-height: 19.5499992370605px
+      pointer-events: none
+      padding-right: 4px
+      text-align: right
+      text-shadow: rgb(255, 255, 255) 0 1px 0
+      white-space: pre
+      width: 34.5px
+      word-spacing: 0
+      color: #999999
+      &:before
+        counter-increment: lines
+        content: counter(lines)
+
+.default
+  padding-bottom: 14px
+
+.quote
+  font-family: $sans-serif
+  font-size: 24px
+  margin-top: 40px
+  .quote_text
+    margin-top: 30px
+    font-weight: 700
+    line-height: 36px
+  .quote_name
+    text-align: right
+    font-size: 20px
+    margin-top: 10px
+    margin-bottom: 90px
+    padding-right: 20px
+    &:before
+      content: '~'
+.img_single
+  text-align: center
+  line-height: 0
+  figure, figcaption
+    text-align: left
+    width: auto
+    display: inline-block
+    margin: 0 auto
+    &.right
+      text-align: right
+  figcaption
+    line-height: 40px
+    font-family: $sans-serif
+    color: #aaa
+    font-weight: 500
+  figure.on-image
+    margin-bottom: -30px
+    figcaption
+      line-height: 30px
+      position: relative
+      top: -30px
+      +breakpoint-max(xs)
+        top: -16px
+  img
+    display: inline-block
+    max-width: 100%
+
+.border
+  display: block
+  box-shadow: #fff 0 0 0 5px, #ddd 0 0 0 6px
+
+
+.img_full
+  padding: 60px 0 60px 0
+  & > div
+    width: 100%
+    overflow: hidden
+    box-shadow: #eaeaea 0 0 0 1px, #fff 0 0 0 10px, #ddd 0 0 0 12px, #eaeaea 2px 2px 10px 10px
+    img
+      display: block
+      float: left
+      width: 100%
+
+.img_mobile
+  &.left
+    .case-screen-mobile
+      float: left
+    .iphone-text
+      position: absolute
+      right: 0
+  .case-screen-mobile
+    float: right
+
+@import "home"
+
+
+/*-------------------------------------------------------
+/* Menu
+/*-------------------------------------------------------
+
+//.menu
+  height: 100px
+  background-color: #ededed
+  position: relative
+  width: 600px
+  padding-left: 130px
+  padding-right: 130px
+
+//.tabs
+  height: 116px
+  position: absolute
+  margin-top: -14px
+  z-index: 100
+  li
+    float: left
+    height: 116px
+    > a
+      padding-top: 28px
+      width: 115px
+      display: inline-block
+      background-repeat: no-repeat
+      font-size: 16px
+      color: #b9b9b9
+      text-align: center
+      font-weight: 300
+    &.active
+      background: url('../images/tab-hover.png') no-repeat
+      a
+        color: #DD4B38
+    > a > i
+      font-size: 45px
+      speak: none
+      font-family: 'icomoon'
+      display: block
+      margin-bottom: 5px
+
+.next, .prev
+  font-family: 'icomoon'
+  font-size: 34px
+  color: #eee
+  position: absolute
+  top: 30px
+  width: 40px
+  background-color: #ccc
+  text-align: center
+  cursor: pointer
+
+.next
+  right: 0
+
+.prev
+  left: 0
+
+.disabled
+  display: none !important
+
+
+/* Download Button
+
+#cv .button
+  width: 250px
+  padding: 10px
+  background-color: #8c8c8c
+  overflow: hidden
+  font-size: 14px
+  font-weight: 300
+  line-height: 20px
+  margin: 20px 0 0 -20px
+  color: #f7f7f7
+  display: block
+  text-align: center
+  -webkit-border-radius: 0 4px 4px 0
+  -moz-border-radius: 0 4px 4px 0
+  border-radius: 0 4px 4px 0
+  &:hover
+    background-color: #DD4B38
+
+/*-------------------------------------------------------
+/* projecten Section
+/*-------------------------------------------------------
+
+//#projecten
+  padding: 20px 20px 20px 20px
+
+/* Images list
+
+//#projecten-list
+  width: 820px
+  overflow: hidden
+  li
+    float: left
+    margin-right: 25px
+    text-align: center
+    background-color: #fbfbfb
+    border-bottom: 1px solid #e5e5e5
+    height: 200px
+    margin-bottom: 30px
+    width: 180px
+    &:hover
+      border-bottom: 1px solid #DD4B38
+  img
+    background-color: #FFF
+    height: 120px
+    width: 180px
+  li
+    &:hover .title
+      color: #DD4B38
+    .title
+      font-size: 14px
+      margin-top: 15px
+      margin-bottom: 5px
+      font-weight: 400
+      color: #3A3A3A
+    .categorie
+      font-size: 11px
+      line-height: 15px
+      color: #999
+
+/* Filter menu
+
+//.cats-filter
+  border-bottom: 1px solid #ededed
+  overflow: hidden
+  padding: 15px 0
+  li a
+    float: left
+    margin-right: 7px
+    color: #fff
+    background-color: #666
+    padding: 6px
+    margin-bottom: 5px
+    &:hover, &.current
+      background-color: #DD4B38
+
+/* adipoli
+
+.adipoli-wrapper
+  margin: auto
+  position: relative
+  display: inline-block
+  > img
+    position: absolute
+    z-index: 1
+
+.adipoli-before
+  position: absolute
+  z-index: 5
+
+.adipoli-after
+  position: absolute
+  z-index: 10
+
+.adipoli-slice
+  display: block
+  position: absolute
+  z-index: 15
+  height: 100%
+
+.adipoli-box
+  display: block
+  position: absolute
+  z-index: 15
+
+.iphone-text
+  max-width: 60%
+  position: absolute
+  top: 0
+  p
+    margin-bottom: 12px
+  +breakpoint-max(lg)
+    max-width: 50%
+  +breakpoint-max(md)
+    max-width: 45%
+  +breakpoint-max(sm)
+    display: none
+
+.case-screen-mobile
+  top: -100px
+  width: 303px
+  height: 601px
+  position: relative
+  .iphone-overlay
+    background-image: url('/assets/marienvanoverbeek/img/iPhone-260w.png')
+    width: 313px
+    height: 601px
+    position: absolute
+    left: 0
+    top: 0
+  .screen-mobile-holder
+    position: absolute
+    left: 29px
+    top: 105px
+    width: 260px
+    height: 408px
+    background-color: #aaaaaa
+    background-image: url('/assets/marienvanoverbeek/img/iPadBackgroundTexture.png')
+    overflow: hidden
+    +user-select(none)
+    img
+      display: block
+    .inner-screenshot
+      background-color: #ffffff
+      cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MkU0NjQ2MDdCMzE1MTFFNEE5QTlDNzFBNjg4NEM3RkQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MkU0NjQ2MDhCMzE1MTFFNEE5QTlDNzFBNjg4NEM3RkQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyRTQ2NDYwNUIzMTUxMUU0QTlBOUM3MUE2ODg0QzdGRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyRTQ2NDYwNkIzMTUxMUU0QTlBOUM3MUE2ODg0QzdGRCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PkdnwPsAAAOASURBVHjaxFc7TFNhFL739vZB3yltSDW2mtqIRh7GOLI6dPMxMLBA3BkY3GA2YWQ0dWFgIBpD0sGEuEs0BAiQ4FKaVkxL07S17/Z6DvmuAex9yCOe5APCPf/57n/O+b//XDkWiwkmTCLcIAQIXoKTIONZh1AjlAlFQo7QMwooGzy3EuKEKAgthDYCK/ARCT5ChNDFC6QJB/D9Z+JbhFGCn9Ak1E+R9bMGXsJFeES4Q9giZLRS2M/GCRNIaRnEiomSKPAtY+0EYpna8RPCPUIV9ROFi1kdqX6Ikm3o7ZhTO4w37l6CVK29WvNhxO5LfJMwQqiYTKtZUxBzBBxniGXUooX0XrV1EHtcLa9a47vo3rJeekVRFHq9nlCr1VrdbvfkqFgsFqvT6bRJkiQoiqKX9gY4mGtfwq5voxs1jQgkIuxkMpkfbre7Gw6Hgwz+m//Hz9jHYOdNcEm84yEIQF2PtFAo/KJdVufn519MTU0lQqEQC4uQz+cPlpeXU4uLix8bjYY7GAy6yE9LuVrgGhJJMkfR8hWt9NJuupVK5XhlZeV1IpF41s8vlUp9mJycfOPxeAYp9RadtHsIO5ZAIBDHYe/bVBwgm80eLSwsvJyenn6lFS0ej9+nlyyura198fl8Hn5hHd1v848BPVHnRopEIt6ZmZnnRq3LPuzLa3TcmGtAgqpo5qXT6bT9fv8QZSZqRMw+7MtrDM61VRL+k0nQU82CyLJsLZVKP4vFYtooGPuwL68xkNKTGtd1bimBxeHw8LCcTCbfGxGzD/vyGoPN1rmrWU3COGN/e5Ei2e125/r6+rexsbFB7l6t4zQ7O/uW4oVsNpteCbmZM0wsYXrQ1GiHwyE3m01xdXX1MzVOgTvXarV62+12J5fL7S0tLb2bm5tLUoo91FwOklVFJ808xeyxgDDxU4JbTzZZvarVaouUKh+NRv2UzgCOWzGdTpdIyUIknzYd1WKz457/JGLY4/vyMS4J4RouCdV4bvvKl4R6O30nxKBgda0u58BM7nK5uHls558ZnF2ubQlcf7qZ67uJYPI1HFsZsTfVXjrdfVnCNkRcvEJSETG3wdF35uJxdP/UDH2ZEUhBDC9ibhlNmRtQswf43bgg8QDugR2k2NRAz47H5wb6lokMiKilHY2kOdDrNRIvODL5CaPecuo4u3uZTxgBC3dRoyv9aPstwABqqlf4oQPX1gAAAABJRU5ErkJggg==), move
+
+
+
+
+/* Flickr Stream widget
+
+//.flicker-stream-widget
+  overflow: hidden
+  margin-bottom: 30px
+  li
+    float: left
+    margin-right: 5px
+    margin-bottom: 5px
+    img
+      height: 60px
+      width: 60px
+      opacity: 0.6
+      &:hover
+        opacity: 1
+
+.loading
+  padding: 10px 20px
+  font-size: 14px
+  background-color: #ededed
+  color: #333
+  display: none
+  border-radius: 3px
+  -moz-border-radius: 3px
+  -webkit-border-radius: 3px
+
+/* Blog Single Post
+
+//.blog-single-close
+//  float: right
+//  color: #FFF
+//  font-weight: 300
+//  font-size: 14px
+//  color: #ddd
+//  i
+//    font-family: 'icomoon'
+//    font-size: 18px
+//    vertical-align: top
+//  &:hover
+//    color: #DD4B38
+//
+///* Text widget
+//
+//.text-widget
+//  padding-bottom: 30px
+//  line-height: 20px
+
+/*-------------------------------------------------------
+/* Contact Section
+/*-------------------------------------------------------
+
+//#contact
+//  padding: 0 0 30px 0
+//  overflow: hidden
+//
+//.contact-info, .contact-form
+//  float: left
+//  padding: 0 20px
+//
+//.contact-info
+//  width: 250px
+//
+//.contact-form
+//  width: 530px
+//
+///* Contact info
+//
+//.contact-info ul
+//  float: left
+//  li
+//    font-size: 13px
+//    line-height: 20px
+//    color: #666
+//    overflow: hidden
+//
+///* Google map
+//
+//#map
+//  height: 400px
+//  margin-bottom: 25px
+//  width: 100%
+//  border-bottom: 1px solid #CCC
+//  border-top: 1px solid #CCC
+
+/*-------------------------------------------------------
+/* Forms
+/*-------------------------------------------------------
+
+//form
+  .input
+    -moz-box-shadow: inset 0 5px 16px -13px #333
+    -webkit-box-shadow: inset 0 5px 16px -13px #333
+    box-shadow: inset 0 5px 16px -13px #333
+    background-color: #FDFDFD
+    border: 1px solid #d9d9d9
+    -webkit-border-radius: 2px
+    -moz-border-radius: 2px
+    border-radius: 2px
+    color: #666
+    font-size: 12px
+    height: 30px
+    outline: none
+    padding: 6px 10px
+    resize: none
+    width: 96%
+  textarea
+    -moz-box-shadow: inset 0 5px 16px -13px #333
+    -webkit-box-shadow: inset 0 5px 16px -13px #333
+    box-shadow: inset 0 5px 16px -13px #333
+    background-color: #FDFDFD
+    border: 1px solid #d9d9d9
+    -webkit-border-radius: 2px
+    -moz-border-radius: 2px
+    border-radius: 2px
+    color: #666
+    font-size: 12px
+    outline: none
+    padding: 6px 10px
+    resize: none
+    width: 96%
+    height: 112px
+    line-height: 18px
+    margin-bottom: 0
+    padding-top: 8px
+  p
+    margin-bottom: 15px
+    label
+      display: block
+      color: #999
+      margin-bottom: 8px
+      font-size: 13px
+
+a.button
+  display: inline-block
+  margin: 6px 0
+  padding: 4px 18px
+  font-family: $sans-serif
+  border: none
+  -webkit-border-radius: 3px
+  -moz-border-radius: 3px
+  border-radius: 3px
+  cursor: pointer
+  font-size: 18px
+  line-height: 24px
+  +transition(box-shadow .05s)
+  &, &:active,&:focus
+    text-decoration: none
+    background-color: $cs1
+    color: rgba(#fff, .9)
+  &:hover
+    background-color: $cs1
+    text-decoration: none
+    color: #fff
+    box-shadow: rgba(#fff, .5) 0 0 0 3px
+
+  &.white
+    background-color: #fff
+    color: #444
+    &:hover
+      background-color: #fff
+      color: #444
+
+//.success, .error
+//  padding: 10px
+//  margin-bottom: 10px
+//  border-radius: 3px
+//  -moz-border-radius: 3px
+//  -webkit-border-radius: 3px
+//
+//.success
+//  background-color: #E3EBC6
+//  color: #8FA442
+//  border: 1px solid #C2D288
+//
+//.error
+//  background-color: #f9e5e6
+//  color: #b3696c
+//  border: 1px solid #f7c7c9
+
+
+
+
+
+/*-------------------------------------------------------
+/* ervaring Section
+/*-------------------------------------------------------
+
+#cv
+  overflow: hidden
+
+#curriculum-vitae
+  /* Timeline Section
+
+  .timeline
+    margin-bottom: 30px
+    li
+      margin-bottom: 20px
+      .timelineUnit
+        line-height: 17px
+        margin-left: 0
+        margin-bottom: 50px
+        color: #444
+        font-size: 13px
+        padding-right: 16px
+        cursor: default
+        -webkit-transition: padding .2s, border-color .8s
+        /* Safari
+        transition: padding .2s, border-color .8s
+        border-left-color: #EBEBEB
+      &:hover .timelineUnit
+        border-left: 1px solid #DD4B38
+        padding-left: 15px
+        padding-right: 0
+      .timelineUnit
+        .timelineDate
+          line-height: 17px
+          color: #DD4B38
+          font-size: 16px
+          margin-left: 10px
+          font-weight: normal
+          padding: 2px 6px
+          float: right
+        //h4
+          line-height: 30px
+          font-size: 24px
+          color: #444
+        //h5
+          line-height: 24px
+          font-size: 20px
+          color: #999
+        p
+          color: #666
+          font-size: 18px
+          line-height: 28px
+          margin-top: 5px
+
+  /* Skills Section
+
+  .skills
+    margin-bottom: 25px
+    margin-top: 15px
+    overflow: hidden
+    li
+      margin-bottom: 15px
+      float: left
+      padding-left: 0
+      .skill
+        width: 170px
+        float: left
+        font-size: 15px
+        color: #444
+      &.active
+        .skill
+          -webkit-animation-name: pulseTxt
+          -webkit-animation-duration: 1.2s
+          -webkit-animation-iteration-count: infinite
+        .rating > span
+          background-color: #F3483C
+          -webkit-animation-name: pulse
+          -webkit-animation-duration: 1.2s
+          -webkit-animation-iteration-count: infinite
+        .skill span
+          font-size: .75em
+          vertical-align: top
+      .rating
+        width: 123px
+        height: 14px
+        float: left
+        > span
+          opacity: 0.3
+          height: 12px
+          width: 12px
+          background-color: #757575
+          display: block
+          float: left
+          margin-right: 1px
+          border: 2px solid #eeeeee
+          -webkit-border-radius: 20px
+          -moz-border-radius: 20px
+          border-radius: 20px
+
+  .small-grey
+    color: #D6D6D6

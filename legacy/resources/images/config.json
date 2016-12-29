@@ -1,0 +1,10 @@
+{
+  "**/*.{png,jpg}": [{
+    "width": 1900,
+    "rename": {
+      "suffix": "-1900px",
+      "extname": ".jpg"
+    },
+    "withoutEnlargement": true
+  }]
+}

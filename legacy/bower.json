@@ -1,0 +1,22 @@
+{
+  "name": "marienvanoverbeek-nl",
+  "authors": [
+    "Marien van Overbeek <marien@riverfields.nl>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "http://www.marienvanoverbeek.nl",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
