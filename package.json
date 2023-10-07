@@ -1,13 +1,14 @@
 {
-  "name": "",
+  "name": "marienvanoverbeek.nl",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && bun run pdf",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "pdf": " bun ./scripts/build/pdf.ts"
   },
   "dependencies": {
     "@astrojs/react": "^3.0.3",
@@ -15,6 +16,7 @@
     "@types/react-dom": "^18.0.6",
     "astro": "^3.2.3",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "jspdf": "^2.5.1"
   }
 }
