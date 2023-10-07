@@ -1,6 +1,23 @@
 import React from "react";
-import { Document, Page, StyleSheet, Text, View } from "@react-pdf/renderer";
+import {
+  Document,
+  Page,
+  StyleSheet,
+  Text,
+  View,
+  Font,
+} from "@react-pdf/renderer";
 import cv from "../../src/content/cv.json";
+
+// Font.register({
+//   family: "Montserrat Light",
+//   src: "/home/marienvanoverbeek/WebstormProjects/marienvanoverbeek.nl/scripts/build/normal.woff2",
+// });
+
+Font.registerEmojiSource({
+  format: "png",
+  url: "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/",
+});
 
 const text = cv.jobs
   .map((job) => {
@@ -9,34 +26,85 @@ const text = cv.jobs
   .join("\n");
 
 const styles = StyleSheet.create({
-  page: {
-    flexDirection: "row",
-    backgroundColor: "#E4E4E4",
+  root: {
+    backgroundColor: "#ffffff",
+    color: "#555",
+    fontSize: 10,
+    lineHeight: 1.3,
+    fontFamily: "Helvetica",
+    paddingBottom: 50,
+    paddingTop: 40,
   },
-  section: {
-    maxWidth: 270,
+  columns: {
+    flexDirection: "row",
+    paddingLeft: 60,
+    paddingRight: 60,
+  },
+  heading: {
+    textTransform: "uppercase",
+    color: "#bf0041",
+    fontFamily: "Helvetica-Bold",
+    fontSize: 60,
+    paddingTop: 10,
+    paddingLeft: 60,
+    paddingRight: 60,
+    lineHeight: 1,
+  },
+  caption: {
+    textTransform: "uppercase",
+    color: "#bf0041",
+    fontFamily: "Helvetica-Bold",
+  },
+  title: {
+    color: "#282828",
+    textTransform: "uppercase",
+    fontFamily: "Helvetica-Bold",
+  },
+  column: {
+    width: 270,
     margin: 10,
     padding: 10,
     flexGrow: 1,
+  },
+  section: {
+    width: 450,
+    margin: 70,
+    padding: 10,
+    flexGrow: 0,
   },
 });
 
 export default () => (
   <Document>
-    <Page size="A4" style={styles.page}>
-      <View style={styles.section}>
-        <Text>Section #22</Text>
+    <Page size="A4" style={styles.root}>
+      <View style={styles.heading}>
+        <Text>Marien van Overbeek</Text>
+      </View>
+      <View style={styles.columns}>
+        <View style={styles.column}>
+          <Text>Section #22</Text>
+        </View>
+        <View style={styles.column}>
+          <Text style={styles.caption}>Caption</Text>
+          <Text style={styles.title}>title</Text>
+          <Text>{text}</Text>
+          <Text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec
+            lobortis justo, ut volutpat odio. In hac habitasse platea dictumst.
+          </Text>
+          <Text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec
+            lobortis justo, ut volutpat odio. In hac habitasse platea dictumst.
+            Pellentesque rhoncus sagittis posuere. Vestibulum vitae ornare
+            libero. Vestibulum diam elit, dignissim vel ornare a, efficitur in
+            quam. In hac habitasse platea dictumst. Praesent iaculis mi turpis,
+            sed
+          </Text>
+        </View>
       </View>
       <View style={styles.section}>
-        <Text>Section #2</Text>
-        <Text>{text}</Text>
         <Text>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec
-          lobortis justo, ut volutpat odio. In hac habitasse platea dictumst.
-          Pellentesque rhoncus sagittis posuere. Vestibulum vitae ornare libero.
-          Vestibulum diam elit, dignissim vel ornare a, efficitur in quam. In
-          hac habitasse platea dictumst. Praesent iaculis mi turpis, sed
-          eleifend diam condimentum vitae. Suspendisse accumsan nisl tempus,
+          New eleifend diam condimentum vitae. Suspendisse accumsan nisl tempus,
           auctor nulla cursus, hendrerit odio. Nulla tristique cursus lobortis.
           Nunc et blandit erat. Fusce quam neque, aliquam in lorem ultricies,
           auctor porta elit. Quisque at massa in ante laoreet tempor ac vitae
