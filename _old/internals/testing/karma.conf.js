@@ -1,15 +1,16 @@
-const webpackConfig = require('../webpack/webpack.test.babel');
-const argv = require('minimist')(process.argv.slice(2));
-const path = require('path');
+const webpackConfig = require("../webpack/webpack.test.babel");
+const argv = require("minimist")(process.argv.slice(2));
+const path = require("path");
 
 module.exports = (config) => {
   config.set({
-    frameworks: ['mocha'],
-    reporters: ['coverage', 'mocha'],
+    frameworks: ["mocha"],
+    reporters: ["coverage", "mocha"],
     browsers: process.env.TRAVIS // eslint-disable-line no-nested-ternary
-      ? ['ChromeTravis']
+      ? ["ChromeTravis"]
       : process.env.APPVEYOR
-        ? ['IE'] : ['Chrome'],
+      ? ["IE"]
+      : ["Chrome"],
 
     autoWatch: false,
     singleRun: true,
@@ -22,7 +23,7 @@ module.exports = (config) => {
 
     files: [
       {
-        pattern: './test-bundler.js',
+        pattern: "./test-bundler.js",
         watched: false,
         served: true,
         included: true,
@@ -30,7 +31,7 @@ module.exports = (config) => {
     ],
 
     preprocessors: {
-      ['./test-bundler.js']: ['webpack', 'sourcemap'], // eslint-disable-line no-useless-computed-key
+      ["./test-bundler.js"]: ["webpack", "sourcemap"], // eslint-disable-line no-useless-computed-key
     },
 
     webpack: webpackConfig,
@@ -38,24 +39,23 @@ module.exports = (config) => {
     // make Webpack bundle generation quiet
     webpackMiddleware: {
       noInfo: true,
-      stats: 'errors-only',
+      stats: "errors-only",
     },
 
     customLaunchers: {
       ChromeTravis: {
-        base: 'Chrome',
-        flags: ['--no-sandbox'],
+        base: "Chrome",
+        flags: ["--no-sandbox"],
       },
     },
 
     coverageReporter: {
-      dir: path.join(process.cwd(), 'coverage'),
+      dir: path.join(process.cwd(), "coverage"),
       reporters: [
-        { type: 'lcov', subdir: 'lcov' },
-        { type: 'html', subdir: 'html' },
-        { type: 'text-summary' },
+        { type: "lcov", subdir: "lcov" },
+        { type: "html", subdir: "html" },
+        { type: "text-summary" },
       ],
     },
-
   });
 };

@@ -1,26 +1,26 @@
-import LanguageProvider from '../index';
+import LanguageProvider from "../index";
 
-import expect from 'expect';
-import { shallow } from 'enzyme';
-import { FormattedMessage, defineMessages } from 'react-intl';
-import configureStore from '../../../store';
-import React from 'react';
-import { Provider } from 'react-redux';
-import { browserHistory } from 'react-router';
-import { translationMessages } from '../../../i18n';
+import expect from "expect";
+import { shallow } from "enzyme";
+import { FormattedMessage, defineMessages } from "react-intl";
+import configureStore from "../../../store";
+import React from "react";
+import { Provider } from "react-redux";
+import { browserHistory } from "react-router";
+import { translationMessages } from "../../../i18n";
 
-describe('<LanguageProvider />', () => {
+describe("<LanguageProvider />", () => {
   let store;
 
   before(() => {
     store = configureStore({}, browserHistory);
   });
 
-  it('should render the default language messages', () => {
+  it("should render the default language messages", () => {
     const messages = defineMessages({
       someMessage: {
-        id: 'some.id',
-        defaultMessage: 'This is some default message',
+        id: "some.id",
+        defaultMessage: "This is some default message",
       },
     });
     const renderedComponent = shallow(
@@ -28,8 +28,12 @@ describe('<LanguageProvider />', () => {
         <LanguageProvider messages={translationMessages}>
           <FormattedMessage {...messages.someMessage} />
         </LanguageProvider>
-      </Provider>
+      </Provider>,
     );
-    expect(renderedComponent.contains(<FormattedMessage {...messages.someMessage} />)).toEqual(true);
+    expect(
+      renderedComponent.contains(
+        <FormattedMessage {...messages.someMessage} />,
+      ),
+    ).toEqual(true);
   });
 });

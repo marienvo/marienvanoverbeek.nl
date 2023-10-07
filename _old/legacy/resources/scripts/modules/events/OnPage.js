@@ -1,31 +1,37 @@
 /*global $:true*/
-(function($) {
-  var fn = {}, data = {};
+(function ($) {
+  var fn = {},
+    data = {};
 
-  fn.init = function(){
+  fn.init = function () {
     //console.log("init");
   };
-  fn.scroll = function(el){
+  fn.scroll = function (el) {
     var target = $(el).attr("href");
 
-    $("html, body").animate({
-      scrollTop: $(target).offset().top
-    }, {
-      duration: 750,
-      easing: "easeInOutQuint"
-    });
+    $("html, body").animate(
+      {
+        scrollTop: $(target).offset().top,
+      },
+      {
+        duration: 750,
+        easing: "easeInOutQuint",
+      },
+    );
   };
 
-  $.onPage = function(options) {
-    $.extend({
-      overlay: ""
-    }, options);
+  $.onPage = function (options) {
+    $.extend(
+      {
+        overlay: "",
+      },
+      options,
+    );
     data.settings = options;
     fn.init();
   };
 
-  $.onPage.scroll = function(el){
+  $.onPage.scroll = function (el) {
     fn.scroll(el);
   };
-
 })(jQuery);

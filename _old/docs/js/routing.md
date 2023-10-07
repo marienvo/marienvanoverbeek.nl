@@ -43,6 +43,7 @@ dispatch(push('/some/page'));
 ```
 
 ## Child Routes
+
 `npm run generate route` does not currently support automatically generating child routes if you need them, but they can be easily created manually.
 
 For example, if you have a route called `about` at `/about` and want to make a child route called `team` at `/about/our-team` you can just add that child page to the parent page's `childRoutes` array like so:
@@ -195,9 +196,8 @@ export function* getXhrPodcast(slug) {
 }
 ```
 
-Wait (`take`) for the LOAD_POST constant, which contains the slug payload from the `getPost()` function in actions.js. 
+Wait (`take`) for the LOAD_POST constant, which contains the slug payload from the `getPost()` function in actions.js.
 
 When the action is fired then dispatch the `getXhrPodcast()` function to get the response from your api. On success dispatch the `postLoaded()` action (`yield put`) which sends back the response and can be added into the reducer state.
-
 
 You can read more on [`react-router`'s documentation](https://github.com/reactjs/react-router/blob/master/docs/API.md#props-3).

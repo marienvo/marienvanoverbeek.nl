@@ -10,8 +10,8 @@ This boilerplate includes a `.htaccess` file that does two things:
    to let `react-router` take care of presenting the correct page.
 
 > Note: For performance reasons you should probably adapt it to run as a static
-  `.conf` file (typically under `/etc/apache2/sites-enabled` or similar) so that
-  your server doesn't have to apply its rules dynamically per request)
+> `.conf` file (typically under `/etc/apache2/sites-enabled` or similar) so that
+> your server doesn't have to apply its rules dynamically per request)
 
 ## Nginx
 

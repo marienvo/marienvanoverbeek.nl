@@ -1,5 +1,5 @@
-import { fromJS } from 'immutable';
-import expect from 'expect';
+import { fromJS } from "immutable";
+import expect from "expect";
 
 import {
   selectGlobal,
@@ -8,11 +8,11 @@ import {
   selectError,
   selectRepos,
   selectLocationState,
-} from '../selectors';
+} from "../selectors";
 
-describe('selectGlobal', () => {
+describe("selectGlobal", () => {
   const globalSelector = selectGlobal();
-  it('should select the global state', () => {
+  it("should select the global state", () => {
     const globalState = fromJS({});
     const mockedState = fromJS({
       global: globalState,
@@ -21,10 +21,10 @@ describe('selectGlobal', () => {
   });
 });
 
-describe('selectCurrentUser', () => {
+describe("selectCurrentUser", () => {
   const currentUserSelector = selectCurrentUser();
-  it('should select the current user', () => {
-    const username = 'mxstbr';
+  it("should select the current user", () => {
+    const username = "mxstbr";
     const mockedState = fromJS({
       global: {
         currentUser: username,
@@ -34,9 +34,9 @@ describe('selectCurrentUser', () => {
   });
 });
 
-describe('selectLoading', () => {
+describe("selectLoading", () => {
   const loadingSelector = selectLoading();
-  it('should select the loading', () => {
+  it("should select the loading", () => {
     const loading = false;
     const mockedState = fromJS({
       global: {
@@ -47,9 +47,9 @@ describe('selectLoading', () => {
   });
 });
 
-describe('selectError', () => {
+describe("selectError", () => {
   const errorSelector = selectError();
-  it('should select the error', () => {
+  it("should select the error", () => {
     const error = 404;
     const mockedState = fromJS({
       global: {
@@ -60,9 +60,9 @@ describe('selectError', () => {
   });
 });
 
-describe('selectRepos', () => {
+describe("selectRepos", () => {
   const reposSelector = selectRepos();
-  it('should select the repos', () => {
+  it("should select the repos", () => {
     const repositories = fromJS([]);
     const mockedState = fromJS({
       global: {
@@ -75,9 +75,9 @@ describe('selectRepos', () => {
   });
 });
 
-describe('selectLocationState', () => {
+describe("selectLocationState", () => {
   const locationStateSelector = selectLocationState();
-  it('should select the route as a plain JS object', () => {
+  it("should select the route as a plain JS object", () => {
     const route = fromJS({
       locationBeforeTransitions: null,
     });

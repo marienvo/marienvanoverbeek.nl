@@ -1,14 +1,11 @@
-import { fromJS } from 'immutable';
-import expect from 'expect';
+import { fromJS } from "immutable";
+import expect from "expect";
 
-import {
-  selectHome,
-  selectUsername,
-} from '../selectors';
+import { selectHome, selectUsername } from "../selectors";
 
-describe('selectHome', () => {
+describe("selectHome", () => {
   const homeSelector = selectHome();
-  it('should select the home state', () => {
+  it("should select the home state", () => {
     const homeState = fromJS({
       userData: {},
     });
@@ -19,10 +16,10 @@ describe('selectHome', () => {
   });
 });
 
-describe('selectUsername', () => {
+describe("selectUsername", () => {
   const usernameSelector = selectUsername();
-  it('should select the username', () => {
-    const username = 'mxstbr';
+  it("should select the username", () => {
+    const username = "mxstbr";
     const mockedState = fromJS({
       home: {
         username,

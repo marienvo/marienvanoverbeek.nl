@@ -2,14 +2,14 @@
  * Gets the repositories of the user from Github
  */
 
-import { takeLatest } from 'redux-saga';
-import { take, call, put, select, fork, cancel } from 'redux-saga/effects';
-import { LOCATION_CHANGE } from 'react-router-redux';
-import { LOAD_REPOS } from 'containers/App/constants';
-import { reposLoaded, repoLoadingError } from 'containers/App/actions';
+import { takeLatest } from "redux-saga";
+import { take, call, put, select, fork, cancel } from "redux-saga/effects";
+import { LOCATION_CHANGE } from "react-router-redux";
+import { LOAD_REPOS } from "containers/App/constants";
+import { reposLoaded, repoLoadingError } from "containers/App/actions";
 
-import request from 'utils/request';
-import { selectUsername } from 'containers/HomePage/selectors';
+import request from "utils/request";
+import { selectUsername } from "containers/HomePage/selectors";
 
 /**
  * Github repos request/response handler
@@ -49,6 +49,4 @@ export function* githubData() {
 }
 
 // Bootstrap sagas
-export default [
-  githubData,
-];
+export default [githubData];

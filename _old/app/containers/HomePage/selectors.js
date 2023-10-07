@@ -2,16 +2,11 @@
  * Homepage selectors
  */
 
-import { createSelector } from 'reselect';
+import { createSelector } from "reselect";
 
-const selectHome = () => (state) => state.get('home');
+const selectHome = () => (state) => state.get("home");
 
-const selectUsername = () => createSelector(
-  selectHome(),
-  (homeState) => homeState.get('username')
-);
+const selectUsername = () =>
+  createSelector(selectHome(), (homeState) => homeState.get("username"));
 
-export {
-  selectHome,
-  selectUsername,
-};
+export { selectHome, selectUsername };

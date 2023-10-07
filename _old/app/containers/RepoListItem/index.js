@@ -4,22 +4,23 @@
  * Lists the name and the issue count of a repository
  */
 
-import React from 'react';
-import { connect } from 'react-redux';
-import { createSelector } from 'reselect';
-import { FormattedNumber } from 'react-intl';
+import React from "react";
+import { connect } from "react-redux";
+import { createSelector } from "reselect";
+import { FormattedNumber } from "react-intl";
 
-import IssueIcon from './IssueIcon';
-import IssueLink from './IssueLink';
-import ListItem from 'components/ListItem';
-import RepoLink from './RepoLink';
-import Wrapper from './Wrapper';
-import { selectCurrentUser } from 'containers/App/selectors';
+import IssueIcon from "./IssueIcon";
+import IssueLink from "./IssueLink";
+import ListItem from "components/ListItem";
+import RepoLink from "./RepoLink";
+import Wrapper from "./Wrapper";
+import { selectCurrentUser } from "containers/App/selectors";
 
-export class RepoListItem extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
+export class RepoListItem extends React.PureComponent {
+  // eslint-disable-line react/prefer-stateless-function
   render() {
     const item = this.props.item;
-    let nameprefix = '';
+    let nameprefix = "";
 
     // If the repository is owned by a different person than we got the data for
     // it's a fork and we should show the name of the owner
@@ -41,9 +42,7 @@ export class RepoListItem extends React.PureComponent { // eslint-disable-line r
     );
 
     // Render the content into a list item
-    return (
-      <ListItem key={`repo-list-item-${item.full_name}`} item={content} />
-    );
+    return <ListItem key={`repo-list-item-${item.full_name}`} item={content} />;
   }
 }
 
@@ -52,7 +51,6 @@ RepoListItem.propTypes = {
   currentUser: React.PropTypes.string,
 };
 
-export default connect(createSelector(
-  selectCurrentUser(),
-  (currentUser) => ({ currentUser })
-))(RepoListItem);
+export default connect(
+  createSelector(selectCurrentUser(), (currentUser) => ({ currentUser })),
+)(RepoListItem);

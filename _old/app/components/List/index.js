@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import Ul from './Ul';
-import Wrapper from './Wrapper';
+import Ul from "./Ul";
+import Wrapper from "./Wrapper";
 
 function List(props) {
   const ComponentToRender = props.component;
-  let content = (<div></div>);
+  let content = <div></div>;
 
   // If we have items, render them
   if (props.items) {
@@ -14,14 +14,12 @@ function List(props) {
     ));
   } else {
     // Otherwise render a single component
-    content = (<ComponentToRender />);
+    content = <ComponentToRender />;
   }
 
   return (
     <Wrapper>
-      <Ul>
-        {content}
-      </Ul>
+      <Ul>{content}</Ul>
     </Wrapper>
   );
 }

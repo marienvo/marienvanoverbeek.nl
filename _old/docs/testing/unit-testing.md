@@ -1,6 +1,6 @@
 # Unit testing
 
-Unit testing is the practice of testing the smallest possible *units* of our
+Unit testing is the practice of testing the smallest possible _units_ of our
 code, functions. We run our tests and automatically verify that our functions
 do the thing we expect them to do. We assert that, given a set of inputs, our
 functions return the proper values and handle problems.
@@ -13,12 +13,12 @@ assertions. These libraries make writing tests as easy as speaking - you
 <!-- TOC depthFrom:2 depthTo:4 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Basics](#basics)
-	- [Mocha](#mocha)
-	- [expect](#expect)
+  - [Mocha](#mocha)
+  - [expect](#expect)
 - [Testing Redux Applications](#testing-redux-applications)
-	- [Reducers](#reducers)
-		- [rewire](#rewire)
-	- [Actions](#actions)
+  - [Reducers](#reducers)
+    - [rewire](#rewire)
+  - [Actions](#actions)
 
 <!-- /TOC -->
 
@@ -55,10 +55,10 @@ export function add(x, y) {
 ```
 
 > Note: The `export` here is ES6 syntax, and you will need an ES6 transpiler
-  (e.g. babel.js) to run this JavaScript.
+> (e.g. babel.js) to run this JavaScript.
 
 > The `export` exports our function as a module, which we can `import` and use
-  in other files. Continue below to see what that looks like.
+> in other files. Continue below to see what that looks like.
 
 ### Mocha
 
@@ -76,31 +76,25 @@ First, we `import` the function in our `add.test.js` file:
 ```javascript
 // add.test.js
 
-import { add } from './add.js';
+import { add } from "./add.js";
 ```
 
 Second, we `describe` our function:
 
 ```javascript
-describe('add()', () => {
-
-});
+describe("add()", () => {});
 ```
 
 > Note: `(arg1, arg2) => { }` is ES6 notation for anonymous functions, i.e. is
-the same thing as `function(arg1, arg2) { }`
+> the same thing as `function(arg1, arg2) { }`
 
 Third, we tell Mocha what `it` (our function) should do:
 
 ```javascript
-describe('add()', () => {
-  it('adds two numbers', () => {
+describe("add()", () => {
+  it("adds two numbers", () => {});
 
-  });
-
-  it('doesnt add the third number', () => {
-
-  });
+  it("doesnt add the third number", () => {});
 });
 ```
 
@@ -116,9 +110,9 @@ time given the same input.
 First, we have to import `expect` at the top of our file, before the tests:
 
 ```javascript
-import expect from 'expect';
+import expect from "expect";
 
-describe('add()', () => {
+describe("add()", () => {
   // [...]
 });
 ```
@@ -129,7 +123,7 @@ corresponding output:
 
 ```javascript
 // [...]
-it('adds two numbers', () => {
+it("adds two numbers", () => {
   expect(add(2, 3)).toEqual(5);
 });
 // [...]
@@ -140,16 +134,16 @@ third number if one is present:
 
 ```javascript
 // [...]
-it('doesnt add the third number', () => {
- expect(add(2, 3, 5)).toEqual(add(2, 3));
+it("doesnt add the third number", () => {
+  expect(add(2, 3, 5)).toEqual(add(2, 3));
 });
 // [...]
 ```
 
 > Note: Notice that we call `add` in `toEqual`. I won't tell you why, but just
-  think about what would happen if we rewrote the expect as `expect(add(2, 3, 5)).toEqual(5)`
-  and somebody broke something in the add function. What would this test
-  actually... test?
+> think about what would happen if we rewrote the expect as `expect(add(2, 3, 5)).toEqual(5)`
+> and somebody broke something in the add function. What would this test
+> actually... test?
 
 Should our function work, Mocha will show this output when running the tests:
 
@@ -198,7 +192,7 @@ This is what our `NavBar` actions look like:
 ```javascript
 // NavBar.actions.js
 
-import { TOGGLE_NAV } from './NavBar.constants.js';
+import { TOGGLE_NAV } from "./NavBar.constants.js";
 
 export function toggleNav() {
   return { type: TOGGLE_NAV };
@@ -210,17 +204,17 @@ with this reducer:
 ```javascript
 // NavBar.reducer.js
 
-import { TOGGLE_NAV } from './NavBar.constants.js';
+import { TOGGLE_NAV } from "./NavBar.constants.js";
 
 const initialState = {
-  open: false
+  open: false,
 };
 
 function NavBarReducer(state = initialState, action) {
   switch (action.type) {
     case TOGGLE_NAV:
       return Object.assign({}, state, {
-        open: !state.open
+        open: !state.open,
       });
     default:
       return state;
@@ -239,23 +233,19 @@ First, we have to import `expect`, the reducer and the constant.
 ```javascript
 // NavBar.reducer.test.js
 
-import expect from 'expect';
-import NavBarReducer from '../NavBar.reducer';
-import { TOGGLE_NAV } from '../NavBar.constants';
+import expect from "expect";
+import NavBarReducer from "../NavBar.reducer";
+import { TOGGLE_NAV } from "../NavBar.constants";
 ```
 
 Then we `describe` the reducer, and add two tests: we check that it returns the
 initial state and that it handles the `toggleNav` action.
 
 ```javascript
-describe('NavBarReducer', () => {
-  it('returns the initial state', () => {
+describe("NavBarReducer", () => {
+  it("returns the initial state", () => {});
 
-  });
-
-  it('handles the toggleNav action', () => {
-
-  });
+  it("handles the toggleNav action", () => {});
 });
 ```
 
@@ -268,23 +258,21 @@ return the initial state of the `NavBar`, which is
 
 ```javascript
 {
-  open: false
+  open: false;
 }
 ```
 
 Lets put that into practice:
 
 ```javascript
-describe('NavBarReducer', () => {
-  it('returns the initial state', () => {
+describe("NavBarReducer", () => {
+  it("returns the initial state", () => {
     expect(NavBarReducer(undefined, {})).toEqual({
-      open: false
+      open: false,
     });
   });
 
-  it('handles the toggleNav action', () => {
-
-  });
+  it("handles the toggleNav action", () => {});
 });
 ```
 
@@ -313,23 +301,23 @@ Start by `import`ing rewire **at the top** of your test file:
 ```javascript
 // `NavBar.reducer.test.js`
 
-import expect from 'expect';
-import rewire from 'rewire';
-import NavBarReducer from '../NavBar.reducer';
-import { TOGGLE_NAV } from '../NavBar.constants';
+import expect from "expect";
+import rewire from "rewire";
+import NavBarReducer from "../NavBar.reducer";
+import { TOGGLE_NAV } from "../NavBar.constants";
 
-const initialState = NavBarReducer.__get__('initialState');
+const initialState = NavBarReducer.__get__("initialState");
 ```
 
 > Note: You might be wondering why we still `import` the `NavBarReducer` above.
-  The `NavBarReducer` imported with `rewire` isn't the _actual_ reducer, it's a
-  `rewire`d version.
+> The `NavBarReducer` imported with `rewire` isn't the _actual_ reducer, it's a
+> `rewire`d version.
 
 Now we can really see whether the `NavBarReducer` returns the initial state if
 no action is passed!
 
 ```javascript
-it('returns the initial state', () => {
+it("returns the initial state", () => {
   expect(NavBarReducer(undefined, {})).toEqual(initialState);
 });
 ```
@@ -353,19 +341,17 @@ return and `expect`:
 ```javascript
 // NavBar.actions.test.js
 
-import { toggleNav } from '../NavBar.actions';
-import { TOGGLE_NAV } from '../NavBar.constants';
-import expect from 'expect';
+import { toggleNav } from "../NavBar.actions";
+import { TOGGLE_NAV } from "../NavBar.constants";
+import expect from "expect";
 ```
 
 Then we `describe` the actions:
 
 ```javascript
-describe('NavBar actions', () => {
-  describe('toggleNav', () => {
-    it('should return the correct constant', () => {
-
-    });
+describe("NavBar actions", () => {
+  describe("toggleNav", () => {
+    it("should return the correct constant", () => {});
   });
 });
 ```
@@ -375,9 +361,9 @@ describe('NavBar actions', () => {
 And the last step is to add the assertion:
 
 ```javascript
-it('should return the correct constant', () => {
+it("should return the correct constant", () => {
   expect(toggleNav()).toEqual({
-    type: TOGGLE_NAV
+    type: TOGGLE_NAV,
   });
 });
 ```
@@ -392,4 +378,4 @@ NavBar actions
 
 And that's it, we now know when somebody breaks the `toggleNav` action!
 
-*Continue to learn how to test your application with [Component Testing](component-testing.md)!*
+_Continue to learn how to test your application with [Component Testing](component-testing.md)!_

@@ -9,11 +9,11 @@ engines:
     enabled: true
     config:
       languages:
-      - javascript
+        - javascript
 
 ratings:
   paths:
-  - "**.js"
+    - "**.js"
 
 exclude_paths:
-- "**/vendor/**/*"
+  - "**/vendor/**/*"

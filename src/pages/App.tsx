@@ -1,16 +1,35 @@
-import React from 'react'
+import React from "react";
 
 export default () => {
-    return (
-        <div>
-            <h1>Todo</h1>
-            <ul>
-                <li>Replace favicon</li>
-                <li>Add components from current CV site</li>
-                <li>Add downloadable PDF for recruiters to site  <ul>
-                    <li>Can this PDF be automatically generated from same content as used on site?</li>
-                </ul></li>
-            </ul>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>Todo</h1>
+      <ul>
+        <li>
+          Files & setup
+          <ul>
+            <li>Replace favicon</li>
+          </ul>
+        </li>
+        <li>
+          Design Site
+          <ul>
+            <li>Add components from current CV site</li>
+          </ul>
+        </li>
+        <li>
+          Design PDF
+          <ul>
+            <li>Design generated PDF</li>
+          </ul>
+        </li>
+        <li>
+          Content{" "}
+          <ul>
+            <li>Add content from CV site, and render in both site and PDF</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  );
+};

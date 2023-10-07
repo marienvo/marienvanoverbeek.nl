@@ -1,80 +1,75 @@
 {
   "werkervaring": [
-    {"title":"Freelance Online Strateeg",
-      "company":"Bijzonder Plekje",
-      "time":"sinds 2010",
-      "text":"Online strategie en web development. Werkzaamheden omvatten met name het in kaart brengen van prestaties van de verschillende websites om zo tot concrete oplossingen te komen die bijdragen aan verbeterde conversie en vindbaarheid."
+    {
+      "title": "Freelance Online Strateeg",
+      "company": "Bijzonder Plekje",
+      "time": "sinds 2010",
+      "text": "Online strategie en web development. Werkzaamheden omvatten met name het in kaart brengen van prestaties van de verschillende websites om zo tot concrete oplossingen te komen die bijdragen aan verbeterde conversie en vindbaarheid."
     },
 
-    {"title":"Front-end Development & Online Marketing",
-      "company":"Riverfields",
-      "time":"2015 - 2016",
-      "text":"Marien werkt voor verschillende klanten om traffic van websites te verhogen (SEO en AdWords) en conversie te verbeteren. Daarnaast houdt hij zich steeds meer bezig met ontwerp en ontwikkeling van websites met een bijzondere interesse voor JavaScript."
+    {
+      "title": "Front-end Development & Online Marketing",
+      "company": "Riverfields",
+      "time": "2015 - 2016",
+      "text": "Marien werkt voor verschillende klanten om traffic van websites te verhogen (SEO en AdWords) en conversie te verbeteren. Daarnaast houdt hij zich steeds meer bezig met ontwerp en ontwikkeling van websites met een bijzondere interesse voor JavaScript."
     },
     {
-      "title":"SEO Consultant",
-      "company":"WLG Media, mede-eigenaar",
-      "time":"2014 - 2015",
-      "text":"Online marketing voor advocaten, notarissen, accountants en andere consultants in vergelijkbare vakgebieden. Marien was hier verantwoordelijk voor project&shy;management en zoekmachine-optimalisatie."
+      "title": "SEO Consultant",
+      "company": "WLG Media, mede-eigenaar",
+      "time": "2014 - 2015",
+      "text": "Online marketing voor advocaten, notarissen, accountants en andere consultants in vergelijkbare vakgebieden. Marien was hier verantwoordelijk voor project&shy;management en zoekmachine-optimalisatie."
     },
 
-    {"title":"Front-end Developer",
-      "company":"Rockyard VOF, mede-eigenaar",
-      "time":"2012 - 2014",
-      "text":"Bij Rockyard denkt hij na over hoe bedrijven verder kunnen komen op internet. Verhogen van conversie, verbeteren van gebruikerservaring tot ouderwets verhogen van traffic. Tegenwoordig ook bekend als inbound marketing."
+    {
+      "title": "Front-end Developer",
+      "company": "Rockyard VOF, mede-eigenaar",
+      "time": "2012 - 2014",
+      "text": "Bij Rockyard denkt hij na over hoe bedrijven verder kunnen komen op internet. Verhogen van conversie, verbeteren van gebruikerservaring tot ouderwets verhogen van traffic. Tegenwoordig ook bekend als inbound marketing."
     },
 
-    {"title":"Stage Front-end Developer",
-      "company":"Innovatio, stagiair",
-      "time":"2011",
-      "text":"Hier fungeerde Marien als schakel tussen ontwerper en programmeur, en werkte voornamelijk grafisch ontwerpen uit naar HTML/CSS en JavaScript. Verder heeft hij meegedacht bij de ontwikkeling van nieuwe concepten, het bedrijf draagt niet voor niets de naam Innovatio."
+    {
+      "title": "Stage Front-end Developer",
+      "company": "Innovatio, stagiair",
+      "time": "2011",
+      "text": "Hier fungeerde Marien als schakel tussen ontwerper en programmeur, en werkte voornamelijk grafisch ontwerpen uit naar HTML/CSS en JavaScript. Verder heeft hij meegedacht bij de ontwikkeling van nieuwe concepten, het bedrijf draagt niet voor niets de naam Innovatio."
     }
-
-    ],
+  ],
 
   "opleiding": [
     {
-      "title":"Communicatiesystemen",
-      "company":"Hanzehogeschool Groningen, Bachelor of Communication",
-      "time":"2008 - 2012",
-      "text":"Bachelor of Communication behaald met als afstudeerrichting Web & Mobile services."
-    }],
+      "title": "Communicatiesystemen",
+      "company": "Hanzehogeschool Groningen, Bachelor of Communication",
+      "time": "2008 - 2012",
+      "text": "Bachelor of Communication behaald met als afstudeerrichting Web & Mobile services."
+    }
+  ],
 
-  "skills_draft":[
+  "skills_draft": [
     "meer iets waar je 'fan' van bent, dan dat het voor bedrijven een interessante ervaring is:",
 
-    ["Meteor",5],
-    ["Semantic UI",7],
-    ["MySQL / MongoDB",4],
-    ["AngularJS",3],
+    ["Meteor", 5],
+    ["Semantic UI", 7],
+    ["MySQL / MongoDB", 4],
+    ["AngularJS", 3],
 
-
-    ["Front-end development",7],
+    ["Front-end development", 7],
     [""],
-    ["RESTful Web Services",4],
+    ["RESTful Web Services", 4],
 
     "nog ergens te vermelden:",
-    ["Mobile Web/ Application development",7],
-    ["(Mobile) Website Speed / Performance",7],
+    ["Mobile Web/ Application development", 7],
+    ["(Mobile) Website Speed / Performance", 7],
 
     "wel interessant, maar nog veul te weinig kennis om over te praten:",
-    ["Jasmine",2],
-    ["React",3],
+    ["Jasmine", 2],
+    ["React", 3],
 
     "learning / to learn:",
-    ["Angular 2",1],
-    ["MongoDB",4],
-    ["TypeScript",1],
+    ["Angular 2", 1],
+    ["MongoDB", 4],
+    ["TypeScript", 1],
 
-
-
-
-
-    ["-------ECMAScript 6---------",1],
-
-
-
-
+    ["-------ECMAScript 6---------", 1],
 
     "7 sterren: hooguit paar dingen die ik niet ken, maar staat productiviteit niet in de weg",
     "6 sterren: paar dingen die ik niet ken, lichte diepere verdieping vereist",
@@ -87,31 +82,30 @@
     "skills: languages, frameworks",
     "tools: libraries, software"
   ],
-  "skills":[
-    ["Responsive Design",7],
-    ["User experience",5],
-    ["JavaScript",6],
-    ["Angular",3],
-    ["HTML5",7],
-    ["CSS3 / SASS",7],
-    ["BEM",7],
-    ["Node.js",4],
-    ["PHP",5],
-    ["Twig",7],
+  "skills": [
+    ["Responsive Design", 7],
+    ["User experience", 5],
+    ["JavaScript", 6],
+    ["Angular", 3],
+    ["HTML5", 7],
+    ["CSS3 / SASS", 7],
+    ["BEM", 7],
+    ["Node.js", 4],
+    ["PHP", 5],
+    ["Twig", 7],
     [""],
-    ["Nederlandse taal",7],
-    ["Engelse taal",6]
+    ["Nederlandse taal", 7],
+    ["Engelse taal", 6]
   ],
 
-  "tools":[
-    ["PhpStorm",7],
-    ["Gulp / GruntJS",7],
-    ["GSAP",6],
-    ["jQuery",7],
-    ["Modernizr",6],
-    ["Laravel",3],
-    ["WordPress",4],
-    ["Git",6]
+  "tools": [
+    ["PhpStorm", 7],
+    ["Gulp / GruntJS", 7],
+    ["GSAP", 6],
+    ["jQuery", 7],
+    ["Modernizr", 6],
+    ["Laravel", 3],
+    ["WordPress", 4],
+    ["Git", 6]
   ]
-
 }

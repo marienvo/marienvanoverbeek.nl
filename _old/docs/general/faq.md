@@ -18,44 +18,54 @@ The fix is to kill the process and rerun `npm start`.
 ### OS X / Linux:
 
 1. Find the process id (PID):
-    ```Shell
-    ps aux | grep node
-    ```
-    > This will return the PID as the value following your username:
-    > ```Shell
-    > janedoe    29811  49.1  2.1  3394936 356956 s004  S+    4:45pm   2:40.07 node server
-    > ```
-    > Note: If nothing is listed, you can try `lsof -i tcp:3000` 
+
+   ```Shell
+   ps aux | grep node
+   ```
+
+   > This will return the PID as the value following your username:
+   >
+   > ```Shell
+   > janedoe    29811  49.1  2.1  3394936 356956 s004  S+    4:45pm   2:40.07 node server
+   > ```
+   >
+   > Note: If nothing is listed, you can try `lsof -i tcp:3000`
 
 1. Then run
-    ```Shell
-    kill -9 YOUR_PID
-    ```
-    > e.g. given the output from the example above, `YOUR_PID` is `29811`, hence
-    that would mean you would run `kill -9 29811`
+   ```Shell
+   kill -9 YOUR_PID
+   ```
+   > e.g. given the output from the example above, `YOUR_PID` is `29811`, hence
+   > that would mean you would run `kill -9 29811`
 
 ### Windows
 
 1. Find the process id (PID):
-    ```Shell
-    netstat -a -o -n
-    ```
 
-    > This will return a list of running processes and the ports they're
-    listening on:
-    > ```
-    > Proto     Local Address     Foreign Address   State       PID
-    > TCP       0.0.0.0:25        0.0.0.0:0         Listening   4196
-    > ...
-    > TCP       0.0.0.0:3000      0.0.0.0:0         Listening   28344
-    ```
+   ```Shell
+   netstat -a -o -n
+   ```
+
+   > This will return a list of running processes and the ports they're
+   > listening on:
+   >
+   > ```
+   > Proto     Local Address     Foreign Address   State       PID
+   > TCP       0.0.0.0:25        0.0.0.0:0         Listening   4196
+   > ...
+   > TCP       0.0.0.0:3000      0.0.0.0:0         Listening   28344
+   > ```
+
+   ```
+
+   ```
 
 1. Then run
-    ```Shell
-    taskkill /F /PID YOUR_PID
-    ```
-    > e.g. given the output from the example above, `YOUR_PID` is `28344`, hence
-    that would mean you would run `taskkill /F /PID 28344`
+   ```Shell
+   taskkill /F /PID YOUR_PID
+   ```
+   > e.g. given the output from the example above, `YOUR_PID` is `28344`, hence
+   > that would mean you would run `taskkill /F /PID 28344`
 
 ## Issue with local caching when running in production mode (F5 / ctrl+F5 / cmd+r weird behavior)
 
@@ -65,7 +75,7 @@ Your production site isn't working? You update the code and nothing changes? It 
 
 To fix it on your local browser, just do the following. (Suited when you're testing the production mode locally)
 
-`Chrome dev tools > Application > Clear Storage > Clear site data` *(Chrome)*
+`Chrome dev tools > Application > Clear Storage > Clear site data` _(Chrome)_
 
 #### Full in-depth explanation
 
@@ -91,14 +101,13 @@ output: {
 ## Non-route containers
 
 > Note: Container will always be nested somewhere below a route. Even if there's dozens of components
-in between, somewhere up the tree will be route. (maybe only "/", but still a route)
+> in between, somewhere up the tree will be route. (maybe only "/", but still a route)
 
 ### Where do I put the reducer?
 
 While you can include the reducer statically in `reducers.js`, we don't recommend this as you lose
 the benefits of code splitting. Instead, add it as a _composed reducer_. This means that you
 pass actions onward to a second reducer from a lower-level route reducer like so:
-
 
 ```JS
 // Main route reducer
@@ -114,7 +123,7 @@ function myReducerOfRoute(state, action) {
 That way, you still get the code splitting at route level, but avoid having a static `combineReducers`
 call that includes all of them by default.
 
-*See [this and the following lesson](https://egghead.io/lessons/javascript-redux-reducer-composition-with-arrays?course=getting-started-with-redux) of the egghead.io Redux course for more information about reducer composition!*
+_See [this and the following lesson](https://egghead.io/lessons/javascript-redux-reducer-composition-with-arrays?course=getting-started-with-redux) of the egghead.io Redux course for more information about reducer composition!_
 
 ### How do I run the saga?
 
@@ -135,7 +144,6 @@ export default [
 ```
 
 Or, if you have multiple sagas in the nested container:
-
 
 ```JS
 // /containers/SomeContainer/sagas.js
@@ -163,10 +171,13 @@ WebStorm is a powerful IDE, and why not also use it as debugger tool? Here is th
 7.  Setting up URL
 8.  Start Debug (Click the green bug button)
 9.  Edit Run Configuration Again
-10.  Mapping Url as below picture
+10. Mapping Url as below picture
+
+
     * Map your `root` directory with `webpack://.` (please note the last dot)
     * Map your `build` directory with your root path (e.g. `http://localhost:3000`)
-11.  Hit OK and restart debugging session
+
+11. Hit OK and restart debugging session
 
 ![How to debug using WebStorm](webstorm-debug.png)
 
@@ -178,6 +189,7 @@ WebStorm is a powerful IDE, and why not also use it as debugger tool? Here is th
 ### Enable ESLint
 
 ESLint help making all developer follow the same coding format. Please also setting up in your IDE, otherwise, you will fail ESLint test.
+
 1. Go to WebStorm Preference
 2. Search for `ESLint`
 3. Click `Enable`

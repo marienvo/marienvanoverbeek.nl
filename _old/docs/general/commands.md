@@ -10,8 +10,8 @@ Initializes a new project with this boilerplate. Deletes the `react-boilerplate`
 git history, installs the dependencies and initializes a new repository.
 
 > Note: This command is self-destructive, once you've run it the init script is
-gone forever. This is for your own safety, so you can't delete your project's
-history irreversibly by accident.
+> gone forever. This is for your own safety, so you can't delete your project's
+> history irreversibly by accident.
 
 ## Development
 
@@ -31,8 +31,8 @@ Deletes the example app, replacing it with the smallest amount of boilerplate
 code necessary to start writing your app!
 
 > Note: This command is self-destructive, once you've run it you cannot run it
-again. This is for your own safety, so you can't delete portions of your project
-irreversibly by accident.
+> again. This is for your own safety, so you can't delete portions of your project
+> irreversibly by accident.
 
 ## Generators
 
@@ -122,7 +122,7 @@ npm run test:safari
 
 #### Internet Explorer
 
-*Windows only!*
+_Windows only!_
 
 ```Shell
 npm run test:ie
@@ -141,6 +141,7 @@ Watches changes to your application and reruns tests whenever a file changes.
 ```Shell
 npm run start:tunnel
 ```
+
 Starts the development server and tunnels it with `ngrok`, making the website
 available on the entire world. Useful for testing on different devices in different locations!
 

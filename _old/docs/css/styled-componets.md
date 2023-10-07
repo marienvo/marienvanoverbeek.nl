@@ -32,7 +32,7 @@ const Wrapper = styled.section`
 `;
 ```
 
-*(The CSS rules are automatically vendor prefixed, so you don't have to think about it!)*
+_(The CSS rules are automatically vendor prefixed, so you don't have to think about it!)_
 
 You render them like so:
 

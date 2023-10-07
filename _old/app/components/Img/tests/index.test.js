@@ -1,45 +1,44 @@
-import Img from '../index';
+import Img from "../index";
 
-import expect from 'expect';
-import { shallow } from 'enzyme';
-import React from 'react';
+import expect from "expect";
+import { shallow } from "enzyme";
+import React from "react";
 
-const src = 'test.png';
-const alt = 'test';
-const renderComponent = (props = {}) => shallow(
-  <Img src={src} alt={alt} {...props} />
-);
+const src = "test.png";
+const alt = "test";
+const renderComponent = (props = {}) =>
+  shallow(<Img src={src} alt={alt} {...props} />);
 
-describe('<Img />', () => {
-  it('should render an <img> tag', () => {
+describe("<Img />", () => {
+  it("should render an <img> tag", () => {
     const renderedComponent = renderComponent();
-    expect(renderedComponent.is('img')).toBe(true);
+    expect(renderedComponent.is("img")).toBe(true);
   });
 
-  it('should have an src attribute', () => {
+  it("should have an src attribute", () => {
     const renderedComponent = renderComponent();
-    expect(renderedComponent.prop('src')).toEqual(src);
+    expect(renderedComponent.prop("src")).toEqual(src);
   });
 
-  it('should have an alt attribute', () => {
+  it("should have an alt attribute", () => {
     const renderedComponent = renderComponent();
-    expect(renderedComponent.prop('alt')).toEqual(alt);
+    expect(renderedComponent.prop("alt")).toEqual(alt);
   });
 
-  it('should not have a className attribute', () => {
+  it("should not have a className attribute", () => {
     const renderedComponent = renderComponent();
-    expect(renderedComponent.prop('className')).toNotExist();
+    expect(renderedComponent.prop("className")).toNotExist();
   });
 
-  it('should adopt a className attribute', () => {
-    const className = 'test';
+  it("should adopt a className attribute", () => {
+    const className = "test";
     const renderedComponent = renderComponent({ className });
     expect(renderedComponent.hasClass(className)).toBe(true);
   });
 
-  it('should not adopt a srcset attribute', () => {
-    const srcset = 'test-HD.png 2x';
+  it("should not adopt a srcset attribute", () => {
+    const srcset = "test-HD.png 2x";
     const renderedComponent = renderComponent({ srcset });
-    expect(renderedComponent.prop('srcset')).toNotExist();
+    expect(renderedComponent.prop("srcset")).toNotExist();
   });
 });

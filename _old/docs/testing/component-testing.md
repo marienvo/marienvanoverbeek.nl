@@ -23,13 +23,13 @@ text:
 ```javascript
 // Button.react.js
 
-import CheckmarkIcon from './CheckmarkIcon.react';
+import CheckmarkIcon from "./CheckmarkIcon.react";
 
 function Button(props) {
   return (
     <button className="btn" onClick={props.onClick}>
       <CheckmarkIcon />
-      { React.Children.only(props.children) }
+      {React.Children.only(props.children)}
     </button>
   );
 }
@@ -44,13 +44,11 @@ It might be used in another component like this:
 ```javascript
 // HomePage.react.js
 
-import Button from './Button.react';
+import Button from "./Button.react";
 
 class HomePage extends React.Component {
   render() {
-    return(
-      <Button onClick={this.doSomething}>Click me!</Button>
-    );
+    return <Button onClick={this.doSomething}>Click me!</Button>;
   }
 }
 ```
@@ -59,23 +57,31 @@ _Note: This is a [state**ful** ("smart") component](../js/README.md#architecture
 
 When rendered normally with the standard `ReactDOM.render` function, this will
 be the HTML output
-(*Comments added in parallel to compare structures in HTML from JSX source*):
+(_Comments added in parallel to compare structures in HTML from JSX source_):
 
 ```html
-<button>                           <!-- <Button>             -->
-  <i class="fa fa-checkmark"></i>  <!--   <CheckmarkIcon />  -->
-  Click Me!                        <!--   { props.children } -->
-</button>                          <!-- </Button>            -->
+<button>
+  <!-- <Button>             -->
+  <i class="fa fa-checkmark"></i>
+  <!--   <CheckmarkIcon />  -->
+  Click Me!
+  <!--   { props.children } -->
+</button>
+<!-- </Button>            -->
 ```
 
 Conversely, when rendered with the shallow renderer, we'll get a String
 containing this "HTML":
 
 ```html
-<button>              <!-- <Button>             -->
-  <CheckmarkIcon />   <!--   NOT RENDERED!      -->
-  Click Me!           <!--   { props.children } -->
-</button>             <!-- </Button>            -->
+<button>
+  <!-- <Button>             -->
+  <CheckmarkIcon />
+  <!--   NOT RENDERED!      -->
+  Click Me!
+  <!--   { props.children } -->
+</button>
+<!-- </Button>            -->
 ```
 
 If we test our `Button` with the normal renderer and there's a problem
@@ -100,12 +106,12 @@ pass it and third that handles clicks!
 This is our Mocha setup:
 
 ```javascript
-describe('<Button />', () => {
-  it('renders a <button>', () => {});
+describe("<Button />", () => {
+  it("renders a <button>", () => {});
 
-  it('renders its children', () => {});
+  it("renders its children", () => {});
 
-  it('handles clicks', () => {});
+  it("handles clicks", () => {});
 });
 ```
 
@@ -113,13 +119,9 @@ Lets start with testing that it renders a `<button>`. To do that we first
 `shallow` render it, and then `expect` that a `<button>` node exists.
 
 ```javascript
-it('renders a <button>', () => {
-  const renderedComponent = shallow(
-    <Button></Button>
-  );
-  expect(
-    renderedComponent.find("button").node
-  ).toExist();
+it("renders a <button>", () => {
+  const renderedComponent = shallow(<Button></Button>);
+  expect(renderedComponent.find("button").node).toExist();
 });
 ```
 
@@ -131,14 +133,10 @@ We render our button component with some text, and then verify that our text
 exists:
 
 ```javascript
-it('renders its children', () => {
+it("renders its children", () => {
   const text = "Click me!";
-  const renderedComponent = shallow(
-    <Button>{ text }</Button>
-  );
-  expect(
-    renderedComponent.contains(text)
-  ).toEqual(true);
+  const renderedComponent = shallow(<Button>{text}</Button>);
+  expect(renderedComponent.contains(text)).toEqual(true);
 });
 ```
 
@@ -149,10 +147,10 @@ component, simulate a click on the rendered `<button>` element and, lastly,
 see that our Spy was called:
 
 ```javascript
-it('handles clicks', () => {
+it("handles clicks", () => {
   const onClickSpy = expect.createSpy();
   const renderedComponent = shallow(<Button onClick={onClickSpy} />);
-  renderedComponent.find('button').simulate('click');
+  renderedComponent.find("button").simulate("click");
   expect(onClickSpy).toHaveBeenCalled();
 });
 ```
