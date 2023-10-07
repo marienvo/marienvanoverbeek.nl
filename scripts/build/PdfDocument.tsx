@@ -96,7 +96,7 @@ export default () => (
   <Document>
     <Page size="A4" style={styles.root}>
       <View style={styles.heading}>
-        <Text>Marien van Overbeek</Text>
+        <Text>Marien van Overbeeksdf</Text>
       </View>
       <View style={styles.columns}>
         <View style={styles.columnLeft}>
