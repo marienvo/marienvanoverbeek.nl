@@ -63,6 +63,12 @@ const styles = StyleSheet.create({
     textTransform: "uppercase",
     fontFamily: "Helvetica-Bold",
   },
+  subtitle: {
+    marginBottom: 10,
+  },
+  paragraph: {
+    marginBottom: 20,
+  },
   column: {
     width: 270,
     marginLeft: 10,
@@ -89,9 +95,9 @@ export default () => (
         <View style={styles.column}>
           <Text style={styles.caption}>Front-end developer</Text>
           <Text>
-            JavaScript developer specializing in React. I excel at creating
-            well-thought-out design systems, seamless API integrations, and
-            strong user experiences.
+            Software engineer specializing in TypeScript and React. Excels at
+            creating well-thought-out design systems, seamless API integrations,
+            and strong user experiences.
           </Text>
         </View>
         <View style={styles.column}>
@@ -105,11 +111,46 @@ export default () => (
       <View style={styles.section}>
         <Text style={styles.caption}>Experience</Text>
         {cv.jobs.map((job) => {
+          const oneMonthInMilliseconds = 30 * 24 * 60 * 60 * 1000;
+          const options = { year: "numeric", month: "short" } as const;
+          const startDate = new Date(job.startDate).toLocaleDateString(
+            undefined,
+            options,
+          );
+          const getTime = (years: number | null, months: number) => {
+            if (years && months) {
+              return `(${years} yrs ${months} mos)`;
+            }
+            if (months) {
+              return `(${months} mos)`;
+            }
+            if (years) {
+              return `(${years} yrs)`;
+            }
+          };
+          const endDate = job.endDate
+            ? new Date(job.endDate).toLocaleDateString(undefined, options)
+            : "Current";
+          const duration = job.endDate
+            ? new Date(job.endDate).getTime() -
+              new Date(job.startDate).getTime()
+            : null;
+          const differenceInMonths =
+            duration && Math.ceil(duration / oneMonthInMilliseconds + 0.5);
+          const years =
+            differenceInMonths && Math.floor(differenceInMonths / 12);
+          const time =
+            differenceInMonths && getTime(years, differenceInMonths % 12);
+
           return (
-            <View>
-              <Text style={styles.title}>{job.company}</Text>
-              <Text>date from-to</Text>
-              <Text>description</Text>
+            <View style={styles.paragraph} key={job.id}>
+              <Text style={styles.title}>
+                {job.company} - {job.position}
+              </Text>
+              <Text style={styles.subtitle}>
+                {startDate} – {endDate} {time}
+              </Text>
+              <Text>{job.description}</Text>
             </View>
           );
         })}
