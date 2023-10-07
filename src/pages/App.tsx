@@ -21,11 +21,11 @@ export default () => {
         <li>
           Design PDF
           <ul>
-            <li>Design generated PDF</li>
+            <li>🚧 Design generated PDF 🚧</li>
           </ul>
         </li>
         <li>
-          Content{" "}
+          Content
           <ul>
             <li>Add content from CV site, and render in both site and PDF</li>
           </ul>
