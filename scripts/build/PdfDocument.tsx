@@ -48,27 +48,32 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     paddingLeft: 60,
     paddingRight: 60,
+    paddingBottom: 10,
     lineHeight: 1,
   },
   caption: {
+    marginBottom: 5,
     textTransform: "uppercase",
     color: "#bf0041",
     fontFamily: "Helvetica-Bold",
   },
   title: {
+    marginBottom: 5,
     color: "#282828",
     textTransform: "uppercase",
     fontFamily: "Helvetica-Bold",
   },
   column: {
     width: 270,
-    margin: 10,
+    marginLeft: 10,
+    marginRight: 10,
     padding: 10,
     flexGrow: 1,
   },
   section: {
     width: 450,
-    margin: 70,
+    marginLeft: 70,
+    marginRight: 70,
     padding: 10,
     flexGrow: 0,
   },
@@ -86,29 +91,27 @@ export default () => (
           <Text>
             JavaScript developer specializing in React. I excel at creating
             well-thought-out design systems, seamless API integrations, and
-            strong user experiences.{" "}
+            strong user experiences.
           </Text>
         </View>
         <View style={styles.column}>
           <Text style={styles.caption}>Contact</Text>
-          <Text style={styles.title}>title</Text>
-          <Text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec
-            lobortis justo, ut volutpat odio. In hac habitasse platea dictumst.
-          </Text>
-          <Text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec
-            lobortis justo, ut volutpat odio. In hac habitasse platea dictumst.
-            Pellentesque rhoncus sagittis posuere. Vestibulum vitae ornare
-            libero. Vestibulum diam elit, dignissim vel ornare a, efficitur in
-            quam. In hac habitasse platea dictumst. Praesent iaculis mi turpis,
-            sed
-          </Text>
+          <Text>(+31) 6 509 64 655</Text>
+          <Text>cv@marienvanoverbeek.nl</Text>
+          <Text>www.marienvanoverbeek.nl</Text>
+          <Text>Rotterdam, NL</Text>
         </View>
       </View>
       <View style={styles.section}>
+        <Text style={styles.caption}>Experience</Text>
         {cv.jobs.map((job) => {
-          return <Text>{job.company}</Text>;
+          return (
+            <View>
+              <Text style={styles.title}>{job.company}</Text>
+              <Text>date from-to</Text>
+              <Text>description</Text>
+            </View>
+          );
         })}
       </View>
     </Page>
