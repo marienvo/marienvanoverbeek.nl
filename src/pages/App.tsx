@@ -1,4 +1,5 @@
 import React from "react";
+import cv from "../content/cv.json";
 
 export default () => {
   return (
@@ -29,6 +30,12 @@ export default () => {
             <li>Add content from CV site, and render in both site and PDF</li>
           </ul>
         </li>
+      </ul>
+      <h2>Jobs</h2>
+      <ul>
+        {cv.jobs.map((item) => (
+          <li key={item.id}>{item.company}</li>
+        ))}
       </ul>
     </div>
   );
