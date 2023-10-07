@@ -8,11 +8,13 @@
     "build": "astro build && bun run pdf",
     "preview": "astro preview",
     "astro": "astro",
-    "pdf": " bun ./scripts/build/Pdf.tsx"
+    "pdf": " bun ./scripts/build/Pdf.tsx",
+    "watch": "bun scripts/build/WatchPdf.tsx"
   },
   "dependencies": {
     "@astrojs/react": "^3.0.3",
     "@react-pdf/renderer": "^3.1.12",
+    "@types/node": "^20.8.3",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "astro": "^3.2.3",
