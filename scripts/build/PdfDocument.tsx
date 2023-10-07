@@ -9,10 +9,8 @@ import {
 } from "@react-pdf/renderer";
 import cv from "../../src/content/cv.json";
 
-// Font.register({
-//   family: "Montserrat Light",
-//   src: "/home/marienvanoverbeek/WebstormProjects/marienvanoverbeek.nl/scripts/build/normal.woff2",
-// });
+const paddingBottom = 80;
+const paddingBottomHeader = 30;
 
 Font.registerEmojiSource({
   format: "png",
@@ -32,7 +30,7 @@ const styles = StyleSheet.create({
     fontSize: 10,
     lineHeight: 1.3,
     fontFamily: "Helvetica",
-    paddingBottom: 50,
+    paddingBottom,
     paddingTop: 40,
   },
   columns: {
@@ -48,7 +46,7 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     paddingLeft: 60,
     paddingRight: 60,
-    paddingBottom: 10,
+    paddingBottom: paddingBottomHeader,
     lineHeight: 1,
   },
   caption: {
@@ -66,8 +64,11 @@ const styles = StyleSheet.create({
   subtitle: {
     marginBottom: 10,
   },
+  description: {
+    marginBottom: 5,
+  },
   paragraph: {
-    marginBottom: 20,
+    marginBottom: 25,
   },
   columnLeft: {
     width: 340,
@@ -96,23 +97,28 @@ export default () => (
   <Document>
     <Page size="A4" style={styles.root}>
       <View style={styles.heading}>
-        <Text>Marien van Overbeeksdf</Text>
+        <Text>Marien van Overbeek</Text>
       </View>
       <View style={styles.columns}>
         <View style={styles.columnLeft}>
           <Text style={styles.caption}>Front-end developer</Text>
-          <Text>
+          <Text style={styles.description}>
             Software engineer specializing in TypeScript and React. Excels at
             creating well-thought-out design systems, seamless API integrations,
             and strong user experiences.
           </Text>
+          <Text style={styles.paragraph}>
+            Prefers to work in a team of senior front-end colleagues, while
+            keeping close contact with the API team. Enjoys working on a product
+            that is actively used by many people.
+          </Text>
         </View>
         <View style={styles.columnRight}>
           <Text style={styles.caption}>Contact</Text>
-          <Text>(+31) 6 509 64 655</Text>
+          <Text>+31 (0)6 509 64 655</Text>
+          <Text> </Text>
           <Text>cv@marienvanoverbeek.nl</Text>
           <Text>www.marienvanoverbeek.nl</Text>
-          <Text>Rotterdam, NL</Text>
         </View>
       </View>
       <View style={styles.section}>
@@ -157,7 +163,8 @@ export default () => (
               <Text style={styles.subtitle}>
                 {startDate} – {endDate} {time}
               </Text>
-              <Text>{job.description}</Text>
+              <Text style={styles.description}>{job.description}</Text>
+              <Text>{job.skills.join(" · ")}</Text>
             </View>
           );
         })}
