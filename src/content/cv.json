@@ -4,15 +4,49 @@
       "id": "PAY.",
       "company": "PAY.",
       "position": "Software Engineer",
-      "startDate": "2019-01-01",
-      "endDate": "2020-01-01"
+      "startDate": "2022-09-01",
+      "endDate": null,
+      "description": "PAY. is a fintech company that aims to make payments easier for everyone. At Pay, I'm developing a design system with micro front-ends for a maintainable setup, enabling quick, flexible front-end modifications, including admin portals, registration flows, and checkout screens."
     },
     {
       "id": "iO",
       "company": "iO",
       "position": "Software Engineer",
-      "startDate": "2019-01-01",
-      "endDate": "2020-01-01"
+      "startDate": "2018-10-01",
+      "endDate": "2022-08-01",
+      "description": "iO is a digital agency that creates digital products for clients. At iO Rotterdam, I focused on enhancing consistency and implementation of design systems. My role involved refining durable component libraries to drive client results through development and other activities."
+    },
+    {
+      "id": "Eneco",
+      "company": "Eneco",
+      "position": "Software Engineer",
+      "startDate": "2018-08-01",
+      "endDate": "2022-01-01",
+      "description": "Eneco is a Dutch energy company that supplies gas, electricity, and heat to consumers and businesses. As a front-end developer and tech lead at Eneco (contracted via iO), I acted as the product owner's technical ally, focusing on UI development for customer self-service features."
+    },
+    {
+      "id": "Acato",
+      "company": "Acato",
+      "position": "Software Engineer",
+      "startDate": "2016-03-01",
+      "endDate": "2018-08-01",
+      "description": "Acato is a digital agency that creates digital products for clients. At Acato, I focused on front-end product quality to ensure the company excelled in delivering exceptional user experiences across websites, apps, and other environments."
+    },
+    {
+      "id": "Bijzonder Plekje",
+      "company": "Bijzonder Plekje",
+      "position": "Software Engineer",
+      "startDate": "2010-06-01",
+      "endDate": "2016-03-01",
+      "description": "Bijzonder Plekje is a platform that inspires people to discover special accommodations. At Bijzonder Plekje, I focused on online strategy, web development, and enhancing website performance for higher conversion rates and increased online visibility."
+    },
+    {
+      "id": "Innovatio",
+      "company": "Innovatio",
+      "position": "Software Engineer",
+      "startDate": "2011-02-01",
+      "endDate": "2011-07-01",
+      "description": "Innovatio is a digital agency that creates digital products for clients. At Innovatio, I bridged design and development, converting graphics into HTML, CSS, and JavaScript while contributing to JavaScript prototypes for various proof of concepts."
     }
   ]
 }
