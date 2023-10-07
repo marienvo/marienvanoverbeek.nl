@@ -69,8 +69,15 @@ const styles = StyleSheet.create({
   paragraph: {
     marginBottom: 20,
   },
-  column: {
-    width: 270,
+  columnLeft: {
+    width: 340,
+    marginLeft: 10,
+    marginRight: 10,
+    padding: 10,
+    flexGrow: 1,
+  },
+  columnRight: {
+    width: 200,
     marginLeft: 10,
     marginRight: 10,
     padding: 10,
@@ -92,7 +99,7 @@ export default () => (
         <Text>Marien van Overbeek</Text>
       </View>
       <View style={styles.columns}>
-        <View style={styles.column}>
+        <View style={styles.columnLeft}>
           <Text style={styles.caption}>Front-end developer</Text>
           <Text>
             Software engineer specializing in TypeScript and React. Excels at
@@ -100,7 +107,7 @@ export default () => (
             and strong user experiences.
           </Text>
         </View>
-        <View style={styles.column}>
+        <View style={styles.columnRight}>
           <Text style={styles.caption}>Contact</Text>
           <Text>(+31) 6 509 64 655</Text>
           <Text>cv@marienvanoverbeek.nl</Text>
@@ -154,6 +161,22 @@ export default () => (
             </View>
           );
         })}
+      </View>
+      <View style={styles.columns}>
+        <View style={styles.columnLeft}>
+          <Text style={styles.caption}>EDUCATION</Text>
+          <Text style={styles.title}>
+            HANZE UNIVERSITY OF APPLIED SCIENCES GRONINGEN
+          </Text>
+          <Text>Bachelor of Communication, Web & Mobile Services</Text>
+          <Text style={styles.subtitle}>Sep 2008 - May 2013</Text>
+        </View>
+        <View style={styles.columnRight}>
+          <Text style={styles.caption}>SKILLS</Text>
+          <Text>• Front-end implementation</Text>
+          <Text>• Leadership</Text>
+          <Text>• Communication</Text>
+        </View>
       </View>
     </Page>
   </Document>
