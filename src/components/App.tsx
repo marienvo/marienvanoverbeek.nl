@@ -1,13 +1,12 @@
 import React from "react";
 import cv from "../../content/cv.json";
-import { Job } from "./Job.tsx";
+import { Job } from "./elements/Job.tsx";
 
 export default () => {
   return (
     <div>
       <h1>Marien van Overbeek</h1>
       <ul>
-        <li>Replace favicon</li>
         <li>Design site</li>
         <li>Add PDF download button</li>
       </ul>

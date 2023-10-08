@@ -1,6 +1,6 @@
 import React, { type FC } from "react";
-import cv from "../../content/cv.json";
-import { getTime } from "./helpers/getTime.ts";
+import cv from "../../../content/cv.json";
+import { getTime } from "./../helpers/getTime.ts";
 
 export const Job: FC<JobProperties> = ({ job }) => {
   const { startDate, endDate, duration } = getTime(job);
