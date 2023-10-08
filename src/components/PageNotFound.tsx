@@ -15,7 +15,9 @@ export default () => {
         <Heading level="h1">
           404
           <br />
-          Page not found
+          Page not
+          <br />
+          found
         </Heading>
         <p>Maybe it's off networking somewhere.</p>
       </Section>
