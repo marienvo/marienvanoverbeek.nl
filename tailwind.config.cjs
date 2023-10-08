@@ -5,7 +5,16 @@ module.exports = {
 		'./node_modules/flowbite/**/*.js'
 	],
 	theme: {
-		extend: {},
+		extend: {
+			backgroundColor: {
+				'accent-100': 'rgb(230,64,64)',
+				'accent-200': 'rgb(212,64,64)',
+			},
+			textColor: {
+				'accent-100': 'rgb(230,64,64)',
+				'accent-200': 'rgb(212,64,64)',
+			},
+		},
 	},
 	plugins: [
 		require('flowbite/plugin')
