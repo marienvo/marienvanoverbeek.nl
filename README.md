@@ -1,6 +1,7 @@
 # Marien van Overbeek
 
-> [marienvanoverbeek.nl](https://marienvanoverbeek.nl/)
+> Branch `master` is automatically deployed to [marienvanoverbeek.nl](https://marienvanoverbeek.nl/)
+> via GitHub Pages.
 
 All commands are run from the root of the project, from a terminal:
 
@@ -8,8 +9,8 @@ All commands are run from the root of the project, from a terminal:
 | :------------------------ | :----------------------------------------------- |
 | `bun install`             | Installs dependencies                            |
 | `bun run dev`             | Starts local dev server at `localhost:4321`      |
-| `bun run build`           | Build your production site to `./dist/`          |
-| `bun run preview`         | Preview your build locally, before deploying     |
+| `bun run build`           | Build the production site to `./dist/`           |
+| `bun run preview`         | Preview build locally, before deploying          |
 | `bun run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `bun run astro -- --help` | Get help using the Astro CLI                     |
 
