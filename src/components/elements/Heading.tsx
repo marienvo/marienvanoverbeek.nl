@@ -7,7 +7,7 @@ export const Heading: FC<HeadingProperties> = ({ level, children }) => {
   return (
     <Element
       className={classNames("uppercase font-bold", {
-        "text-7xl text-accent-100": level === "h1",
+        "text-9xl text-accent-100 -ml-5 mb-20": level === "h1",
         "text-accent-200": level === "h2",
         "text-lg uppercase font-semibold text-gray-900 dark:text-white":
           level === "h3",

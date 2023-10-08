@@ -11,7 +11,11 @@ export default () => {
   return (
     <>
       <Section>
-        <Heading level="h1">Marien van Overbeek</Heading>
+        <Heading level="h1">
+          Marien van
+          <br />
+          Overbeek
+        </Heading>
         <Heading level="h2">Front-end developer</Heading>
         <p>
           Software engineer specializing in TypeScript and React. Excels at
