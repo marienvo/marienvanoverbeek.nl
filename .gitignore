@@ -1,6 +1,5 @@
 # build output
 dist/
-/public/cv.pdf
 
 # generated types
 .astro/
