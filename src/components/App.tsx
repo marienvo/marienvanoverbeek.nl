@@ -2,6 +2,7 @@ import React from "react";
 import { Devider } from "./elements/Devider.tsx";
 import { Timeline } from "./elements/Timeline.tsx";
 import { Heading } from "./elements/Heading.tsx";
+import { TechStack } from "./elements/TechStack.tsx";
 
 export default () => {
   return (
@@ -38,6 +39,7 @@ export default () => {
         <li>Leadership</li>
         <li>Communication</li>
       </ul>
+      <TechStack />
     </div>
   );
 };
