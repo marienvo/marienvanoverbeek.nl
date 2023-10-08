@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "../content/cv.json";
+import cv from "../../content/cv.json";
 
 export default () => {
   return (

@@ -7,8 +7,7 @@ import {
   View,
   Font,
 } from "@react-pdf/renderer";
-import cv from "../../src/content/cv.json";
-
+import cv from "../../content/cv.json";
 const paddingBottom = 80;
 const paddingBottomHeader = 50;
 
