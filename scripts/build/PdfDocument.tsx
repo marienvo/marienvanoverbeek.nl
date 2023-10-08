@@ -10,7 +10,7 @@ import {
 import cv from "../../src/content/cv.json";
 
 const paddingBottom = 80;
-const paddingBottomHeader = 30;
+const paddingBottomHeader = 50;
 
 Font.registerEmojiSource({
   format: "png",
@@ -132,13 +132,13 @@ export default () => (
           );
           const getTime = (years: number | null, months: number) => {
             if (years && months) {
-              return `(${years} yrs ${months} mos)`;
+              return ` (${years} yrs ${months} mos)`;
             }
             if (months) {
-              return `(${months} mos)`;
+              return ` (${months} mos)`;
             }
             if (years) {
-              return `(${years} yrs)`;
+              return ` (${years} yrs)`;
             }
           };
           const endDate = job.endDate
@@ -161,7 +161,8 @@ export default () => (
                 {job.company} - {job.position}
               </Text>
               <Text style={styles.subtitle}>
-                {startDate} – {endDate} {time}
+                {startDate} – {endDate}
+                {time}, {job.location}
               </Text>
               <Text style={styles.description}>{job.description}</Text>
               <Text>{job.skills.join(" · ")}</Text>
@@ -181,6 +182,7 @@ export default () => (
         <View style={styles.columnRight}>
           <Text style={styles.caption}>SKILLS</Text>
           <Text>• Front-end implementation</Text>
+          <Text>• Quality assurance</Text>
           <Text>• Leadership</Text>
           <Text>• Communication</Text>
         </View>

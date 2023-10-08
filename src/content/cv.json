@@ -3,65 +3,66 @@
     {
       "id": "PAY.",
       "company": "PAY.",
+      "location": "Spijkenisse",
       "position": "SENIOR FRONT-END DEVELOPER",
       "startDate": "2022-09-01",
       "endDate": null,
       "skills": [
-        "Design Systems",
-        "Micro Frontend Architecture",
-        "React",
-        "Scrum",
-        "Storybook",
-        "Jest",
-        "TypeScript"
+        "Micro Frontend Architecture (Nx)",
+        "Design System",
+        "TypeScript",
+        "XState",
+        "Mentorship"
       ],
       "description": "PAY. is a fintech company that aims to make payments easier for everyone. At Pay, I'm developing a design system with micro front-ends for a maintainable setup, enabling quick, flexible front-end modifications, including admin portals, registration flows, and checkout screens."
     },
     {
       "id": "iO",
       "company": "iO",
+      "location": "Rotterdam",
       "position": "FRONT-END DEVELOPMENT CONSULTANT",
       "startDate": "2018-10-01",
       "endDate": "2022-08-01",
       "skills": [
-        "Design Systems",
         "Front-End Development",
+        "Design Systems",
+        "TypeScript",
         "React",
-        "Scrum",
+        "Redux",
         "Storybook",
         "Jest",
-        "TypeScript"
+        "Scrum"
       ],
       "description": "iO is a digital agency that creates digital products for clients. At iO Rotterdam, I focused on enhancing consistency and implementation of design systems. My role involved refining durable component libraries to drive client results through development and other activities."
     },
     {
       "id": "Eneco",
       "company": "Eneco",
+      "location": "Rotterdam",
       "position": "FRONT-END DEVELOPER & TECH LEAD",
       "startDate": "2018-10-01",
       "endDate": "2022-05-01",
       "skills": [
-        "Micro Frontend Architecture",
-        "Design Systems",
-        "Jest",
+        "Micro Frontend Architecture (Nx)",
+        "TypeScript",
         "React",
-        "Redux",
+        "XState",
+        "Jest",
         "Scrum",
-        "Team Leadership",
-        "TypeScript"
+        "Team Leadership"
       ],
       "description": "Eneco is a Dutch energy company that supplies gas, electricity, and heat to consumers and businesses. As a front-end developer and tech lead at Eneco (contracted via iO), I acted as the product owner's technical ally, focusing on UI development for customer self-service features."
     },
     {
       "id": "Acato",
       "company": "Acato",
+      "location": "Den Haag",
       "position": "SQUAD LEAD / LEAD FRONT-END DEVELOPER",
       "startDate": "2016-03-01",
       "endDate": "2018-08-01",
       "skills": [
         "JavaScript",
         "Design Systems",
-        "Front-End Development",
         "React",
         "REST APIs",
         "Team Leadership"
@@ -71,6 +72,7 @@
     {
       "id": "Riverfields",
       "company": "Riverfields",
+      "location": "Rotterdam",
       "position": "ONLINE MARKETING CONSULTANT & WEB DEVELOPER",
       "startDate": "2014-02-01",
       "endDate": "2016-03-01",
@@ -80,6 +82,7 @@
     {
       "id": "Rockyard VOF",
       "company": "Rockyard VOF",
+      "location": "Groningen",
       "position": "UX DEVELOPER",
       "startDate": "2012-09-01",
       "endDate": "2014-02-01",
@@ -89,15 +92,17 @@
     {
       "id": "Bijzonder Plekje",
       "company": "Bijzonder Plekje",
+      "location": "Groningen",
       "position": "FRONT-END DEVELOPER (FREELANCE)",
       "startDate": "2010-06-01",
       "endDate": "2016-03-01",
-      "skills": ["JavaScript", "Front-End Development"],
-      "description": "Bijzonder Plekje is a platform that inspires people to discover special accommodations. At Bijzonder Plekje, I focused on online strategy, web development, and enhancing website performance for higher conversion rates and increased online visibility."
+      "skills": ["JavaScript", "Front-End Development", "Online Marketing"],
+      "description": "Bijzonder Plekje is a platform that inspires people to discover unique accommodations. At Bijzonder Plekje, I focused on online strategy, web development, and enhancing website performance for higher conversion rates and increased online visibility."
     },
     {
       "id": "Innovatio",
       "company": "Innovatio",
+      "location": "Groningen",
       "position": "FRONT-END DEVELOPMENT INTERN",
       "startDate": "2011-02-01",
       "endDate": "2011-07-01",
