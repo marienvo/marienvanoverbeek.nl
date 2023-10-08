@@ -7,18 +7,9 @@ export default () => {
     <div>
       <h1>Marien van Overbeek</h1>
       <ul>
-        <li>
-          Files & setup
-          <ul>
-            <li>Replace favicon</li>
-          </ul>
-        </li>
-        <li>
-          Design Site
-          <ul>
-            <li>Add components from current CV site</li>
-          </ul>
-        </li>
+        <li>Replace favicon</li>
+        <li>Design site</li>
+        <li>Add PDF download button</li>
       </ul>
       <h2>Front-end developer</h2>
       <p>
