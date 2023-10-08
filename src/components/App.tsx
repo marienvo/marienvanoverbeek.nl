@@ -1,8 +1,6 @@
 import React from "react";
 import cv from "../../content/cv.json";
 import { Job } from "./Job.tsx";
-import { Text, View } from "@react-pdf/renderer";
-import { styles } from "./pdf/PdfDocument.styles.tsx";
 
 export default () => {
   return (
