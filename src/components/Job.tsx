@@ -16,7 +16,7 @@ export const Job: FC<JobProperties> = ({ job }) => {
 
 type CV = typeof cv;
 
-type Job = CV["jobs"][number];
+export type Job = CV["jobs"][number];
 
 type JobProperties = {
   job: Job;

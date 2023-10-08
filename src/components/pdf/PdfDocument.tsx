@@ -2,6 +2,7 @@ import React from "react";
 import { Document, Page, Text, View, Font } from "@react-pdf/renderer";
 import cv from "../../../content/cv.json";
 import { styles } from "./PdfDocument.styles.tsx";
+import { getTime } from "../helpers/getTime.ts";
 
 Font.registerEmojiSource({
   format: "png",
@@ -39,37 +40,7 @@ export default () => (
       <View style={styles.section}>
         <Text style={styles.caption}>Experience</Text>
         {cv.jobs.map((job) => {
-          const oneMonthInMilliseconds = 30 * 24 * 60 * 60 * 1000;
-          const options = { year: "numeric", month: "short" } as const;
-          const startDate = new Date(job.startDate).toLocaleDateString(
-            undefined,
-            options,
-          );
-          const getTime = (years: number | null, months: number) => {
-            if (years && months) {
-              return ` (${years} yrs ${months} mos)`;
-            }
-            if (months) {
-              return ` (${months} mos)`;
-            }
-            if (years) {
-              return ` (${years} yrs)`;
-            }
-          };
-          const endDate = job.endDate
-            ? new Date(job.endDate).toLocaleDateString(undefined, options)
-            : "Current";
-          const duration = job.endDate
-            ? new Date(job.endDate).getTime() -
-              new Date(job.startDate).getTime()
-            : null;
-          const differenceInMonths =
-            duration && Math.ceil(duration / oneMonthInMilliseconds + 0.5);
-          const years =
-            differenceInMonths && Math.floor(differenceInMonths / 12);
-          const time =
-            differenceInMonths && getTime(years, differenceInMonths % 12);
-
+          const { startDate, endDate, duration } = getTime(job);
           return (
             <View style={styles.paragraph} key={job.id}>
               <Text style={styles.title}>
@@ -77,7 +48,7 @@ export default () => (
               </Text>
               <Text style={styles.subtitle}>
                 {startDate} – {endDate}
-                {time}, {job.location}
+                {duration}, {job.location}
               </Text>
               <Text style={styles.description}>{job.description}</Text>
               <Text>{job.skills.join(" · ")}</Text>

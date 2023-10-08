@@ -8,6 +8,9 @@ const buildPdf = (event: string, file: string | null) => {
   const pdfDocumentPath = "../../src/components/pdf/PdfDocument.tsx";
   delete require.cache[require.resolve(pdfDocumentPath)];
   delete require.cache[require.resolve("../../content/cv.json")];
+  delete require.cache[
+    require.resolve("../../src/components/helpers/getTime.ts")
+  ];
   const PdfDocument = require(pdfDocumentPath).default;
   ReactPDF.render(
     React.createElement(PdfDocument, null),
