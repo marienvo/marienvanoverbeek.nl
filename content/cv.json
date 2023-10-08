@@ -93,10 +93,15 @@
       "id": "Bijzonder Plekje",
       "company": "Bijzonder Plekje",
       "location": "Groningen",
-      "position": "FRONT-END DEVELOPER (FREELANCE)",
+      "position": "FRONT-END DEVELOPER",
       "startDate": "2010-06-01",
       "endDate": "2016-03-01",
-      "skills": ["JavaScript", "Front-End Development", "Online Marketing"],
+      "skills": [
+        "Freelance Work",
+        "JavaScript",
+        "Front-End Development",
+        "Online Marketing"
+      ],
       "description": "Bijzonder Plekje is a platform that inspires people to discover unique accommodations. At Bijzonder Plekje, I focused on online strategy, web development, and enhancing website performance for higher conversion rates and increased online visibility."
     },
     {
@@ -106,7 +111,7 @@
       "position": "FRONT-END DEVELOPMENT INTERN",
       "startDate": "2011-02-01",
       "endDate": "2011-07-01",
-      "skills": ["JavaScript", "CSS"],
+      "skills": ["Internship", "JavaScript", "CSS"],
       "description": "Innovatio is a digital agency that creates digital products for clients. At Innovatio, I bridged design and development, converting graphics into HTML, CSS, and JavaScript while contributing to JavaScript prototypes for various proof of concepts."
     }
   ]
