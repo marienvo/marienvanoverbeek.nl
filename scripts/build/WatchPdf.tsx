@@ -19,4 +19,5 @@ const buildPdf = (event: string, file: string | null) => {
 };
 
 fs.watch("src/components/pdf/PdfDocument.tsx", buildPdf);
+fs.watch("src/components/helpers/getTime.ts", buildPdf);
 fs.watch("content/cv.json", buildPdf);

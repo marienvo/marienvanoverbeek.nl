@@ -13,7 +13,7 @@ const getDuration = (years: number | null, months: number) => {
 };
 
 export const getTime = (job: Job) => {
-  const oneMonthInMilliseconds = 30 * 24 * 60 * 60 * 1000;
+  const oneMonthInMilliseconds = 30.437 * 24 * 60 * 60 * 1000;
   const options = { year: "numeric", month: "short" } as const;
   const startDate = new Date(job.startDate).toLocaleDateString(
     undefined,
