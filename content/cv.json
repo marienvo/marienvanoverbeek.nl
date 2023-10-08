@@ -12,6 +12,7 @@
         "Design System",
         "TypeScript",
         "XState",
+        "Jest",
         "Mentorship"
       ],
       "description": "PAY. is a fintech company that aims to make payments easier for everyone. At Pay, I'm developing a design system with micro front-ends for a maintainable setup, enabling quick, flexible front-end modifications, including admin portals, registration flows, and checkout screens."
@@ -98,8 +99,8 @@
       "endDate": "2016-03-01",
       "skills": [
         "Freelance Work",
-        "JavaScript",
         "Front-End Development",
+        "JavaScript",
         "Online Marketing"
       ],
       "description": "Bijzonder Plekje is a platform that inspires people to discover unique accommodations. At Bijzonder Plekje, I focused on online strategy, web development, and enhancing website performance for higher conversion rates and increased online visibility."
