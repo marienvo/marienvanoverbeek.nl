@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "bun run pdf && astro build --outDir '../marienvo.github.io'",
+    "build": "bun run pdf && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "pdf": " bun ./scripts/build/BuildPdf.tsx",
