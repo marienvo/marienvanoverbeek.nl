@@ -79,7 +79,7 @@ export default () => {
       <a
         href="./cv.pdf"
         download="cv-marienvanoverbeek.pdf"
-        className="fixed top-8 right-10 bg-white p-3 rounded-full hover:mt-1 shadow-lg hover:shadow-md  transition-all duration-100"
+        className="fixed top-8 right-10 bg-white p-3 rounded-full hover:mt-1 shadow-lg hover:shadow-md  transition-all duration-100 hidden sm:block"
       >
         <img src="./pdf-download.svg" alt="Download as PDF" width="55" />
       </a>
