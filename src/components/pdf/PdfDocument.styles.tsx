@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
   },
   heading: {
     textTransform: "uppercase",
-    color: "#bf0041",
+    color: "rgb(212,64,64)",
     fontFamily: "Helvetica-Bold",
     fontSize: 60,
     paddingTop: 10,
@@ -32,7 +32,7 @@ export const styles = StyleSheet.create({
   caption: {
     marginBottom: 5,
     textTransform: "uppercase",
-    color: "#bf0041",
+    color: "rgb(230,64,64)",
     fontFamily: "Helvetica-Bold",
   },
   title: {
