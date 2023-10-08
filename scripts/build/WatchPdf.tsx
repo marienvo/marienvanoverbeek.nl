@@ -14,7 +14,7 @@ const buildPdf = (event: string, file: string | null) => {
   const PdfDocument = require(pdfDocumentPath).default;
   ReactPDF.render(
     React.createElement(PdfDocument, null),
-    `${__dirname}/../../dist/cv-marienvanoverbeek.pdf`,
+    `${__dirname}/../../public/cv.pdf`,
   );
 };
 
