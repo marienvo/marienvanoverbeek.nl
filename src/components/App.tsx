@@ -6,6 +6,7 @@ import { TechStack } from "./elements/TechStack.tsx";
 import classNames from "classnames";
 import { Section } from "./elements/Section.tsx";
 import { Footer } from "./elements/Footer.tsx";
+import { Columns } from "./elements/Columns.tsx";
 
 export default () => {
   return (
@@ -37,24 +38,34 @@ export default () => {
       </Section>
       <Devider />
       <Section>
-        <Heading level="h2">EDUCATION</Heading>
-        <Heading level="h3">
-          HANZE UNIVERSITY OF APPLIED SCIENCES GRONINGEN
-        </Heading>
-        <p>Bachelor of Communication, Web & Mobile Services</p>
-        <p>Sep 2008 - May 2013</p>
-        <Heading level="h2">SKILLS</Heading>
-        <ul>
-          <li>Front-end implementation</li>
-          <li>Quality assurance</li>
-          <li>Leadership</li>
-          <li>Communication</li>
-        </ul>
-        <TechStack />
+        <Columns>
+          <div>
+            <Heading level="h2">EDUCATION</Heading>
+            <Heading level="h3">
+              HANZE UNIVERSITY OF APPLIED SCIENCES GRONINGEN
+            </Heading>
+            <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
+              Bachelor of Communication, Web & Mobile Services
+            </p>
+            <p className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              Sep 2008 – May 2013
+            </p>
+          </div>
+          <div>
+            <Heading level="h2">SKILLS</Heading>
+            <ul>
+              <li>Front-end implementation</li>
+              <li>Quality assurance</li>
+              <li>Leadership</li>
+              <li>Communication</li>
+            </ul>
+          </div>
+        </Columns>
+        {/*<TechStack />*/}
       </Section>
       <Footer>
         <Section>
-          <div className="inline-block float-right">
+          <div className="inline-block float-right pr-10">
             <strong>Name:</strong> Marien van Overbeek
             <br />
             <strong>Born:</strong> June 30th, 1985
