@@ -63,19 +63,7 @@ export default () => {
         </Columns>
         {/*<TechStack />*/}
       </Section>
-      <Footer>
-        <Section>
-          <div className="inline-block pr-10">
-            <strong>Name:</strong> Marien van Overbeek
-            <br />
-            <strong>Born:</strong> June 30th, 1985
-            <br />
-            <strong>Hometown:</strong> Rotterdam
-            <br />
-            <strong>Employer:</strong> PAY.
-          </div>
-        </Section>
-      </Footer>
+      <Footer />
       <a
         href="./cv.pdf"
         download="cv-marienvanoverbeek.pdf"
