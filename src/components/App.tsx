@@ -1,15 +1,13 @@
 import React from "react";
 import cv from "../../content/cv.json";
 import { Job } from "./elements/Job.tsx";
+import { Devider } from "./elements/Devider.tsx";
+import { Timeline } from "./elements/Timeline.tsx";
 
 export default () => {
   return (
     <div>
       <h1>Marien van Overbeek</h1>
-      <ul>
-        <li>Design site</li>
-        <li>Add PDF download button</li>
-      </ul>
       <h2>Front-end developer</h2>
       <p>
         Software engineer specializing in TypeScript and React. Excels at
@@ -21,10 +19,10 @@ export default () => {
         close contact with the API team. Enjoys working on a product that is
         actively used by many people.
       </p>
+      <Devider />
       <h2>Experience</h2>
-      {cv.jobs.map((job) => (
-        <Job job={job} />
-      ))}
+      <Timeline />
+      <Devider />
       <h2>EDUCATION</h2>
       <p>HANZE UNIVERSITY OF APPLIED SCIENCES GRONINGEN</p>
       <p>Bachelor of Communication, Web & Mobile Services</p>
