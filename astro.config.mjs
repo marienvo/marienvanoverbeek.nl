@@ -5,6 +5,5 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), tailwind()],
-  outDir: "../marienvo.github.io/docs",
+  integrations: [react(), tailwind()]
 });
