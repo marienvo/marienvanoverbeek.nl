@@ -1,6 +1,6 @@
 import React from "react";
 import { Document, Page, Text, View, Font } from "@react-pdf/renderer";
-import cv from "../../content/cv.json";
+import cv from "../../../content/cv.json";
 import { styles } from "./PdfDocument.styles.tsx";
 
 Font.registerEmojiSource({

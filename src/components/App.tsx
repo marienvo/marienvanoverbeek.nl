@@ -1,10 +1,11 @@
 import React from "react";
 import cv from "../../content/cv.json";
+import { Job } from "./Job.tsx";
 
 export default () => {
   return (
     <div>
-      <h1>Todo</h1>
+      <h1>Marien van Overbeek</h1>
       <ul>
         <li>
           Files & setup
@@ -31,12 +32,10 @@ export default () => {
           </ul>
         </li>
       </ul>
-      <h2>Jobs</h2>
-      <ul>
-        {cv.jobs.map((item) => (
-          <li key={item.id}>{item.company}</li>
-        ))}
-      </ul>
+      <h2>Experience</h2>
+      {cv.jobs.map((item) => (
+        <Job job={item} />
+      ))}
     </div>
   );
 };

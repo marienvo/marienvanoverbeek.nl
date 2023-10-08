@@ -1,6 +1,6 @@
 import React from "react";
 import ReactPDF from "@react-pdf/renderer";
-import PdfDocument from "./PdfDocument.tsx";
+import PdfDocument from "../../src/components/pdf/PdfDocument.tsx";
 
 ReactPDF.render(
   <PdfDocument />,

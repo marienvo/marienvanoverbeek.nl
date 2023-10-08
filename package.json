@@ -8,7 +8,7 @@
     "build": "astro build && bun run pdf",
     "preview": "astro preview",
     "astro": "astro",
-    "pdf": " bun ./scripts/build/Pdf.tsx",
+    "pdf": " bun ./scripts/build/BuildPdf.tsx",
     "watch": "bun scripts/build/WatchPdf.tsx"
   },
   "dependencies": {
