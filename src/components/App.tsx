@@ -33,8 +33,8 @@ export default () => {
         </li>
       </ul>
       <h2>Experience</h2>
-      {cv.jobs.map((item) => (
-        <Job job={item} />
+      {cv.jobs.map((job) => (
+        <Job job={job} />
       ))}
     </div>
   );
