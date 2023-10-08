@@ -1,4 +1,4 @@
-import type { Job } from "../Job.tsx";
+import type { Job } from "../elements/Job";
 
 const getDuration = (years: number | null, months: number) => {
   if (years && months) {
