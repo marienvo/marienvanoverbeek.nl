@@ -1,7 +1,7 @@
 import React, { type FC } from "react";
 
 export const Section: FC<SectionProperties> = ({ children }) => {
-  return <div className="max-w-7xl p-28 mx-auto overflow-auto">{children}</div>;
+  return <div className="max-w-7xl p-28 mx-auto">{children}</div>;
 };
 
 type SectionProperties = {

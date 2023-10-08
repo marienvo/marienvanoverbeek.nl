@@ -47,7 +47,7 @@ export default () => {
             <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
               Bachelor of Communication, Web & Mobile Services
             </p>
-            <p className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <p className="mb-1 text-sm font-normal leading-none text-gray-500">
               Sep 2008 – May 2013
             </p>
           </div>
@@ -65,7 +65,7 @@ export default () => {
       </Section>
       <Footer>
         <Section>
-          <div className="inline-block float-right pr-10">
+          <div className="inline-block pr-10">
             <strong>Name:</strong> Marien van Overbeek
             <br />
             <strong>Born:</strong> June 30th, 1985

@@ -12,7 +12,7 @@ module.exports = {
 			},
 			textColor: {
 				'accent-100': 'rgb(230,64,64)',
-				'accent-200': 'rgb(212,64,64)',
+				'accent-200': 'rgb(202,64,64)',
 			},
 		},
 	},
