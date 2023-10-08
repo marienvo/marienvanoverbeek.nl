@@ -26,7 +26,9 @@ export default () => {
       <Timeline />
       <Devider />
       <Heading level="h2">EDUCATION</Heading>
-      <p>HANZE UNIVERSITY OF APPLIED SCIENCES GRONINGEN</p>
+      <Heading level="h3">
+        HANZE UNIVERSITY OF APPLIED SCIENCES GRONINGEN
+      </Heading>
       <p>Bachelor of Communication, Web & Mobile Services</p>
       <p>Sep 2008 - May 2013</p>
       <Heading level="h2">SKILLS</Heading>
