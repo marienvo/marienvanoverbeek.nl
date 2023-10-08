@@ -12,10 +12,10 @@ export const Job: FC<JobProperties> = ({ job, isLast }) => {
         <Heading level="h3">
           {job.company} - {job.position}
         </Heading>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+        <div className="mb-3 mt-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
           {startDate} – {endDate}
           {duration}, {job.location}
-        </time>
+        </div>
         <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
           {job.description}
         </p>
