@@ -1,12 +1,22 @@
 {
   "jobs": [
     {
+      "id": "Weave",
+      "company": "Weave",
+      "location": "Rotterdam",
+      "position": "FULLSTACK DEVELOPER",
+      "startDate": "2024-02-01",
+      "endDate": null,
+      "skills": ["React Native", "TypeScript"],
+      "description": "The Sharing Group pioneers tech solutions in Technology, Mobility, and Energy, serving over 500,000 customers. As a React Native developer at Weave (part of The Sharing Group), I specialize in enhancing mobile app interfaces and guide clients, ensuring they gain solid understanding and control over their projects, leading to improved user experiences."
+    },
+    {
       "id": "PAY.",
       "company": "PAY.",
       "location": "Spijkenisse",
       "position": "SENIOR FRONT-END DEVELOPER",
       "startDate": "2022-09-01",
-      "endDate": null,
+      "endDate": "2024-01-31",
       "skills": [
         "Micro Frontend Architecture (Nx)",
         "Design System",
