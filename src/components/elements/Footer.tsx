@@ -11,8 +11,6 @@ export const Footer: FC = () => {
           <strong>Born:</strong> June 30th, 1985
           <br />
           <strong>Hometown:</strong> Rotterdam
-          <br />
-          <strong>Employer:</strong> PAY.
         </div>
       </Section>
     </div>
