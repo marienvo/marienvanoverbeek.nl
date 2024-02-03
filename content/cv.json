@@ -114,16 +114,6 @@
         "Online Marketing"
       ],
       "description": "Bijzonder Plekje is a platform that inspires people to discover unique accommodations. At Bijzonder Plekje, I focused on online strategy, web development, and enhancing website performance for higher conversion rates and increased online visibility."
-    },
-    {
-      "id": "Innovatio",
-      "company": "Innovatio",
-      "location": "Groningen",
-      "position": "FRONT-END DEVELOPMENT INTERN",
-      "startDate": "2011-02-01",
-      "endDate": "2011-07-01",
-      "skills": ["Internship", "JavaScript", "CSS"],
-      "description": "Innovatio is a digital agency that creates digital products for clients. At Innovatio, I bridged design and development, converting graphics into HTML, CSS, and JavaScript while contributing to JavaScript prototypes for various proof of concepts."
     }
   ]
 }
