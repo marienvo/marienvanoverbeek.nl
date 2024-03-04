@@ -1,0 +1,19 @@
+{
+  "id": "iO1",
+  "company": "iO",
+  "location": "Rotterdam",
+  "position": "FRONT-END DEVELOPMENT CONSULTANT",
+  "startDate": "2018-10-01",
+  "endDate": "2022-08-01",
+  "skills": [
+    "Front-End Development",
+    "Design Systems",
+    "TypeScript",
+    "React",
+    "Redux",
+    "Storybook",
+    "Jest",
+    "Scrum"
+  ],
+  "description": "iO is a digital agency that creates digital products for clients. At iO Rotterdam, I focused on enhancing consistency and implementation of design systems. My role involved refining durable component libraries to drive client results through development and other activities."
+},

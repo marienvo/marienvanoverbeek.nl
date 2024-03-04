@@ -1,7 +1,7 @@
 {
   "jobs": [
     {
-      "id": "iO",
+      "id": "iO2",
       "company": "iO",
       "location": "Rotterdam",
       "position": "FRONT-END DEVELOPMENT CONSULTANT",
@@ -34,25 +34,6 @@
         "Mentorship"
       ],
       "description": "PAY. is a fintech company that aims to make payments easier for everyone. At Pay, I developed a design system with micro front-ends for a maintainable setup, enabling quick, flexible front-end modifications, including admin portals, registration flows, and checkout screens."
-    },
-    {
-      "id": "iO",
-      "company": "iO",
-      "location": "Rotterdam",
-      "position": "FRONT-END DEVELOPMENT CONSULTANT",
-      "startDate": "2018-10-01",
-      "endDate": "2022-08-01",
-      "skills": [
-        "Front-End Development",
-        "Design Systems",
-        "TypeScript",
-        "React",
-        "Redux",
-        "Storybook",
-        "Jest",
-        "Scrum"
-      ],
-      "description": "iO is a digital agency that creates digital products for clients. At iO Rotterdam, I focused on enhancing consistency and implementation of design systems. My role involved refining durable component libraries to drive client results through development and other activities."
     },
     {
       "id": "Eneco",
