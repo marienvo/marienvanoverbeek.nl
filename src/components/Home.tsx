@@ -17,7 +17,7 @@ export default () => {
           <br />
           Overbeek
         </Heading>
-        <Heading level="h2">Front-end developer</Heading>
+        <Heading level="h2">Front-end developer Rotterdam</Heading>
         <div className="max-w-[400px]">
           <p>
             I am a software engineer specializing in TypeScript and React. I
