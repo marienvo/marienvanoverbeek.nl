@@ -8,15 +8,13 @@
       "startDate": "2024-03-18",
       "endDate": null,
       "skills": [
-        "Front-End Development",
-        "React Native",
-        "React",
         "TypeScript",
+        "React",
         "Storybook",
-        "Jest",
-        "Scrum"
+        "Design Systems",
+        "GraphQL"
       ],
-      "description": "I've returned to iO Rotterdam, a digital agency. As a React Native developer, I specialize in enhancing mobile app interfaces and guide clients, ensuring they gain solid understanding and control over their projects, leading to improved user experiences."
+      "description": "Reunited with the iO Rotterdam team as a React developer, I specialize in enhancing user interfaces and guiding clients to ensure they gain a solid understanding and control over their projects. I focus on tackling technical challenges and delivering scalable, user-friendly UI solutions."
     },
     {
       "id": "PAY.",
@@ -26,11 +24,8 @@
       "startDate": "2022-09-01",
       "endDate": "2024-02-01",
       "skills": [
-        "Micro Frontend Architecture (Nx)",
-        "Design System",
         "TypeScript",
-        "XState",
-        "Jest",
+        "Micro Frontend Architecture (Nx)",
         "Mentorship"
       ],
       "description": "PAY. is a fintech company that aims to make payments easier for everyone. At Pay, I developed a design system with micro front-ends for a maintainable setup, enabling quick, flexible front-end modifications, including admin portals, registration flows, and checkout screens."
@@ -43,11 +38,9 @@
       "startDate": "2018-10-01",
       "endDate": "2022-05-01",
       "skills": [
-        "Micro Frontend Architecture (Nx)",
         "TypeScript",
+        "Micro Frontend Architecture (Nx)",
         "React",
-        "XState",
-        "Jest",
         "Scrum",
         "Team Leadership"
       ],
