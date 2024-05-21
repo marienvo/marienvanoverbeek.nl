@@ -20,14 +20,14 @@ export default () => {
         <Heading level="h2">Front-end developer</Heading>
         <div className="max-w-[400px]">
           <p>
-            Software engineer specializing in TypeScript and React. Excels at
-            creating well-thought-out design systems, seamless API integrations,
-            and strong user experiences.
+            I am a software engineer specializing in TypeScript and React. I
+            excel at creating well-thought-out design systems, seamless API
+            integrations, and strong user experiences.
           </p>
           <p>
-            Prefers to work in a team of senior front-end colleagues, while
-            keeping close contact with the API team. Enjoys working on a product
-            that is actively used by many people.
+            I prefer working in a team of senior front-end colleagues, while
+            maintaining close contact with the API team. I enjoy working on a
+            product that is actively used by many people.
           </p>
         </div>
       </Section>
