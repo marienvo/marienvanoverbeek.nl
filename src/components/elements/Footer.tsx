@@ -11,6 +11,11 @@ export const Footer: FC = () => {
           <strong>Born:</strong> June 30th, 1985
           <br />
           <strong>Hometown:</strong> Rotterdam
+          <br />
+          <strong>LinkedIn:</strong>{" "}
+          <a href="https://www.linkedin.com/in/marienvanoverbeek">
+            marienvanoverbeek
+          </a>
         </div>
       </Section>
     </div>
