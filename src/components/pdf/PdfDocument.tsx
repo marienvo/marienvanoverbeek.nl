@@ -68,7 +68,7 @@ export default () => (
         <View style={styles.columnRight}>
           <Text style={styles.caption}>SKILLS</Text>
           <Text>• Front-end implementation</Text>
-          <Text>• Quality assurance</Text>
+          <Text>• Design systems</Text>
           <Text>• Leadership</Text>
           <Text>• Communication</Text>
         </View>

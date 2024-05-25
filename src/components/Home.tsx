@@ -55,7 +55,7 @@ export default () => {
             <Heading level="h2">SKILLS</Heading>
             <ul>
               <li>Front-end implementation</li>
-              <li>Quality assurance</li>
+              <li>Design systems</li>
               <li>Leadership</li>
               <li>Communication</li>
             </ul>
