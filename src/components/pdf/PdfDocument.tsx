@@ -19,14 +19,14 @@ export default () => (
         <View style={styles.columnLeft}>
           <Text style={styles.caption}>Front-end developer</Text>
           <Text style={styles.description}>
-            Software engineer specializing in TypeScript and React. Excels at
-            creating well-thought-out design systems, seamless API integrations,
-            and strong user experiences.
+            I am a software engineer specializing in TypeScript and React. I
+            have a strong background in creating well-thought-out design
+            systems, seamless API integrations, and strong user experiences.
           </Text>
           <Text style={styles.paragraph}>
-            Prefers to work in a team of senior front-end colleagues, while
-            keeping close contact with the API team. Enjoys working on a product
-            that is actively used by many people.
+            I prefer working in a team of senior front-end colleagues, while
+            maintaining close contact with both designers and the API team. I
+            enjoy working on a product that is actively used by many people.
           </Text>
         </View>
         <View style={styles.columnRight}>

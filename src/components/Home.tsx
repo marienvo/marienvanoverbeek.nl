@@ -21,13 +21,13 @@ export default () => {
         <div className="max-w-[400px]">
           <p>
             I am a software engineer specializing in TypeScript and React. I
-            excel at creating well-thought-out design systems, seamless API
-            integrations, and strong user experiences.
+            have a strong background in creating well-thought-out design
+            systems, seamless API integrations, and strong user experiences.
           </p>
           <p>
             I prefer working in a team of senior front-end colleagues, while
-            maintaining close contact with the API team. I enjoy working on a
-            product that is actively used by many people.
+            maintaining close contact with both designers and the API team. I
+            enjoy working on a product that is actively used by many people.
           </p>
         </div>
       </Section>
