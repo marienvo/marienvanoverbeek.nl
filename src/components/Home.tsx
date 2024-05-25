@@ -25,9 +25,10 @@ export default () => {
             systems, seamless API integrations, and strong user experiences.
           </p>
           <p>
-            I prefer working in a team of senior front-end colleagues, while
-            maintaining close contact with both designers and the API team. I
-            enjoy working on a product that is actively used by many people.
+            I prefer working in a team of front-end colleagues who are
+            passionate about learning and creating beautiful, functional
+            products, while maintaining close contact with both the API team and
+            designers.
           </p>
         </div>
       </Section>
