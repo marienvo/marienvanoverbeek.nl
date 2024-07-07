@@ -366,7 +366,7 @@
         },
         "title": "Pasta con Crema di Verza",
         "intro": "Pasta con Crema di Verza is a pasta dish made with casareccia pasta and a sauce of finely chopped savoy cabbage. The cabbage is cooked and mixed with pesto. It is complemented with vegan chicken, a plant-based alternative to chicken. This dish is often served as a nutritious and flavorful vegetarian meal.\n\nPasta con Crema di Verza originates from the Lombardy region in Italy. Lombardy is known for its rich and hearty dishes, often using local vegetables and cheeses. This dish uses savoy cabbage, which is abundant in the fall and winter in this region.",
-        "content": "",
+        "content": "As I just said",
         "images": [
             "db5f84f3ddd72aea2d64bdeedf6c875b3da2b4db7c6aa1460bbbd4b06baf9fe1.png"
         ]
@@ -417,7 +417,7 @@
         },
         "title": "Linguine Spinaci e Ricotta",
         "intro": "Linguine Spinaci e Ricotta is a pasta dish with spinach and a sauce made from Greek yogurt, lemon zest, and Parmigiano Reggiano. The spinach is briefly sautéed with garlic. The pasta cooking water is used to bind the sauce and give it a creamy texture. This dish combines fresh and savory flavors, popular in Southern Italian cuisine, particularly in the regions of Lazio, Campania, and Puglia.",
-        "content": "- Saus\n\t- Knoflook kort bakken in olie (knoflook zelf verwijderen)\n\t- Spinazie hakken, en slinken in olie (platte sauteerpan)\n\t- Ricotta en Parmegiano Reggiano (los mengen vast)\n- Pasta\n\t- Linguine",
+        "content": "- Linguine\n- Crushed garlic (briefly fried in oil, then removed)\n- Chopped spinach (wilted in oil)\n- Ricotta cheese mixed with Parmigiano Reggiano",
         "images": [
             "d3b8ed5938d11ad540343493d7d656340fb75b8b21e93bc4259644d3b272c754.png"
         ]
@@ -469,7 +469,7 @@
         },
         "title": "Rigatoni al Pesto di Avocado",
         "intro": "Rigatoni al Pesto di Avocado combines a creamy avocado sauce with a fresh pesto flavor. The sauce is made from blended avocado, pesto, quartered tomatoes, cheese, and herbs. The rigatoni is cooked, with spinach added during the last 5 minutes. Everything is mixed together and finished with a topping of basil and almonds. This dish is popular in modern Italian cuisine and is often served as a light, nutritious meal.",
-        "content": "- Saus\n\t- Avocado mixen met\n\t\t- pesto\n\t\t- tomaten in kwarten\n\t\t- kaas\n\t\t- kruiden\n- Rigatoni koken\n\t- Spinazie 5 min meekoken\n- Alles mixen\n- Topping:\n\t- Basilicum\n\t- Almonds",
+        "content": "- Blend avocado with\n\t- Pesto\n\t- Tomatoes, quartered\n\t- Cheese\n\t- Origano di Borgo\n- Cook rigatoni\n    - Cook spinach with the pasta for the last 5 minutes\n- Mix everything together\n- Topping:\n    - Basil\n    - Almonds",
         "images": [
             "5ee925d6a01c4144bbe356795244d30ee88079d4f97a624b433cdb4c604546cb.png"
         ]
@@ -496,7 +496,7 @@
         },
         "title": "Sedanini Carbonara",
         "intro": "For Pasta Carbonara, it's preferable to use hearty pastas like Rigatoni or Spaghettoni. These pastas have a thicker texture that better holds the creamy sauce, resulting in a richer taste experience. Spaghetti, being a thinner pasta, is less capable of carrying the sauce, which means the texture and flavor of the dish do not fully come into their own. The traditional choice of sturdy pasta ensures that every bite is fully enjoyed with the rich, creamy sauce and the crispy pieces of Guanciale.",
-        "content": "- Gebruik een stevige/dikke pasta, bijv. Rigatoni (geen spaghetti!)\n\t- Kook al dente / niet te lang / volgens verpakking\n- Bak de Guanciale uit, en leg de spekjes apart (topping)\n\t- 👉 **vet niet wegdoen, maar gebruiken voor de saus!**\n- Voor-mixen (kan ook direct in de pan als je handig bent)\n\t- 1 ei pp\n\t\t- 👉 **eitje meer of minder mag ook - zonder ei wordt het ook een saus, maar kun je het geen carbonara meer noemen 😜**\n\t- Kaas (40gr-60gr pp; liever teveel dan te weinig)\n\t- Zwarte peper (lekker veel)\n\t- Kookvocht van pasta (naar smaak, moet een romige saus worden, soms meer nodig, soms minder)\n\t\t- 👉 **tip: reserveer ongeveer 1 mok, meestal meer dan genoeg voor 4 pers**\n- Rigatoni door spekvet roeren\n\t- Saus toevoegen en even verhitten (niet te snel of te lang, dan wordt het een roerbak ei; het moet een romige saus worden - vroeg kookvocht toevoegen zorgt dat het ei niet bakt, en de saus romig wordt doordat de kaas erin oplost)\n\t- 👉 **de pro doet het mixen in de pan zelf zodat je maar 2 pannen nodig hebt; zorg er wel voor dat het ei geen omelet wordt, en je kookvocht goed mengt tot een romig geheel**\n- Serveren met spekjes on top (presenteert iets mooier dan erdoor)\n\t- Plus evt. wat fijngesneden peterselie en extra zwarte peper (grof gemalen)\n\n## Guanciale\n\nGuanciale is an Italian cured meat made from pork jowl. It is seasoned, air-dried, and has a richer and more intense flavor compared to pancetta, which is often made from pork belly. Guanciale is a popular ingredient in classic Italian dishes such as Pasta Carbonara and Amatriciana. Its unique taste can add a special twist to your pasta experiments!",
+        "content": "- Use a sturdy/thick pasta, e.g. Sedanini (not spaghetti!)\n- Fry the Guanciale, and set the bacon bits aside (for topping)\n    - 👉 **Do not discard the fat, use it for the sauce!**\n- Pre-mix (can also be done directly in the pan if you're skilled)\n    - 1 egg per person\n        - 👉 **More or fewer eggs are fine too - but without egg, it will still be a sauce, but you can't call it Carbonara - but \"Pasta alla Gricia\" (also a fine dish by the way)**\n    - Parmigiano Reggiano and Pecorino Romano (40g-60g per person; better too much than too little)\n    - Black pepper (a lot)\n    - Pasta cooking water (needed to make a creamy sauce, the more concentrated, the better - you need those starches)\n        - 👉 **Tip: reserve about 1 cup, usually more than enough for 4 people - you need this when mixing everything together**\n- Stir the pasta in the bacon fat\n    - Add the sauce and heat briefly (not too quickly or too long, or it will become scrambled eggs; it should become a creamy sauce - adding cooking water early ensures the egg doesn’t cook, and the cheese melts into a creamy sauce)\n    - 👉 **A pro mixes it in the pan itself so you only need 2 pans; just make sure the egg doesn’t become an omelet, and mix the cooking water well to create a creamy consistency**\n- Serve with bacon bits on top (looks nicer than mixed in)\n    - Optionally add some extra black pepper (coarsely ground)\n\n## Guanciale\n\nGuanciale is an Italian cured meat made from pork jowl. It is seasoned, air-dried, and has a richer and more intense flavor compared to pancetta, which is often made from pork belly. Guanciale is a popular ingredient in classic Italian dishes such as Pasta Carbonara and Amatriciana. Its unique taste can add a special twist to your pasta experiments!",
         "images": [
             "3b7a49d602a8b9a8fd72ebeff7394b830cda47c306605829690ceebbaeef2b87.png"
         ]
@@ -520,7 +520,7 @@
         },
         "title": "Mezze Maniche alla Valle d'Aosta",
         "intro": "Mezze Maniche alla Valle d'Aosta is a dish from the Italian region of Valle d'Aosta. This region, located in the northwestern Alps, is known for its culinary traditions rich in dairy products. The dish is made with Mezze Maniche pasta (literally: \"short sleeves\"), ham cubes, butter, Fontina cheese, and cooking cream (panna). The ham is heated with the butter, then the Fontina and cream are added. Everything is mixed well until the sauce comes together and completely coats the pasta. Fontina, a semi-hard cheese, is one of the most famous products from Valle d'Aosta and gives this dish its characteristic flavor.",
-        "content": "- Mezze Maniche\n- Hamblokjes 75gr - mengen met\n\t- Boter\n\t- Fontina (75gr) - in stukjes\n\t- Room (panna) 100ml\n\nhttps://www.youtube.com/watch?v=xplRLCgHwtM",
+        "content": "- Mezze Maniche pasta\n- 75 grams of ham cubes\n- Butter\n- 75 grams of Fontina cheese (cut into pieces)\n- 100 ml of cream (panna)\n\n## Need help?\n\n[Watch this video](https://www.youtube.com/watch?v=xplRLCgHwtM)",
         "images": [
             "c3bc227912294ec441bfb0bd133618d9c3d72e82484246c3d80d5dfee3e54b26.png"
         ]
@@ -542,7 +542,7 @@
         },
         "title": "Paccheri al Pomodoro e Fontina",
         "intro": "Pasta al Pomodoro e Fontina is an Italian dish where Paccheri pasta is combined with a sauce made from diced ripe tomatoes, minced garlic, and fresh basil leaves, all prepared in extra virgin olive oil. The pasta is mixed with grated Fontina cheese, which adds a creamy texture and rich flavor. This dish is often enjoyed in Northern Italy, especially in the Valle d'Aosta region, where Fontina cheese originates and is commonly used in variations of traditional recipes, such as Pasta al Pomodoro.",
-        "content": "- Pasta\n\t- Mezze Maniche (korte rigatoni)\n\t- Spaghettoni\n- Bakken en pureren\n\t- Knoflook en ui (niet teveel ui, evt geen ui)\n\t- Rijpe tomaten, in blokjes gesneden (bij voorkeur snacktomaten/cherry/snoeptomaten)\n\t- Verse basilicumblaadjes\n- Kaas versie\n\t- 1 el bloem toevoegen aan tomatenpuree\n\t\t- (voorkomt dat kaas aan gehemelte en vork blijft plakken)\n\t- Fontina kaas, geraspt (75gr)\n\nhttps://chatgpt.com/share/e894ad3b-d4a0-4f97-b61b-3e051e386a51\n\n## Related\n\n[[Pasta alla Valle d'Aosta con Fontina]]",
+        "content": "- Paccheri or Mezze Maniche\n- Cook and puree:\n    - Garlic and onion (not too much onion, optionally no onion even)\n    - Ripe tomatoes, diced (preferably snack tomatoes/cherry tomatoes)\n    - Fresh basil leaves\n- Cheese version (optional)\n    - Add 1 tablespoon of flour to the tomato puree (prevents cheese from sticking)\n    - Fontina cheese, grated (75g)",
         "images": []
     },
     "trofie-al-pesto": {
@@ -566,7 +566,7 @@
         },
         "title": "Trofie / Trenette al Pesto",
         "intro": "A classic dish from Liguria (a region in northwestern Italy), where green beans and potatoes are cooked together with the pasta and mixed with homemade basil pesto. Typical ingredients include fusilli pasta or trenette/linguine, green beans, potatoes, and pesto. If you can find it, using Trofie or Trenette pasta makes the meal even more special.",
-        "content": "- Fusilli pasta of Trenette/Linguine\n- Sperziebonen\n- Aardappel\n- Pesto\n- https://www.youtube.com/watch?v=AKsdiHfX-0w\n\n## Trenette\n\nTrenette is a traditional pasta from Liguria, similar to linguine but slightly narrower and often thicker. Both types of pasta have a flat, ribbon-like shape, but trenette is specifically associated with Ligurian cuisine and is often used with pesto, as in the dish Trenette al Pesto.\n\n## Trofie\n\nTrofie is also a traditional pasta from Liguria, known for its twisted, spiral shape. Unlike linguine or trenette, trofie is uniquely suited to holding thick sauces like pesto. This pasta is specifically associated with Ligurian cuisine and is often used in dishes such as Trofie al Pesto, highlighting the region's famous basil pesto.",
+        "content": "- Fusilli pasta of Trenette/Linguine\n- Sperziebonen\n- Aardappel\n- Pesto\n\n## Need help?\n\n[Watch this video](https://www.youtube.com/watch?v=AKsdiHfX-0w)\n\n## Trenette\n\nTrenette is a traditional pasta from Liguria, similar to linguine but slightly narrower and often thicker. Both types of pasta have a flat, ribbon-like shape, but trenette is specifically associated with Ligurian cuisine and is often used with pesto, as in the dish Trenette al Pesto.\n\n## Trofie\n\nTrofie is also a traditional pasta from Liguria, known for its twisted, spiral shape. Unlike linguine or trenette, trofie is uniquely suited to holding thick sauces like pesto. This pasta is specifically associated with Ligurian cuisine and is often used in dishes such as Trofie al Pesto, highlighting the region's famous basil pesto.",
         "images": [
             "91bcab878255417a4e4b7605b76e4d981a10358d868a0a23132a5de8853f161c.png"
         ]
@@ -583,16 +583,16 @@
                 "pijnboompitten 🌲"
             ],
             "sauce": [
-                "parmazan",
                 "sundried tomatoes julienne cut",
                 "veldsla/rucola",
-                "[[Sauzen|groene pesto]]"
+                "[[Sauzen|groene pesto]]",
+                "Parmigiano Reggiano"
             ],
             "score": "⭐⭐⭐"
         },
         "title": "Fusilli Pollo Vegano",
         "intro": "Fusilli Pollo Vegano is a modern pasta dish often enjoyed by vegetarians and vegans. It combines fusilli pasta with plant-based chicken nuggets, sun-dried tomatoes, pine nuts, and green pesto. This dish is often served with lamb's lettuce and arugula, and finished with Parmesan cheese. The diverse ingredients make it both nutritious and flavorful.",
-        "content": "- 500 gr pasta (wokkels)\n- 300 gr vega kipnuggets (eest bakken dan in reepjes)\n- zongedroogde tomaten (reepjes)\n- pijnboompitten\n- Groene pesto\n- parmezaanse kaas\n- zak veldsla en evt beetje rucola\n\n## Bereiden\n\n- Kook de pasta, meng met pesto\n\t- ghiottole is net wat dikker/groter, fijne combinatie met de tevens grove veldsla\n- Bak de vega nuggets en snijd in reepjes\n- Voeg tom. reepjes en gebakken pijnboompitten toe",
+        "content": "- 500 grams of fusilli or ghiottole\n\t- Ghiottole is a larger/thicker pasta combines better with the large lamb's lettuce leaves\n- 300 grams of vegan chicken nuggets (fried, then sliced into strips)\n- Sun-dried tomatoes (cut into strips)\n- Pine nuts\n- Green pesto\n- Shavings of Parmigiano Reggiano\n- Bag of lamb's lettuce",
         "images": [
             "b529d957d8c784e5a0fd2d6d02ae6af6266cea39bebbb812e04cbf85130b05d1.png"
         ]
@@ -620,7 +620,7 @@
         },
         "title": "Piatto di Pollo Messicano",
         "intro": "Piatto di Pollo Messicano is a dish that yields five servings and consists of various layers and ingredients. For the base, 400 grams of vegan chicken strips and raisins are used. The foundation includes 400 grams of penne pasta and two servings of red pesto. The sauce, which is simmered, contains two cans of diced tomatoes, one onion, Red Yucateco sauce, and Italian herbs. Aged grated cheese is used as a topping, baked until golden brown in the oven for 30 minutes at 180°C. This dish combines the spicy flavor of the Mexican Yucateco sauce with the savory notes of Italian herbs and the rich taste of aged cheese.",
-        "content": "- Bodem\n\t- 400 gram vega kip-reepjes\n\t- rozijnen\n- Basis\n\t- 400 gr pasta (penne)\n\t- 2x pesto rood\n- Saus (inkoken)\n\t- 2 bliken tomatenblokjes\n\t- 1 ui\n\t- Rode Yucateco\n\t- Italiaanse kruiden\n- Topping\n\t- Belegen strooikaas\n\t- 30´ op 180 °C in oven tot kaas goudbruin is\n\n\n",
+        "content": "- Base\n    - 400 grams of vegan chicken strips\n    - Raisins\n- Main\n    - 400 grams of pasta (penne)\n    - 2 jars of red pesto\n- Sauce (reduce)\n    - 2 cans of diced tomatoes\n    - 1 onion\n    - Red Yucateco\n    - Thyme\n- Topping\n    - Aged grated cheese\n    - 30 minutes at 180°C in the oven until the cheese is golden brown\n\n\n",
         "images": [
             "7d42e935359ccb344a1f7468afc3130d77bb1669d32021bb3df03cd1f64763cb.png"
         ]
@@ -647,7 +647,7 @@
         },
         "title": "Radiatori da Philadelphia",
         "intro": "Radiatori da Philadelphia is a dish consisting of radiatori pasta with a sauce made from sautéed zucchini, sliced cherry tomatoes, and low-fat Philadelphia cream cheese as the base, which can be substituted with hummus for a healthier option. Parmigiano Reggiano is added for extra flavor. The zucchini and tomatoes are mixed into the sauce, ensuring the pasta is fully coated. This dish is particularly popular in urban areas such as Rome, Milan, and Florence, where modern cuisine and fusion dishes are more widely accepted.",
-        "content": "- Saus\n\t- Halve courgette, in dunne kleine stukjes gebakken\n\t- 5 snoeptomaatjes (in achten)\n\t- Philadelphia (low fat) - niet verhitten\n\t\t- gezonder alternatief: hummus\n\t- Parmegiano Reggiano",
+        "content": "- Radiatori\n- Half a zucchini, sautéed in thin small pieces\n- 5 cherry tomatoes (cut into eighths)\n- Philadelphia (low fat) - do not heat\n    - Healthier alternative: hummus\n- Parmigiano Reggiano",
         "images": [
             "cec112e088b54fac808f3251f8adb2680ef5b7e085a37dadede35286d99a1bc2.png"
         ]
