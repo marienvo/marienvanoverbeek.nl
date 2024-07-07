@@ -365,7 +365,7 @@
             "score": "⭐⭐⭐"
         },
         "title": "Pasta con Crema di Verza",
-        "intro": "Vega Kip Casareccia is een pastagerecht bereid met casareccia pasta en een saus van fijngesneden spitskool. De spitskool wordt gekookt en gemengd met pesto, mosterd en diverse kruiden. Het geheel wordt aangevuld met vega kip, wat een plantaardig alternatief is voor kip. Dit gerecht wordt vaak geserveerd als een voedzame en smakelijke vegetarische maaltijd.\n\nPasta con Crema di Verza komt oorspronkelijk uit de regio Lombardije in Italië. Lombardije staat bekend om zijn rijke en hartige gerechten, vaak met gebruik van lokale groenten en kazen. Dit gerecht maakt gebruik van de verza (savooiekool), die in de herfst en winter in overvloed is in deze regio.",
+        "intro": "Pasta con Crema di Verza is a pasta dish made with casareccia pasta and a sauce of finely chopped savoy cabbage. The cabbage is cooked and mixed with pesto. It is complemented with vegan chicken, a plant-based alternative to chicken. This dish is often served as a nutritious and flavorful vegetarian meal.\n\nPasta con Crema di Verza originates from the Lombardy region in Italy. Lombardy is known for its rich and hearty dishes, often using local vegetables and cheeses. This dish uses savoy cabbage, which is abundant in the fall and winter in this region.",
         "content": "",
         "images": [
             "db5f84f3ddd72aea2d64bdeedf6c875b3da2b4db7c6aa1460bbbd4b06baf9fe1.png"
@@ -416,7 +416,7 @@
             "score": "⭐⭐"
         },
         "title": "Linguine Spinaci e Ricotta",
-        "intro": "Linguine Spinaci is een pastagerecht met orecchiette, spinazie, en een saus van Griekse yoghurt, citroen zest, en Parmegiano Reggiano. De spinazie wordt kort gebakken met knoflook. Het kookvocht van de pasta wordt gebruikt om de saus te binden en een romige textuur te geven. Dit gerecht combineert frisse en hartige smaken, populair in de Zuid-Italiaanse keuken - vooral regios Lazio, Campania en Puglia.",
+        "intro": "Linguine Spinaci e Ricotta is a pasta dish with spinach and a sauce made from Greek yogurt, lemon zest, and Parmigiano Reggiano. The spinach is briefly sautéed with garlic. The pasta cooking water is used to bind the sauce and give it a creamy texture. This dish combines fresh and savory flavors, popular in Southern Italian cuisine, particularly in the regions of Lazio, Campania, and Puglia.",
         "content": "- Saus\n\t- Knoflook kort bakken in olie (knoflook zelf verwijderen)\n\t- Spinazie hakken, en slinken in olie (platte sauteerpan)\n\t- Ricotta en Parmegiano Reggiano (los mengen vast)\n- Pasta\n\t- Linguine",
         "images": [
             "d3b8ed5938d11ad540343493d7d656340fb75b8b21e93bc4259644d3b272c754.png"
@@ -446,34 +446,6 @@
         "content": "",
         "images": []
     },
-    "piatto-di-pollo-piccante": {
-        "meta": {
-            "type": "Recipe",
-            "region": "not traditional",
-            "serve": "🍲",
-            "score": "⭐⭐⭐",
-            "base": "penne",
-            "sauce": [
-                "pesto rosso",
-                "2 cans tomatenblokjes",
-                "ui",
-                "red chili sauce",
-                "oregano"
-            ],
-            "topping": [
-                "rozijnen",
-                "belegen strooikaas"
-            ],
-            "prepable": "few days 📅",
-            "protein": "vega kip"
-        },
-        "title": "Piatto di Pollo Piccante",
-        "intro": "Piatto di Pollo Piccante is een gerecht dat vijf porties oplevert en bestaat uit verschillende lagen en ingrediënten. Voor de bodem worden 400 gram vega kip-reepjes en rozijnen gebruikt. De basis bestaat uit 400 gram penne pasta en twee porties rode pesto. De saus, die ingekookt wordt, bevat twee blikken tomatenblokjes, een ui, Rode Yucateco saus, en Italiaanse kruiden. Als topping wordt belegen strooikaas gebruikt, die gedurende 30 minuten op 180°C in de oven goudbruin wordt gebakken. Dit gerecht combineert de pittige smaak van de Yucateco saus met de hartige tonen van de Italiaanse kruiden en de rijke smaak van de belegen kaas.",
-        "content": "- Bodem\n\t- 400 gram vega kip-reepjes\n\t- rozijnen\n- Basis\n\t- 400 gr pasta (penne)\n\t- 2x pesto rood\n- Saus (inkoken)\n\t- 2 bliken tomatenblokjes\n\t- 1 ui\n\t- Rode Yucateco\n\t- Italiaanse kruiden\n- Topping\n\t- Belegen strooikaas\n\t- 30´ op 180 °C in oven tot kaas goudbruin is\n\n\n\n## More veggies?\n\n- Brussels sprouts? 50% proberen\n- Bloemkool? 50% proberen",
-        "images": [
-            "7d42e935359ccb344a1f7468afc3130d77bb1669d32021bb3df03cd1f64763cb.png"
-        ]
-    },
     "rigatoni-al-pesto-di-avocado": {
         "meta": {
             "type": "Recipe",
@@ -496,7 +468,7 @@
             "score": "⭐⭐⭐"
         },
         "title": "Rigatoni al Pesto di Avocado",
-        "intro": "Rigatoni avocado pesto combineert een romige avocadosaus met een frisse pestosmaak. De saus bestaat uit gemixte avocado, pesto, tomaten in kwarten, kaas en kruiden. De rigatoni wordt gekookt, waarbij de spinazie de laatste 5 minuten wordt meegekookt. Het geheel wordt gemengd en afgemaakt met een topping van basilicum en amandelen. Dit gerecht is populair in de moderne Italiaanse keuken en wordt vaak geserveerd als een lichte, voedzame maaltijd.",
+        "intro": "Rigatoni al Pesto di Avocado combines a creamy avocado sauce with a fresh pesto flavor. The sauce is made from blended avocado, pesto, quartered tomatoes, cheese, and herbs. The rigatoni is cooked, with spinach added during the last 5 minutes. Everything is mixed together and finished with a topping of basil and almonds. This dish is popular in modern Italian cuisine and is often served as a light, nutritious meal.",
         "content": "- Saus\n\t- Avocado mixen met\n\t\t- pesto\n\t\t- tomaten in kwarten\n\t\t- kaas\n\t\t- kruiden\n- Rigatoni koken\n\t- Spinazie 5 min meekoken\n- Alles mixen\n- Topping:\n\t- Basilicum\n\t- Almonds",
         "images": [
             "5ee925d6a01c4144bbe356795244d30ee88079d4f97a624b433cdb4c604546cb.png"
@@ -523,7 +495,7 @@
             "score": "⭐⭐⭐"
         },
         "title": "Sedanini Carbonara",
-        "intro": "Voor Pasta Carbonara worden vaak stevige pasta's gebruikt zoals **Rigatoni**, **Spaghettoni** of **Sedanini**. Deze pasta's hebben een dikkere textuur die de romige saus beter vasthouden, wat zorgt voor een rijkere smaakbeleving.\n\nSpaghetti is een dunne pasta die minder goed in staat is om de saus te dragen, waardoor de textuur en smaak van het gerecht niet volledig tot hun recht komen. De traditionele keuze voor stevige pasta zorgt ervoor dat elke hap optimaal geniet van de rijke, romige saus en de knapperige stukjes Guanciale.",
+        "intro": "For Pasta Carbonara, it's preferable to use hearty pastas like Rigatoni or Spaghettoni. These pastas have a thicker texture that better holds the creamy sauce, resulting in a richer taste experience. Spaghetti, being a thinner pasta, is less capable of carrying the sauce, which means the texture and flavor of the dish do not fully come into their own. The traditional choice of sturdy pasta ensures that every bite is fully enjoyed with the rich, creamy sauce and the crispy pieces of Guanciale.",
         "content": "- Gebruik een stevige/dikke pasta, bijv. Rigatoni (geen spaghetti!)\n\t- Kook al dente / niet te lang / volgens verpakking\n- Bak de Guanciale uit, en leg de spekjes apart (topping)\n\t- 👉 **vet niet wegdoen, maar gebruiken voor de saus!**\n- Voor-mixen (kan ook direct in de pan als je handig bent)\n\t- 1 ei pp\n\t\t- 👉 **eitje meer of minder mag ook - zonder ei wordt het ook een saus, maar kun je het geen carbonara meer noemen 😜**\n\t- Kaas (40gr-60gr pp; liever teveel dan te weinig)\n\t- Zwarte peper (lekker veel)\n\t- Kookvocht van pasta (naar smaak, moet een romige saus worden, soms meer nodig, soms minder)\n\t\t- 👉 **tip: reserveer ongeveer 1 mok, meestal meer dan genoeg voor 4 pers**\n- Rigatoni door spekvet roeren\n\t- Saus toevoegen en even verhitten (niet te snel of te lang, dan wordt het een roerbak ei; het moet een romige saus worden - vroeg kookvocht toevoegen zorgt dat het ei niet bakt, en de saus romig wordt doordat de kaas erin oplost)\n\t- 👉 **de pro doet het mixen in de pan zelf zodat je maar 2 pannen nodig hebt; zorg er wel voor dat het ei geen omelet wordt, en je kookvocht goed mengt tot een romig geheel**\n- Serveren met spekjes on top (presenteert iets mooier dan erdoor)\n\t- Plus evt. wat fijngesneden peterselie en extra zwarte peper (grof gemalen)\n\n## Guanciale\n\nGuanciale is een Italiaans spek dat gemaakt wordt van varkenswang. Het is gekruid, luchtgedroogd en heeft een rijkere en intensere smaak vergeleken met pancetta, wat vaak van de varkensbuik wordt gemaakt. Guanciale is een populair ingrediënt in klassieke Italiaanse gerechten zoals Pasta Carbonara en Amatriciana. Door de unieke smaak kan het een bijzondere draai geven aan je pasta-experimenten!",
         "images": [
             "3b7a49d602a8b9a8fd72ebeff7394b830cda47c306605829690ceebbaeef2b87.png"
@@ -547,7 +519,7 @@
             "score": "⭐⭐⭐"
         },
         "title": "Mezze Maniche alla Valle d'Aosta",
-        "intro": "Mezze Maniche alla Valle d'Aosta is een gerecht uit de Italiaanse regio Valle d'Aosta. Deze regio, gelegen in de noordwestelijke Alpen, staat bekend om zijn culinaire tradities die rijk zijn aan zuivelproducten. Het gerecht wordt gemaakt met de pasta Mezze Maniche (letterlijk: \"korte mouwen\"), hamblokjes, boter, Fontina kaas, en kookroom (panna). De ham wordt samen met de boter verwarmd, waarna de Fontina en room worden toegevoegd. Alles wordt goed gemengd totdat de saus een geheel vormt en de pasta volledig bedekt. Fontina, een halfharde kaas, is een van de beroemdste producten uit Valle d'Aosta en geeft dit gerecht zijn karakteristieke smaak.",
+        "intro": "Mezze Maniche alla Valle d'Aosta is a dish from the Italian region of Valle d'Aosta. This region, located in the northwestern Alps, is known for its culinary traditions rich in dairy products. The dish is made with Mezze Maniche pasta (literally: \"short sleeves\"), ham cubes, butter, Fontina cheese, and cooking cream (panna). The ham is heated with the butter, then the Fontina and cream are added. Everything is mixed well until the sauce comes together and completely coats the pasta. Fontina, a semi-hard cheese, is one of the most famous products from Valle d'Aosta and gives this dish its characteristic flavor.",
         "content": "- Mezze Maniche\n- Hamblokjes 75gr - mengen met\n\t- Boter\n\t- Fontina (75gr) - in stukjes\n\t- Room (panna) 100ml\n\nhttps://www.youtube.com/watch?v=xplRLCgHwtM",
         "images": [
             "c3bc227912294ec441bfb0bd133618d9c3d72e82484246c3d80d5dfee3e54b26.png"
@@ -569,7 +541,7 @@
             "score": "⭐⭐⭐"
         },
         "title": "Paccheri al Pomodoro e Fontina",
-        "intro": "Pasta al Pomodoro e Fontina is een Italiaans gerecht waarbij mezze maniche pasta wordt gecombineerd met een saus van in blokjes gesneden rijpe tomaten, fijngehakte knoflook en verse basilicumblaadjes, alles bereid in extra vergine olijfolie. De pasta wordt gemengd met geraspte Fontina kaas, die een romige textuur en rijke smaak toevoegt. Dit gerecht wordt vaak gegeten in Noord-Italië, vooral in de regio Valle d'Aosta, waar Fontina kaas vandaan komt en vaak wordt gebruikt in variaties van traditionele recepten; zoals ook Pasta al Pomodoro.",
+        "intro": "Pasta al Pomodoro e Fontina is an Italian dish where Paccheri pasta is combined with a sauce made from diced ripe tomatoes, minced garlic, and fresh basil leaves, all prepared in extra virgin olive oil. The pasta is mixed with grated Fontina cheese, which adds a creamy texture and rich flavor. This dish is often enjoyed in Northern Italy, especially in the Valle d'Aosta region, where Fontina cheese originates and is commonly used in variations of traditional recipes, such as Pasta al Pomodoro.",
         "content": "- Pasta\n\t- Mezze Maniche (korte rigatoni)\n\t- Spaghettoni\n- Bakken en pureren\n\t- Knoflook en ui (niet teveel ui, evt geen ui)\n\t- Rijpe tomaten, in blokjes gesneden (bij voorkeur snacktomaten/cherry/snoeptomaten)\n\t- Verse basilicumblaadjes\n- Kaas versie\n\t- 1 el bloem toevoegen aan tomatenpuree\n\t\t- (voorkomt dat kaas aan gehemelte en vork blijft plakken)\n\t- Fontina kaas, geraspt (75gr)\n\nhttps://chatgpt.com/share/e894ad3b-d4a0-4f97-b61b-3e051e386a51\n\n## Related\n\n[[Pasta alla Valle d'Aosta con Fontina]]",
         "images": []
     },
@@ -592,9 +564,9 @@
             ],
             "score": "⭐⭐⭐"
         },
-        "title": "Trofie al Pesto",
-        "intro": "Klassiek gerecht uit **Ligurië** (een regio in het noordwesten van Italië), waarbij sperziebonen en aardappelen samen met de pasta worden gekookt en gemengd met huisgemaakte basilicumpesto. Typische ingrediënten zijn fusilli pasta of trenette/linguine, sperziebonen, aardappel en pesto.",
-        "content": "- Fusilli pasta of Trenette/Linguine\n- Sperziebonen\n- Aardappel\n- Pesto\n- https://www.youtube.com/watch?v=AKsdiHfX-0w\n\n## Trenette\n\nTrenette is een traditionele pastasoort uit Ligurië, vergelijkbaar met linguine, maar iets smaller en vaak dikker. Beide soorten pasta hebben een platte, lintachtige vorm, maar trenette wordt specifiek geassocieerd met de Ligurische keuken en wordt vaak gebruikt in combinatie met pesto, zoals in het gerecht Trenette al Pesto.",
+        "title": "Trofie / Trenette al Pesto",
+        "intro": "A classic dish from Liguria (a region in northwestern Italy), where green beans and potatoes are cooked together with the pasta and mixed with homemade basil pesto. Typical ingredients include fusilli pasta or trenette/linguine, green beans, potatoes, and pesto. If you can find it, using Trofie or Trenette pasta makes the meal even more special.",
+        "content": "- Fusilli pasta of Trenette/Linguine\n- Sperziebonen\n- Aardappel\n- Pesto\n- https://www.youtube.com/watch?v=AKsdiHfX-0w\n\n## Trenette\n\nTrenette is a traditional pasta from Liguria, similar to linguine but slightly narrower and often thicker. Both types of pasta have a flat, ribbon-like shape, but trenette is specifically associated with Ligurian cuisine and is often used with pesto, as in the dish Trenette al Pesto.\n\n## Trofie\n\nTrofie is also a traditional pasta from Liguria, known for its twisted, spiral shape. Unlike linguine or trenette, trofie is uniquely suited to holding thick sauces like pesto. This pasta is specifically associated with Ligurian cuisine and is often used in dishes such as Trofie al Pesto, highlighting the region's famous basil pesto.",
         "images": [
             "91bcab878255417a4e4b7605b76e4d981a10358d868a0a23132a5de8853f161c.png"
         ]
@@ -619,13 +591,41 @@
             "score": "⭐⭐⭐"
         },
         "title": "Fusilli Pollo Vegano",
-        "intro": "Dit gerecht combineert de hartige smaak van pesto met de knapperigheid van vega kipnuggets en pijnboompitten, aangevuld met frisse veldsla en rucola.",
+        "intro": "Fusilli Pollo Vegano is a modern pasta dish often enjoyed by vegetarians and vegans. It combines fusilli pasta with plant-based chicken nuggets, sun-dried tomatoes, pine nuts, and green pesto. This dish is often served with lamb's lettuce and arugula, and finished with Parmesan cheese. The diverse ingredients make it both nutritious and flavorful.",
         "content": "- 500 gr pasta (wokkels)\n- 300 gr vega kipnuggets (eest bakken dan in reepjes)\n- zongedroogde tomaten (reepjes)\n- pijnboompitten\n- Groene pesto\n- parmezaanse kaas\n- zak veldsla en evt beetje rucola\n\n## Bereiden\n\n- Kook de pasta, meng met pesto\n\t- ghiottole is net wat dikker/groter, fijne combinatie met de tevens grove veldsla\n- Bak de vega nuggets en snijd in reepjes\n- Voeg tom. reepjes en gebakken pijnboompitten toe",
         "images": [
             "b529d957d8c784e5a0fd2d6d02ae6af6266cea39bebbb812e04cbf85130b05d1.png"
         ]
     },
-    "radiatori-zucchini": {
+    "piatto-di-pollo-messicano": {
+        "meta": {
+            "type": "Recipe",
+            "region": "not traditional",
+            "serve": "🍲",
+            "score": "⭐⭐⭐",
+            "base": "penne",
+            "sauce": [
+                "pesto rosso",
+                "2 cans tomatenblokjes",
+                "ui",
+                "red chili sauce",
+                "oregano"
+            ],
+            "topping": [
+                "rozijnen",
+                "belegen strooikaas"
+            ],
+            "prepable": "few days 📅",
+            "protein": "vega kip"
+        },
+        "title": "Piatto di Pollo Messicano",
+        "intro": "Piatto di Pollo Messicano is a dish that yields five servings and consists of various layers and ingredients. For the base, 400 grams of vegan chicken strips and raisins are used. The foundation includes 400 grams of penne pasta and two servings of red pesto. The sauce, which is simmered, contains two cans of diced tomatoes, one onion, Red Yucateco sauce, and Italian herbs. Aged grated cheese is used as a topping, baked until golden brown in the oven for 30 minutes at 180°C. This dish combines the spicy flavor of the Mexican Yucateco sauce with the savory notes of Italian herbs and the rich taste of aged cheese.",
+        "content": "- Bodem\n\t- 400 gram vega kip-reepjes\n\t- rozijnen\n- Basis\n\t- 400 gr pasta (penne)\n\t- 2x pesto rood\n- Saus (inkoken)\n\t- 2 bliken tomatenblokjes\n\t- 1 ui\n\t- Rode Yucateco\n\t- Italiaanse kruiden\n- Topping\n\t- Belegen strooikaas\n\t- 30´ op 180 °C in oven tot kaas goudbruin is\n\n\n\n## More veggies?\n\n- Brussels sprouts? 50% proberen\n- Bloemkool? 50% proberen",
+        "images": [
+            "7d42e935359ccb344a1f7468afc3130d77bb1669d32021bb3df03cd1f64763cb.png"
+        ]
+    },
+    "radiatori-da-philadelphia": {
         "meta": {
             "type": "Recipe",
             "region": "not traditional",
@@ -645,8 +645,8 @@
             ],
             "score": "⭐⭐⭐"
         },
-        "title": "Radiatori Zucchini",
-        "intro": "Zucchini Radiatori is een gerecht dat bestaat uit radiatori pasta met een saus van gebakken courgette, gesneden snoeptomaatjes, en Philadelphia (low fat) als basis, wat kan worden vervangen door hummus voor een gezondere optie. Parmegiano Reggiano wordt toegevoegd voor extra smaak. De courgette en tomaatjes worden in de saus gemengd, zodat deze de pasta volledig bedekt. Vooral populair in stedelijke gebieden zoals Rome, Milaan, en Florence, waar de moderne keuken en fusion-gerechten meer geaccepteerd worden.\n\nZucchini Radiatori is een gerecht dat bestaat uit radiatori pasta met een saus van gebakken courgette, gesneden snoeptomaatjes, en Philadelphia (low fat) als basis, wat kan worden vervangen door hummus voor een gezondere optie. Parmegiano Reggiano wordt toegevoegd voor extra smaak. De courgette en tomaatjes worden in de saus gemengd, zodat deze de pasta volledig bedekt. Vooral populair in stedelijke gebieden zoals Rome, Milaan, en Florence, waar de moderne keuken en fusion-gerechten meer geaccepteerd worden.",
+        "title": "Radiatori da Philadelphia",
+        "intro": "Radiatori da Philadelphia is a dish consisting of radiatori pasta with a sauce made from sautéed zucchini, sliced cherry tomatoes, and low-fat Philadelphia cream cheese as the base, which can be substituted with hummus for a healthier option. Parmigiano Reggiano is added for extra flavor. The zucchini and tomatoes are mixed into the sauce, ensuring the pasta is fully coated. This dish is particularly popular in urban areas such as Rome, Milan, and Florence, where modern cuisine and fusion dishes are more widely accepted.",
         "content": "- Saus\n\t- Halve courgette, in dunne kleine stukjes gebakken\n\t- 5 snoeptomaatjes (in achten)\n\t- Philadelphia (low fat) - niet verhitten\n\t\t- gezonder alternatief: hummus\n\t- Parmegiano Reggiano",
         "images": [
             "cec112e088b54fac808f3251f8adb2680ef5b7e085a37dadede35286d99a1bc2.png"
