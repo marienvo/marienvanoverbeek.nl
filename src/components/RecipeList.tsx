@@ -19,19 +19,28 @@ export default () => {
   return (
     <>
       <Section>
-        <Heading level="h1">Recipes</Heading>
-        <Heading level="h2">subtiltle</Heading>
+        <Heading level="h1">
+          One-Pot
+          <br />
+          No Spot
+        </Heading>
         <div className="max-w-[400px]">
-          <p>123</p>
+          <p>
+            No one has time for extensive cooking. That's why I have a selection
+            of one-pot dishes. These recipes are not only quick & easy, but also
+            ensure minimal dishes. Delightful.
+          </p>
         </div>
       </Section>
       <Devider />
       <Section>
-        {Object.keys(recipes).map((recipe) => (
-          <RecipeSnippet
-            recipe={recipesWithSlugs[recipe as keyof typeof recipesWithSlugs]}
-          />
-        ))}
+        {Object.keys(recipes)
+          .sort()
+          .map((recipe) => (
+            <RecipeSnippet
+              recipe={recipesWithSlugs[recipe as keyof typeof recipesWithSlugs]}
+            />
+          ))}
       </Section>
     </>
   );

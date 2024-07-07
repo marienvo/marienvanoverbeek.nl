@@ -1,18 +1,21 @@
 import React, { type FC } from "react";
 import { Heading } from "./Heading.tsx";
 import recipes from "../../content/recipes.json";
+import ReactMarkdown from "react-markdown";
+import settings from "../../constants/settings.json";
 
 export const RecipeSnippet: FC<RecipeProperties> = ({ recipe }) => {
-  if (recipe.meta.score === "❓") return null;
+  if (!recipe.meta.score.includes("⭐")) return null;
 
   return (
-    <div>
+    <div style={{ marginBottom: 40 }}>
       <Heading level="h2">
-        <a href={`/recipes/${recipe.slug}`}>
+        <a href={`/${settings.recipeSlug}/${recipe.slug}`}>
           {recipe.title}
           <sup>{recipe.meta.score}</sup>
         </a>
       </Heading>
+      <ReactMarkdown>{recipe.intro}</ReactMarkdown>
     </div>
   );
 };
