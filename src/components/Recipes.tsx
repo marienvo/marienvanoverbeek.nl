@@ -2,8 +2,18 @@ import { Section } from "./elements/Section.tsx";
 import { Heading } from "./elements/Heading.tsx";
 import React from "react";
 import { Devider } from "./elements/Devider.tsx";
-import { Recipe } from "./elements/Recipe.tsx";
+import { RecipeSnippet } from "./elements/RecipeSnippet.tsx";
 import recipes from "../content/recipes.json";
+
+const recipesWithSlugs = Object.keys(recipes).reduce((acc, recipe) => {
+  return {
+    ...acc,
+    [recipe]: {
+      ...recipes[recipe as keyof typeof recipes],
+      slug: recipe,
+    },
+  };
+}, {});
 
 export default () => {
   return (
@@ -17,11 +27,15 @@ export default () => {
       </Section>
       <Devider />
       <Section>
-        <Heading level="h2">blabal</Heading>
         {Object.keys(recipes).map((recipe) => (
-          <Recipe recipe={recipes[recipe as keyof typeof recipes]} />
+          <RecipeSnippet
+            recipe={recipesWithSlugs[recipe as keyof typeof recipesWithSlugs]}
+          />
         ))}
       </Section>
     </>
   );
 };
+
+type RecipesType = typeof recipes;
+type Recipe = RecipesType[keyof RecipesType];
