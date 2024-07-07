@@ -2,6 +2,8 @@ import { Section } from "./elements/Section.tsx";
 import { Heading } from "./elements/Heading.tsx";
 import React from "react";
 import { Devider } from "./elements/Devider.tsx";
+import { Recipe } from "./elements/Recipe.tsx";
+import recipes from "../content/recipes.json";
 
 export default () => {
   return (
@@ -16,7 +18,9 @@ export default () => {
       <Devider />
       <Section>
         <Heading level="h2">blabal</Heading>
-        sdf
+        {Object.keys(recipes).map((recipe) => (
+          <Recipe recipe={recipes[recipe as keyof typeof recipes]} />
+        ))}
       </Section>
     </>
   );
