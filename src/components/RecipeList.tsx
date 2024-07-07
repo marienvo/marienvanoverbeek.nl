@@ -42,6 +42,14 @@ export default () => {
             />
           ))}
       </Section>
+      <div className="w-full bg-gray-800 text-gray-50">
+        <Section isTransparent>
+          <br />
+          <br />
+          <br />
+          <br />
+        </Section>
+      </div>
     </>
   );
 };

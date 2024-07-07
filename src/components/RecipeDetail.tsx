@@ -5,6 +5,7 @@ import { Devider } from "./elements/Devider.tsx";
 import recipes from "../content/recipes.json";
 import ReactMarkdown from "react-markdown";
 import settings from "../constants/settings.json";
+import { Footer } from "./elements/Footer.tsx";
 
 export default ({ recipe }: { recipe: Recipe }) => {
   return (
@@ -42,6 +43,14 @@ export default ({ recipe }: { recipe: Recipe }) => {
           {recipe.content}
         </ReactMarkdown>
       </Section>
+      <div className="w-full bg-gray-800 text-gray-50">
+        <Section isTransparent>
+          <br />
+          <br />
+          <br />
+          <br />
+        </Section>
+      </div>
     </>
   );
 };
