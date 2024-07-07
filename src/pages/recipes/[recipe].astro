@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RecipeDetail from './../../components/RecipeDetail.tsx';
+import recipes from "../../content/recipes.json";
+
+export async function getStaticPaths() {
+  return Object.keys(recipes).map(recipe => ({
+    params: { recipe }
+  }));
+}
+
+const { recipe } = Astro.params;
+
+// Get the specific recipe data
+const recipeData = recipes[recipe];
+---
+
+<Layout title={recipeData.title}>
+  <RecipeDetail recipe={recipeData} />
+</Layout>
