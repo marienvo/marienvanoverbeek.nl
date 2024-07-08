@@ -12,7 +12,7 @@ export const RecipeSnippet: FC<RecipeProperties> = ({ recipe }) => {
       <Heading level="h2">
         <a href={`/${settings.recipeSlug}/${recipe.slug}`}>
           {recipe.title}
-          <sup>{recipe.meta.score}{recipe.meta.vega && ` 🌿`}{recipe.meta.vegan && ` ✅`}</sup>
+          <sup>{(recipe.meta.vegan && `🌿✨`) || (recipe.meta.vega && `🍃`)}</sup>
         </a>
       </Heading>
       <ReactMarkdown>{recipe.intro}</ReactMarkdown>
