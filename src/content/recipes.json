@@ -554,7 +554,7 @@
         },
         "title": "Paccheri al Pomodoro e Fontina",
         "intro": "Pasta al Pomodoro e Fontina is an Italian dish where Paccheri pasta is combined with a sauce made from diced ripe tomatoes, minced garlic, and fresh basil leaves, all prepared in extra virgin olive oil. The pasta is mixed with grated Fontina cheese, which adds a creamy texture and rich flavor. This dish is often enjoyed in Northern Italy, especially in the Valle d'Aosta region, where Fontina cheese originates and is commonly used in variations of traditional recipes, such as Pasta al Pomodoro.",
-        "content": "- Paccheri or Mezze Maniche\n- Fontina cheese\n- Tomatoes (preferably snack tomatoes/cherry tomatoes)\n- Garlic\n- Small onion\n- Fresh basil\n- Flour\n\n## Steps\n\n- Cook the pasta\n- Cook and puree:\n    - Garlic and onion (not too much onion, optionally no onion even)\n    - Ripe tomatoes, diced\n    - Fresh basil leaves\n- Cheese version (optional)\n    - Add 1 tablespoon of flour to the tomato puree (prevents cheese from sticking)\n    - Fontina cheese, grated (75g)",
+        "content": "- Paccheri or Mezze Maniche\n- Fontina cheese\n- Tomatoes (preferably snack tomatoes/cherry tomatoes)\n- Garlic\n- Small onion\n- Fresh basil\n- Flour\n\n## Steps\n\n- Cook the pasta\n- Cook and puree:\n    - Garlic and onion (not too much onion, optionally no onion even)\n    - Ripe tomatoes, diced\n    - Fresh basil leaves\n- Add 1 tablespoon of flour to the tomato puree (prevents cheese from sticking)\n- Fontina cheese, grated (75g)",
         "images": []
     },
     "pasta-con-crema-di-verza": {
@@ -735,5 +735,27 @@
         "images": [
             "91bcab878255417a4e4b7605b76e4d981a10358d868a0a23132a5de8853f161c.png"
         ]
+    },
+    "paccheri-al-pomodoro": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": true,
+            "healthy": "🥬🥬",
+            "region": null,
+            "serve": "🍲",
+            "base": "paccheri",
+            "prepable": "fresh only 🌿",
+            "protein": null,
+            "topping": null,
+            "sauce": [
+                "tomaat"
+            ],
+            "score": "⭐⭐⭐"
+        },
+        "title": "Paccheri al Pomodoro",
+        "intro": "Pasta al Pomodoro is a traditional Italian dish consisting of pasta served with a sauce made from fresh tomatoes, olive oil, garlic, basil, and sometimes onion. This dish emphasizes the simplicity and quality of the ingredients and is often eaten throughout Italy, especially during the summer when tomatoes are at their best. It holds an important place in Italian cuisine due to its easy preparation and flavorful result.",
+        "content": "- Paccheri or Mezze Maniche\n- Tomatoes (preferably snack tomatoes/cherry tomatoes)\n- Garlic\n- Small onion\n- Fresh basil\n\n## Steps\n\n- Cook the pasta\n- Cook and puree:\n    - Garlic and onion (not too much onion, optionally no onion even)\n    - Ripe tomatoes, diced\n    - Fresh basil leaves",
+        "images": []
     }
 }
