@@ -16,6 +16,7 @@ export const RecipeSnippet: FC<RecipeProperties> = ({ recipe }) => {
         </a>
       </Heading>
       <ReactMarkdown>{recipe.intro}</ReactMarkdown>
+      <p>Health score: {recipe.meta.healthy}</p>
     </div>
   );
 };

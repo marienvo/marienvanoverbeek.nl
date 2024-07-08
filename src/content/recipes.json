@@ -2,6 +2,9 @@
     "cashew-salad": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": "🥗",
             "base": "farfalle",
             "prepable": null,
@@ -27,6 +30,9 @@
     "creamy-red-peppers": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": "🍲",
             "base": "orecchiette",
             "prepable": null,
@@ -58,6 +64,9 @@
     "fusilli-primavera": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": "🍲",
             "base": "fusilli",
             "prepable": null,
@@ -84,6 +93,9 @@
     "fusilli-zucchini": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": "🍲",
             "base": "fusilli",
             "prepable": null,
@@ -108,6 +120,9 @@
     "peanut-noodles": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": null,
             "base": null,
             "prepable": null,
@@ -124,6 +139,9 @@
     "penne-bolognese": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": "🍲",
             "base": null,
             "prepable": null,
@@ -140,6 +158,9 @@
     "penne-all-arrabbiata": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": "🍲",
             "base": "penne",
             "prepable": null,
@@ -163,6 +184,9 @@
     "pesto-pancetta": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": "🍲",
             "base": "rigatoni",
             "prepable": "fresh only 🌿",
@@ -186,6 +210,9 @@
     "pizza": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": null,
             "base": null,
             "prepable": null,
@@ -202,6 +229,9 @@
     "spinach-corti-bucati": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": "🍲",
             "base": "fusilli corti bucati",
             "prepable": null,
@@ -229,6 +259,9 @@
     "stamppot-boerenkool": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": "🍲",
             "base": null,
             "prepable": null,
@@ -245,6 +278,9 @@
     "twisted-spinach-pesto": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": "🍲",
             "base": "fusilli corti bucati",
             "prepable": null,
@@ -270,6 +306,9 @@
     "broccoli-calabria": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": null,
             "base": null,
             "prepable": null,
@@ -288,6 +327,9 @@
     "broccoli-campania": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": null,
             "base": null,
             "prepable": null,
@@ -308,6 +350,9 @@
     "broccoli-peperoni-cruschi": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": null,
             "base": null,
             "prepable": null,
@@ -326,6 +371,9 @@
     "pindapasta": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "serve": "🍲",
             "base": "spaghetti",
             "prepable": "fresh only 🌿",
@@ -349,6 +397,9 @@
     "broccoli-bucatini": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "region": "Sicilia",
             "serve": "🍲",
             "base": "bucatini",
@@ -376,6 +427,9 @@
     "fusilli-pollo-vegano": {
         "meta": {
             "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬🥬",
             "region": "not traditional",
             "serve": "🥗",
             "base": "ghiottole",
@@ -402,6 +456,9 @@
     "italian-salad": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
             "region": "Sicilia",
             "serve": "🥗",
             "base": "orecchiette",
@@ -426,6 +483,9 @@
     "linguine-spinaci-e-ricotta": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "🥬🥬🥬",
             "region": "Lazio",
             "serve": "🍲",
             "base": "linguine",
@@ -450,6 +510,9 @@
     "mezze-maniche-alla-valle-d-aosta": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "🍔",
             "region": "Valle d'Aosta",
             "serve": "🍲",
             "base": "rigatoni",
@@ -474,6 +537,9 @@
     "paccheri-al-pomodoro-e-fontina": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "🥬",
             "region": null,
             "serve": "🍲",
             "base": "rigatoni",
@@ -494,12 +560,15 @@
     "pasta-con-crema-di-verza": {
         "meta": {
             "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬🥬🥬",
             "region": "Lombardia",
             "serve": "🍲",
             "base": "casareccia",
             "prepable": "fresh only 🌿",
             "protein": "vega kip",
-            "topping": [],
+            "topping": null,
             "sauce": [
                 "spitskool gekookt",
                 "mosterd",
@@ -519,6 +588,9 @@
     "piatto-di-pollo-messicano": {
         "meta": {
             "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬",
             "region": "not traditional",
             "serve": "🍲",
             "score": "⭐⭐⭐",
@@ -547,6 +619,9 @@
     "radiatori-da-philadelphia": {
         "meta": {
             "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬🥬🥬",
             "region": "not traditional",
             "serve": "🥗",
             "base": "radiatori",
@@ -574,6 +649,9 @@
     "rigatoni-al-pesto-di-avocado": {
         "meta": {
             "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬🥬🥬",
             "region": "not traditional",
             "serve": "🍲",
             "base": "rigatoni",
@@ -602,6 +680,9 @@
     "sedanini-carbonara": {
         "meta": {
             "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "🍔🍔",
             "region": "Lazio",
             "serve": "🍲",
             "base": "rigatoni",
@@ -629,6 +710,9 @@
     "trofie-al-pesto": {
         "meta": {
             "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬🥬🥬",
             "region": "Liguria",
             "serve": "🍲",
             "base": "fusilli",
