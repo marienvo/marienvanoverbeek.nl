@@ -394,7 +394,7 @@
         },
         "title": "Fusilli Pollo Vegano",
         "intro": "Fusilli Pollo Vegano is a modern pasta dish often enjoyed by vegetarians and vegans. It combines fusilli pasta with plant-based chicken nuggets, sun-dried tomatoes, pine nuts, and green pesto. This dish is often served with lamb's lettuce and arugula, and finished with Parmesan cheese. The diverse ingredients make it both nutritious and flavorful.",
-        "content": "- 500 grams of fusilli or ghiottole\n\t- Ghiottole is a larger/thicker pasta combines better with the large lamb's lettuce leaves\n- 300 grams of vegan chicken nuggets (fried, then sliced into strips)\n- Sun-dried tomatoes (cut into strips)\n- Pine nuts\n- Green pesto\n- Shavings of Parmigiano Reggiano\n- Bag of lamb's lettuce",
+        "content": "- 500 grams of Fusilli or Ghiottole (Ghiottole is a larger/thicker pasta combines better with the large lamb's lettuce leaves)\n- 300 grams of vegan chicken nuggets (fried, then sliced into strips)\n- Sun-dried tomatoes (cut into strips)\n- Pine nuts\n- Pesto alle Genovese\n- Shavings of Parmigiano Reggiano\n- Bag of lamb's lettuce\n\n## Steps\n\n- Cook the pasta\n- Fry the vegan chicken nuggets, then chop into slices\n- Mix the pasta with the pesto\n- Mix pesto pasta with everything else:\n\t- Lamb's lettuce\n\t- Sun-dried tomatoes\n\t- Sliced vegan chicken nuggets\n- Top off with shavings of Parmigiano Reggiano and Pine nuts",
         "images": [
             "b529d957d8c784e5a0fd2d6d02ae6af6266cea39bebbb812e04cbf85130b05d1.png"
         ]
@@ -442,7 +442,7 @@
         },
         "title": "Linguine Spinaci e Ricotta",
         "intro": "Linguine Spinaci e Ricotta is a pasta dish with spinach and a sauce made from Greek yogurt, lemon zest, and Parmigiano Reggiano. The spinach is briefly sautéed with garlic. The pasta cooking water is used to bind the sauce and give it a creamy texture. This dish combines fresh and savory flavors, popular in Southern Italian cuisine, particularly in the regions of Lazio, Campania, and Puglia.",
-        "content": "- Linguine\n- Crushed garlic (briefly fried in oil, then removed)\n- Chopped spinach (wilted in oil)\n- Ricotta cheese mixed with Parmigiano Reggiano",
+        "content": "- Linguine\n- Crushed garlic (briefly fried in oil, then removed)\n- Chopped spinach (wilted in oil)\n- Ricotta cheese mixed with Parmigiano Reggiano\n\n## Steps\n\n- Cook the pasta\n- Fry some pine nuts\n- Fry the crushed garlic, and remove from pan (you can leave it in, if you really like garlic)\n\t- Add the chopped spinach\n- When boiled down, turn the heat to lowest mode, and add the ricotta cheese mixed with Parmigiano Reggiano\n- Take the Linguine from the pan, and stir into the spinach\n- Top off with Parmigiano Reggiano and fried pine nuts",
         "images": [
             "d3b8ed5938d11ad540343493d7d656340fb75b8b21e93bc4259644d3b272c754.png"
         ]
@@ -466,7 +466,7 @@
         },
         "title": "Mezze Maniche alla Valle d'Aosta",
         "intro": "Mezze Maniche alla Valle d'Aosta is a dish from the Italian region of Valle d'Aosta. This region, located in the northwestern Alps, is known for its culinary traditions rich in dairy products. The dish is made with Mezze Maniche pasta (literally: \"short sleeves\"), ham cubes, butter, Fontina cheese, and cooking cream (panna). The ham is heated with the butter, then the Fontina and cream are added. Everything is mixed well until the sauce comes together and completely coats the pasta. Fontina, a semi-hard cheese, is one of the most famous products from Valle d'Aosta and gives this dish its characteristic flavor.",
-        "content": "- Mezze Maniche pasta\n- 75 grams of ham cubes\n- Butter\n- 75 grams of Fontina cheese (cut into pieces)\n- 100 ml of cream (panna)\n\n## Need help?\n\n[Watch this video](https://www.youtube.com/watch?v=xplRLCgHwtM)",
+        "content": "- Mezze Maniche pasta\n- 75 grams of ham cubes\n- Butter\n- 75 grams of Fontina cheese (cut into pieces)\n- 100 ml of cream (panna)\n\n## Steps\n\n- Cook the pasta\n- Warm up the ham cubes with butter\n- Add Fontina cheese and cooking cream\n- Stir until it's a sauce\n- Mix in the pasta\n\n## Need help?\n\n[Watch this video](https://www.youtube.com/watch?v=xplRLCgHwtM)",
         "images": [
             "c3bc227912294ec441bfb0bd133618d9c3d72e82484246c3d80d5dfee3e54b26.png"
         ]
@@ -488,7 +488,7 @@
         },
         "title": "Paccheri al Pomodoro e Fontina",
         "intro": "Pasta al Pomodoro e Fontina is an Italian dish where Paccheri pasta is combined with a sauce made from diced ripe tomatoes, minced garlic, and fresh basil leaves, all prepared in extra virgin olive oil. The pasta is mixed with grated Fontina cheese, which adds a creamy texture and rich flavor. This dish is often enjoyed in Northern Italy, especially in the Valle d'Aosta region, where Fontina cheese originates and is commonly used in variations of traditional recipes, such as Pasta al Pomodoro.",
-        "content": "- Paccheri or Mezze Maniche\n- Cook and puree:\n    - Garlic and onion (not too much onion, optionally no onion even)\n    - Ripe tomatoes, diced (preferably snack tomatoes/cherry tomatoes)\n    - Fresh basil leaves\n- Cheese version (optional)\n    - Add 1 tablespoon of flour to the tomato puree (prevents cheese from sticking)\n    - Fontina cheese, grated (75g)",
+        "content": "- Paccheri or Mezze Maniche\n- Fontina cheese\n- Tomatoes (preferably snack tomatoes/cherry tomatoes)\n- Garlic\n- Small onion\n- Fresh basil\n- Flour\n\n## Steps\n\n- Cook the pasta\n- Cook and puree:\n    - Garlic and onion (not too much onion, optionally no onion even)\n    - Ripe tomatoes, diced\n    - Fresh basil leaves\n- Cheese version (optional)\n    - Add 1 tablespoon of flour to the tomato puree (prevents cheese from sticking)\n    - Fontina cheese, grated (75g)",
         "images": []
     },
     "pasta-con-crema-di-verza": {
@@ -539,7 +539,7 @@
         },
         "title": "Piatto di Pollo Messicano",
         "intro": "Piatto di Pollo Messicano is a dish that yields five servings and consists of various layers and ingredients. For the base, 400 grams of vegan chicken strips and raisins are used. The foundation includes 400 grams of penne pasta and two servings of red pesto. The sauce, which is simmered, contains two cans of diced tomatoes, one onion, Red Yucateco sauce, and Italian herbs. Aged grated cheese is used as a topping, baked until golden brown in the oven for 30 minutes at 180°C. This dish combines the spicy flavor of the Mexican Yucateco sauce with the savory notes of Italian herbs and the rich taste of aged cheese.",
-        "content": "- Base\n    - 400 grams of vegan chicken strips\n    - Raisins\n- Main\n    - 400 grams of pasta (penne)\n    - 2 jars of red pesto\n- Sauce (reduce)\n    - 2 cans of diced tomatoes\n    - 1 onion\n    - Red Yucateco\n    - Thyme\n- Topping\n    - Aged grated cheese\n    - 30 minutes at 180°C in the oven until the cheese is golden brown\n\n\n",
+        "content": "- Penne\n- Vegan chicken strips\n- Raisins\n- Red pesto\n- 2 cans of diced tomatoes\n- 1 onion\n- Red Yucateco\n- Thyme\n- Aged grated cheese\n\n## Steps\n\n- Base\n    - 400 grams of vegan chicken strips\n    - Raisins\n- Main\n    - 400 grams of pasta (penne)\n    - 2 jars of red pesto\n- Sauce (reduce)\n    - 2 cans of diced tomatoes\n    - 1 onion\n    - Red Yucateco\n    - Thyme\n- Topping\n    - Aged grated cheese\n    - 30 minutes at 180°C in the oven until the cheese is golden brown\n\n\n",
         "images": [
             "7d42e935359ccb344a1f7468afc3130d77bb1669d32021bb3df03cd1f64763cb.png"
         ]
@@ -566,7 +566,7 @@
         },
         "title": "Radiatori da Philadelphia",
         "intro": "Radiatori da Philadelphia is a dish consisting of radiatori pasta with a sauce made from sautéed zucchini, sliced cherry tomatoes, and low-fat Philadelphia cream cheese as the base, which can be substituted with hummus for a healthier option. Parmigiano Reggiano is added for extra flavor. The zucchini and tomatoes are mixed into the sauce, ensuring the pasta is fully coated. This dish is particularly popular in urban areas such as Rome, Milan, and Florence, where modern cuisine and fusion dishes are more widely accepted.",
-        "content": "- Radiatori\n- Half a zucchini, sautéed in thin small pieces\n- Cherry tomatoes (cut into eighths)\n- Philadelphia (low fat) - do not heat\n- Oregano di Burgio\n- Parmigiano Reggiano",
+        "content": "- Radiatori\n- Half a zucchini, sautéed in thin small pieces\n- Cherry tomatoes (cut into eighths)\n- Philadelphia (low fat) - do not heat\n- Oregano di Burgio\n- Parmigiano Reggiano\n\n## Steps\n\n- Cook the pasta\n- Slice half a zucchini into 1mm pizza shaped slices\n- Fry the zucchini to boil it down a little\n- Cut tomatoes into eighths\n- Add the tomatoes and boil it down as well with the zucchini\n- When the pasta is ready, add the Philadelphia and Oregano di Burgio, and stir\n- Mix with the pasta",
         "images": [
             "cec112e088b54fac808f3251f8adb2680ef5b7e085a37dadede35286d99a1bc2.png"
         ]
