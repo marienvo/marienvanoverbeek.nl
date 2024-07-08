@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import RecipeDetail from './../../components/RecipeDetail.tsx';
+import Photo from './../../components/elements/Photo.astro';
 import recipes from "../../content/recipes.json";
 
 export async function getStaticPaths() {
@@ -16,5 +17,6 @@ const recipeData = recipes[recipe];
 ---
 
 <Layout title={recipeData.title}>
+  <!--<Photo imagePath="3b7a49d602a8b9a8fd72ebeff7394b830cda47c306605829690ceebbaeef2b87.png"/>-->
   <RecipeDetail recipe={recipeData} />
 </Layout>

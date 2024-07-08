@@ -5,9 +5,11 @@ import { Devider } from "./elements/Devider.tsx";
 import recipes from "../content/recipes.json";
 import ReactMarkdown from "react-markdown";
 import settings from "../constants/settings.json";
-import { Footer } from "./elements/Footer.tsx";
 
 export default ({ recipe }: { recipe: Recipe }) => {
+  // const image = recipe.images[0];
+  // const imagePath = new URL(`../content/${image}`, import.meta.url).href;
+
   return (
     <>
       <Section>
