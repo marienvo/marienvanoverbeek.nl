@@ -483,7 +483,7 @@
     "linguine-spinaci-e-ricotta": {
         "meta": {
             "type": "Recipe",
-            "vega": false,
+            "vega": true,
             "vegan": false,
             "healthy": "🥬🥬🥬",
             "region": "Lazio",
@@ -537,7 +537,7 @@
     "paccheri-al-pomodoro-e-fontina": {
         "meta": {
             "type": "Recipe",
-            "vega": false,
+            "vega": true,
             "vegan": false,
             "healthy": "🥬",
             "region": null,
