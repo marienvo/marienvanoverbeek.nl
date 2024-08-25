@@ -27,8 +27,8 @@ const Image = ({ src, alt, rotation = 2, size = "md" }: ImageProps) => {
 
   const polaroidSize =
     size === "sm"
-      ? ["p-2 rounded-sm", "rounded-sm mb-2"]
-      : ["p-4 rounded-md", "rounded-md mb-4"];
+      ? ["p-2 rounded-sm", "rounded-sm mb-2", "h-4"]
+      : ["p-4 rounded-md", "rounded-md mb-4", "h-8"];
 
   return (
     <div
@@ -39,7 +39,7 @@ const Image = ({ src, alt, rotation = 2, size = "md" }: ImageProps) => {
         src={`https://marienvanoverbeek.imgix.net/${src}?fit=crop&h=400&w=400`}
         alt={alt}
       />
-      <div className="h-8"></div>
+      <div className={polaroidSize[2]}></div>
     </div>
   );
 };
