@@ -29,8 +29,8 @@ export default ({ recipe }: { recipe: Recipe }) => {
       </Section>
       <Devider />
       <Section>
-        <div className="grid grid-cols-12 gap-12">
-          <div className="col-span-6">
+        <div className="sm:grid sm:grid-cols-12 sm:gap-12">
+          <div className="sm:col-span-6">
             <Heading level="h2">Preparation of the meal</Heading>
             <ReactMarkdown
               components={{
@@ -47,8 +47,8 @@ export default ({ recipe }: { recipe: Recipe }) => {
               {recipe.content}
             </ReactMarkdown>
           </div>
-          <div className="col-span-1" />
-          <div className="col-span-5 -mt-56">
+          <div className="sm:col-span-1 hidden sm:block" />
+          <div className="sm:col-span-5 sm:-mt-56 mt-12">
             {image && <Image src={image} alt={recipe.title} />}
           </div>
         </div>
