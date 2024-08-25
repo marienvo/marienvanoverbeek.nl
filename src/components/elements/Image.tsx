@@ -27,19 +27,20 @@ const Image = ({ src, alt, rotation = 2, size = "md" }: ImageProps) => {
 
   const polaroidSize =
     size === "sm"
-      ? ["p-2 rounded-sm", "rounded-sm mb-2", "h-4"]
-      : ["p-4 rounded-md", "rounded-md mb-4", "h-8"];
+      ? ["p-2 rounded-sm", "h-1", "rounded-sm mb-2", "h-4"]
+      : ["p-4 rounded-md", "h-2", "rounded-sm mb-2", "h-8"];
 
   return (
     <div
       className={`bg-white ${polaroidSize[0]} shadow-lg border border-gray-300 transform ${getRotation(rotation)}`}
     >
+      <div className={polaroidSize[1]}></div>
       <img
-        className={`w-full object-cover ${polaroidSize[1]}`}
+        className={`w-full object-cover ${polaroidSize[2]}`}
         src={`https://marienvanoverbeek.imgix.net/${src}?fit=crop&h=400&w=400`}
         alt={alt}
       />
-      <div className={polaroidSize[2]}></div>
+      <div className={polaroidSize[3]}></div>
     </div>
   );
 };
