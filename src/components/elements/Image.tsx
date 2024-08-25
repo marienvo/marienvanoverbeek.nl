@@ -36,7 +36,7 @@ const Image = ({ src, alt, rotation = 2, size = "md" }: ImageProps) => {
     >
       <div className={polaroidSize[1]}></div>
       <img
-        className={`w-full object-cover ${polaroidSize[2]}`}
+        className={`w-full aspect-square object-cover ${polaroidSize[2]}`}
         src={`https://marienvanoverbeek.imgix.net/${src}?fit=crop&h=400&w=400`}
         alt={alt}
       />
