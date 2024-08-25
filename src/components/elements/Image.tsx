@@ -27,8 +27,8 @@ const Image = ({ src, alt, rotation = 2, size = "md" }: ImageProps) => {
 
   const polaroidSize =
     size === "sm"
-      ? ["p-2 rounded-sm", "h-1", "rounded-sm mb-2", "h-4"]
-      : ["p-4 rounded-md", "h-2", "rounded-sm mb-2", "h-8"];
+      ? ["p-2 rounded-sm", "h-1", "rounded-sm mb-2", "h-4", "&h=200&w=200"]
+      : ["p-4 rounded-md", "h-2", "rounded-sm mb-2", "h-8", "&h=400&w=400"];
 
   return (
     <div
@@ -37,7 +37,7 @@ const Image = ({ src, alt, rotation = 2, size = "md" }: ImageProps) => {
       <div className={polaroidSize[1]}></div>
       <img
         className={`w-full aspect-square object-cover ${polaroidSize[2]}`}
-        src={`https://marienvanoverbeek.imgix.net/${src}?fit=crop&h=400&w=400`}
+        src={`https://marienvanoverbeek.imgix.net/${src}?fit=crop${polaroidSize[4]}`}
         alt={alt}
       />
       <div className={polaroidSize[3]}></div>
