@@ -13,10 +13,15 @@ export async function getStaticPaths() {
 const { recipe } = Astro.params;
 
 // Get the specific recipe data
-const recipeData = recipes[recipe];
+const recipeData =  recipes[recipe];
 ---
 
 <Layout title={recipeData.title}>
-  <!--<Photo imagePath="3b7a49d602a8b9a8fd72ebeff7394b830cda47c306605829690ceebbaeef2b87.png"/>-->
+  <!--<Photo-->
+  <!--    imagePath="/src/content/3b7a49d602a8b9a8fd72ebeff7394b830cda47c306605829690ceebbaeef2b87.png"-->
+  <!--    altText=""-->
+  <!--    name=""-->
+  <!--    age={0}-->
+  <!--/>-->
   <RecipeDetail recipe={recipeData} />
 </Layout>

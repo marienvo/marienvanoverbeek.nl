@@ -5,10 +5,10 @@ import { Devider } from "./elements/Devider.tsx";
 import recipes from "../content/recipes.json";
 import ReactMarkdown from "react-markdown";
 import settings from "../constants/settings.json";
+import Image from "./elements/Image.tsx";
 
 export default ({ recipe }: { recipe: Recipe }) => {
-  // const image = recipe.images[0];
-  // const imagePath = new URL(`../content/${image}`, import.meta.url).href;
+  const image = recipe.images[0];
 
   return (
     <>
@@ -26,6 +26,7 @@ export default ({ recipe }: { recipe: Recipe }) => {
         <a href={`/${settings.recipeSlug}`}>
           <u>« Back to all recipes</u>
         </a>
+        {image && <Image src={image} alt={recipe.title} />}
       </Section>
       <Devider />
       <Section>
