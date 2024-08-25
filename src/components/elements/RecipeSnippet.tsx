@@ -12,8 +12,8 @@ export const RecipeSnippet: FC<RecipeProperties> = ({ recipe, index }) => {
 
   return (
     <div style={{ marginBottom: 40 }}>
-      <div className="grid grid-cols-12 gap-12">
-        <div className="col-span-2">
+      <div className="grid lg:grid-cols-12 lg:gap-12">
+        <div className="lg:col-span-2 mt-2 mb-5 max-w-[200px] order-last lg:order-first">
           <div>
             {image && (
               <Image
@@ -23,9 +23,9 @@ export const RecipeSnippet: FC<RecipeProperties> = ({ recipe, index }) => {
                 size="sm"
               />
             )}
-          </div>{" "}
+          </div>
         </div>
-        <div className="col-span-10">
+        <div className="lg:col-span-10">
           <Heading level="h2">
             <a href={`/${settings.recipeSlug}/${recipe.slug}`}>
               {recipe.title}
