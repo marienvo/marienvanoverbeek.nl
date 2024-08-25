@@ -36,8 +36,9 @@ export default () => {
       <Section>
         {Object.keys(recipes)
           .sort()
-          .map((recipe) => (
+          .map((recipe, index) => (
             <RecipeSnippet
+              index={index}
               recipe={recipesWithSlugs[recipe as keyof typeof recipesWithSlugs]}
             />
           ))}

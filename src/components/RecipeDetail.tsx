@@ -26,25 +26,32 @@ export default ({ recipe }: { recipe: Recipe }) => {
         <a href={`/${settings.recipeSlug}`}>
           <u>« Back to all recipes</u>
         </a>
-        {image && <Image src={image} alt={recipe.title} />}
       </Section>
       <Devider />
       <Section>
-        <Heading level="h2">Preparation of the meal</Heading>
-        <ReactMarkdown
-          components={{
-            h2({ children }) {
-              return (
-                <>
-                  <br />
-                  <Heading level="h2">{children}</Heading>
-                </>
-              );
-            },
-          }}
-        >
-          {recipe.content}
-        </ReactMarkdown>
+        <div className="grid grid-cols-12 gap-12">
+          <div className="col-span-6">
+            <Heading level="h2">Preparation of the meal</Heading>
+            <ReactMarkdown
+              components={{
+                h2({ children }) {
+                  return (
+                    <>
+                      <br />
+                      <Heading level="h2">{children}</Heading>
+                    </>
+                  );
+                },
+              }}
+            >
+              {recipe.content}
+            </ReactMarkdown>
+          </div>
+          <div className="col-span-1" />
+          <div className="col-span-5 -mt-56">
+            {image && <Image src={image} alt={recipe.title} />}
+          </div>
+        </div>
       </Section>
       <div className="w-full bg-gray-800 text-gray-50">
         <Section isTransparent>
