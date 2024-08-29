@@ -1,99 +1,4 @@
 {
-    "broccoli-bucatini": {
-        "meta": {
-            "type": "Recipe",
-            "vega": false,
-            "vegan": false,
-            "healthy": "⚖️",
-            "region": "Sicilia",
-            "serve": "🍲",
-            "base": "bucatini",
-            "prepable": "fresh only 🌿",
-            "protein": null,
-            "topping": [
-                "broodkruim"
-            ],
-            "sauce": [
-                "broccoli",
-                "tomatenpuree",
-                "ansjovis",
-                "knoflook",
-                "broodkruim"
-            ],
-            "score": "❓"
-        },
-        "title": "Broccoli Bucatini",
-        "intro": "Italiaans pastagerecht waarin bucatini gecombineerd wordt met een saus van gekookte broccoli. De saus wordt op smaak gebracht door ansjovis, chili peper en knoflook te bakken, waarna tomatenpuree en het kookvocht van de broccoli worden toegevoegd. De broccoli wordt vervolgens geprakt en gemengd met de pasta. Het gerecht wordt vaak afgewerkt met geroosterd broodkruim, dat dient als een alternatief voor kaas.",
-        "content": "- Basissaus\n\t- Gekookte Broccoli\n- Start\n\t- Ansjovis en chili pepper - bakken met stuk knoflook\n\t- Tomato paste\n\t- Kookvocht broccoli\n\t- Broccoli toevoegen, prakken\n- Pasta\n\t- Bucatini (loved in Sicilia)\n- Afmakers\n\t- Toasted breadcumbs (soort kaas alternatief)\n- https://www.youtube.com/watch?v=wCDKnMwPQEk",
-        "images": [
-            "3bdb360af7b7b6be3f428c6a7ddc7e0ae78ecbf0194857471e5be4d74154f212.png"
-        ]
-    },
-    "broccoli-calabria": {
-        "meta": {
-            "type": "Recipe",
-            "vega": false,
-            "vegan": false,
-            "healthy": "⚖️",
-            "serve": null,
-            "base": null,
-            "prepable": null,
-            "protein": null,
-            "topping": null,
-            "sauce": null,
-            "score": "❓"
-        },
-        "title": "Broccoli Calabria",
-        "intro": "Broccoli Calabria is een pastagerecht dat zijn oorsprong vindt in de Italiaanse regio Calabrië. Het gerecht combineert trofie pasta met een saus van gekookte broccoli, kikkererwten, chili pepers en cherrytomaten. De broccoli wordt eerst gekookt en vervolgens geprakt in de saus, terwijl de kikkererwten heel blijven. Chili pepers worden in olie gebakken om de saus een pittig karakter te geven. Dit gerecht benut de typische ingrediënten en smaken van het zuiden van Italië.\n\n- Basissaus\n\t- Gekookte Broccoli\n- Start\n\t- Chili pepper bakken in olie\n\t- Cherry tomatoes en kikkererwten toevoegen, laten koken\n\t- Broccoli kookvocht toevoegen\n\t- Broccoli toevoegen en prakken (kikkererwten heel laten)\n- Pasta\n\t- Trofie\n- https://www.youtube.com/watch?v=wCDKnMwPQEk",
-        "content": "",
-        "images": [
-            "cbff34f8367b38e242d9e556a7cb49d3539cf6fafce71d77ead25b8331cfb114.png"
-        ]
-    },
-    "broccoli-campania": {
-        "meta": {
-            "type": "Recipe",
-            "vega": false,
-            "vegan": false,
-            "healthy": "⚖️",
-            "serve": null,
-            "base": null,
-            "prepable": null,
-            "protein": null,
-            "topping": [
-                "Parmigiano Reggiano"
-            ],
-            "sauce": null,
-            "score": "❓"
-        },
-        "title": "Broccoli Campania",
-        "intro": "Dit gerecht uit Campania kenmerkt zich door de combinatie van spaghetti met een saus van fijngemalen gekookte broccoli. De broccoli wordt in olie en knoflook geprakt tot een smeuïge saus, verrijkt met Italiaanse vissaus voor een umami smaak. Parmigiano Reggiano voegt een nootachtige diepte toe en het broccoli kookwater wordt gebruikt om de saus de juiste consistentie te geven. Het resultaat is een gerecht dat zowel eenvoudig als voedzaam is, typerend voor de keuken van de regio Campania.\n\n- https://www.youtube.com/watch?v=wCDKnMwPQEk\n- Basissaus\n\t- Gekookte broccoli\n- Pasta\n\t- Spaghetti\n- Afmakers\n\t- Broccoli in olie met knoflook fijnprakken\n\t- Italian fish sauce\n\t- Parmigiano Reggiano\n\t- Broccoli kookwater",
-        "content": "",
-        "images": [
-            "8aa3f888304424d6eedf98ae43dfa81f72eda0b5cfafdb8cd76b3c8550c3fdb9.png"
-        ]
-    },
-    "broccoli-peperoni-cruschi": {
-        "meta": {
-            "type": "Recipe",
-            "vega": false,
-            "vegan": false,
-            "healthy": "⚖️",
-            "serve": null,
-            "base": null,
-            "prepable": null,
-            "protein": null,
-            "topping": null,
-            "sauce": null,
-            "score": "❓"
-        },
-        "title": "Broccoli Peperoni Cruschi",
-        "intro": "Dit gerecht combineert casareccia pasta met een saus van gekookte broccoli en peperoni cruschi, een specifieke bereidingswijze van gedroogde rode pepers uit de regio Basilicata in Zuid-Italië. De pepers worden in olie gebakken samen met knoflook, waarna de broccoli wordt toegevoegd en geprakt tot een basissaus. Casareccia, een pasta met een gerolde vorm die lijkt op een klein, gerimpeld dekbed, is typisch voor deze streek en past goed bij robuuste sauzen.\n\n- https://www.youtube.com/watch?v=wCDKnMwPQEk\n- Basissaus\n\t- Gekookte Broccoli\n- Start\n\t- Gedroogde pepers bakken in olie en teen knoflook (_Peperoni cruschi_)\n\t- Broccoli toevoegen en prakken\n- Pasta\n\t- Casareccia",
-        "content": "",
-        "images": [
-            "19dfc5409d1f05bed2338cf5b0f0c636c7e4a1a8155ce5ff8629710ba5749039.png"
-        ]
-    },
     "cashew-salad": {
         "meta": {
             "type": "Recipe",
@@ -156,35 +61,6 @@
             "a29186052cc6531b768e090dca322769e75395412d156b7e1f8831d5e538f9f5.png"
         ]
     },
-    "fusilli-pollo-vegano": {
-        "meta": {
-            "type": "Recipe",
-            "vega": true,
-            "vegan": false,
-            "healthy": "🥬🥬",
-            "region": "not traditional",
-            "serve": "🥗",
-            "base": "ghiottole",
-            "prepable": "few days 📅",
-            "protein": "vega nuggets",
-            "topping": [
-                "pijnboompitten 🌲"
-            ],
-            "sauce": [
-                "sundried tomatoes julienne cut",
-                "veldsla/rucola",
-                "[[Sauzen|groene pesto]]",
-                "Parmigiano Reggiano"
-            ],
-            "score": "⭐⭐⭐"
-        },
-        "title": "Fusilli Pollo Vegano",
-        "intro": "Fusilli Pollo Vegano is a modern pasta dish often enjoyed by vegetarians. It combines fusilli pasta with plant-based chicken nuggets, sun-dried tomatoes, pine nuts, and green pesto. This dish is often served with lamb's lettuce and arugula, and finished with Parmesan cheese. The diverse ingredients make it both nutritious and flavorful.",
-        "content": "- 500 grams of Fusilli or Ghiottole (Ghiottole is a larger/thicker pasta combines better with the large lamb's lettuce leaves)\n- 300 grams of vegan chicken nuggets (fried, then sliced into strips)\n- Sun-dried tomatoes (cut into strips)\n- Pine nuts\n- Pesto alle Genovese\n- Shavings of Parmigiano Reggiano\n- Bag of lamb's lettuce\n\n## Steps\n\n- Cook the pasta\n- Fry the vegan chicken nuggets, then chop into slices\n- Mix the pasta with the pesto\n- Mix pesto pasta with everything else:\n\t- Lamb's lettuce\n\t- Sun-dried tomatoes\n\t- Sliced vegan chicken nuggets\n- Top off with shavings of Parmigiano Reggiano and Pine nuts",
-        "images": [
-            "b529d957d8c784e5a0fd2d6d02ae6af6266cea39bebbb812e04cbf85130b05d1.png"
-        ]
-    },
     "fusilli-primavera": {
         "meta": {
             "type": "Recipe",
@@ -239,164 +115,6 @@
         "content": "",
         "images": [
             "a736a11efcafd01c6a8a83447521092b91af0659bd6ae16a3074703bc46392bd.png"
-        ]
-    },
-    "italian-salad": {
-        "meta": {
-            "type": "Recipe",
-            "vega": false,
-            "vegan": false,
-            "healthy": "⚖️",
-            "region": "Sicilia",
-            "serve": "🥗",
-            "base": "orecchiette",
-            "prepable": "fresh only 🌿",
-            "protein": null,
-            "topping": [
-                "Parmigiano Reggiano"
-            ],
-            "sauce": [
-                "romanasla",
-                "snoeptomaatjes",
-                "[[Sauzen|vinegrette]]",
-                "pesto rosso"
-            ],
-            "score": "❌"
-        },
-        "title": "Italian Salad",
-        "intro": "- romanasla 100gr\n\t- goed drogen en mixen met [[Sauzen|Vinaigrette]]\n- snoeptomaatjes 125gr (in 1/4 stukjes)\n- pasta (80gr) met 1 flinke el. pesto rosso (af laten koelen)\n- topping: 40gr parmazan",
-        "content": "",
-        "images": []
-    },
-    "linguine-spinaci-e-ricotta": {
-        "meta": {
-            "type": "Recipe",
-            "vega": true,
-            "vegan": false,
-            "healthy": "🥬🥬🥬",
-            "region": "Lazio",
-            "serve": "🍲",
-            "base": "linguine",
-            "prepable": "fresh only 🌿",
-            "protein": null,
-            "topping": [
-                "pijnboompitten 🌲"
-            ],
-            "sauce": [
-                "spinazie",
-                "Parmigiano Reggiano"
-            ],
-            "score": "⭐⭐"
-        },
-        "title": "Linguine Spinaci e Ricotta",
-        "intro": "Linguine Spinaci e Ricotta is a pasta dish with spinach and a sauce made from ricotta, lemon zest, and Parmigiano Reggiano. The spinach is briefly sautéed with garlic. The pasta cooking water is used to bind the sauce and give it a creamy texture. This dish combines fresh and savory flavors, popular in Southern Italian cuisine, particularly in the regions of Lazio, Campania, and Puglia.",
-        "content": "- Linguine\n- Crushed garlic (briefly fried in oil, then removed)\n- Chopped spinach (wilted in oil)\n- Ricotta cheese mixed with Parmigiano Reggiano\n\n## Steps\n\n- Cook the pasta\n- Fry some pine nuts\n- Fry the crushed garlic, and remove from pan (you can leave it in, if you really like garlic)\n\t- Add the chopped spinach\n- When boiled down, turn the heat to lowest mode, and add the ricotta cheese mixed with Parmigiano Reggiano\n- Take the Linguine from the pan, and stir into the spinach\n- Top off with Parmigiano Reggiano and fried pine nuts",
-        "images": [
-            "d3b8ed5938d11ad540343493d7d656340fb75b8b21e93bc4259644d3b272c754.png"
-        ]
-    },
-    "mezze-maniche-alla-valle-d-aosta": {
-        "meta": {
-            "type": "Recipe",
-            "vega": false,
-            "vegan": false,
-            "healthy": "🍔",
-            "region": "Valle d'Aosta",
-            "serve": "🍲",
-            "base": "rigatoni",
-            "prepable": "fresh only 🌿",
-            "protein": "Fontina",
-            "topping": null,
-            "sauce": [
-                "Fontina",
-                "boter",
-                "hamblokjes",
-                "panna"
-            ],
-            "score": "⭐⭐⭐"
-        },
-        "title": "Mezze Maniche alla Valle d'Aosta",
-        "intro": "Mezze Maniche alla Valle d'Aosta is a dish from the Italian region of Valle d'Aosta. This region, located in the northwestern Alps, is known for its culinary traditions rich in dairy products. The dish is made with Mezze Maniche pasta (literally: \"short sleeves\"), ham cubes, butter, Fontina cheese, and cooking cream (panna). The ham is heated with the butter, then the Fontina and cream are added. Everything is mixed well until the sauce comes together and completely coats the pasta. Fontina, a semi-hard cheese, is one of the most famous products from Valle d'Aosta and gives this dish its characteristic flavor.",
-        "content": "- Mezze Maniche pasta\n- 75 grams of ham cubes\n- 75 grams of Fontina cheese (cut into pieces)\n- 100 ml of cream (panna)\n\n## Steps\n\n- Cook the pasta\n- Warm up the Fontina cheese with cooking cream\n- Add the ham cubes\n- If it gets dry, add some pasta water (no need to extra cooking cream)\n- Mix in the pasta\n\n## Need help?\n\n[Watch this video](https://www.youtube.com/watch?v=xplRLCgHwtM)",
-        "images": [
-            "c3bc227912294ec441bfb0bd133618d9c3d72e82484246c3d80d5dfee3e54b26.png"
-        ]
-    },
-    "paccheri-al-pomodoro-e-fontina": {
-        "meta": {
-            "type": "Recipe",
-            "vega": true,
-            "vegan": false,
-            "healthy": "🥬",
-            "region": null,
-            "serve": "🍲",
-            "base": "rigatoni",
-            "prepable": "fresh only 🌿",
-            "protein": "Fontina",
-            "topping": null,
-            "sauce": [
-                "Fontina",
-                "tomaat"
-            ],
-            "score": "⭐⭐⭐"
-        },
-        "title": "Paccheri al Pomodoro e Fontina",
-        "intro": "Pasta al Pomodoro e Fontina is an Italian dish where Paccheri pasta is combined with a sauce made from diced ripe tomatoes, minced garlic, and fresh basil leaves, all prepared in extra virgin olive oil. The pasta is mixed with grated Fontina cheese, which adds a creamy texture and rich flavor. This dish is often enjoyed in Northern Italy, especially in the Valle d'Aosta region, where Fontina cheese originates and is commonly used in variations of traditional recipes, such as Pasta al Pomodoro.",
-        "content": "- Paccheri or Mezze Maniche\n- Fontina cheese\n- Tomatoes (preferably snack tomatoes/cherry tomatoes)\n- Garlic\n- Small onion\n- Fresh basil\n- Flour\n\n## Steps\n\n- Cook the pasta\n- Cook and puree:\n    - Garlic and onion (not too much onion, optionally no onion even)\n    - Ripe tomatoes, diced\n    - Fresh basil leaves\n- Add 1 tablespoon of flour to the tomato puree (prevents cheese from sticking)\n- Fontina cheese, grated (75g)",
-        "images": [
-            "819a5961dc6dc32fce5ebcb5a49065745d331857a9a8c12cfc800dfc09eb1b4b.png"
-        ]
-    },
-    "paccheri-al-pomodoro": {
-        "meta": {
-            "type": "Recipe",
-            "vega": true,
-            "vegan": true,
-            "healthy": "🥬🥬",
-            "region": null,
-            "serve": "🍲",
-            "base": "paccheri",
-            "prepable": "fresh only 🌿",
-            "protein": null,
-            "topping": null,
-            "sauce": [
-                "tomaat"
-            ],
-            "score": "⭐⭐⭐"
-        },
-        "title": "Paccheri al Pomodoro",
-        "intro": "Pasta al Pomodoro is a traditional Italian dish consisting of pasta served with a sauce made from fresh tomatoes, olive oil, garlic, basil, and sometimes onion. This dish emphasizes the simplicity and quality of the ingredients and is often eaten throughout Italy, especially during the summer when tomatoes are at their best. It holds an important place in Italian cuisine due to its easy preparation and flavorful result.",
-        "content": "- Paccheri or Mezze Maniche\n- 250 gr tomatoes, diced (preferably snack tomatoes/cherry tomatoes)\n- Garlic\n- Small onion\n- Fresh basil (teared into small pieces - don't use a knife, since most flavor will go into your cutting board instead of into your dish)\n\n## Steps\n\n- Cook the pasta\n- Fry the garlic and onion (not too much onion, optionally no onion even)\n- Add the tomatoes, and let it boil down a little\n- Mash the tomatoes\n- Add the pasta and fresh basil leaves",
-        "images": [
-            "7b9153df9bdca81ea3893339e20f38991fe4b83979a217052f85a4d4e613ef84.png"
-        ]
-    },
-    "pasta-con-crema-di-verza": {
-        "meta": {
-            "type": "Recipe",
-            "vega": true,
-            "vegan": false,
-            "healthy": "🥬🥬🥬",
-            "region": "Lombardia",
-            "serve": "🍲",
-            "base": "casareccia",
-            "prepable": "fresh only 🌿",
-            "protein": "vega kip",
-            "topping": null,
-            "sauce": [
-                "spitskool gekookt",
-                "mosterd",
-                "dille",
-                "[[Sauzen|groene pesto]]",
-                "mayo"
-            ],
-            "score": "⭐⭐⭐"
-        },
-        "title": "Pasta con Crema di Verza",
-        "intro": "Pasta con Crema di Verza is a pasta dish made with casareccia pasta and a sauce of finely chopped savoy cabbage. The cabbage is cooked and mixed with pesto. It is complemented with vegan chicken, a plant-based alternative to chicken. This dish is often served as a nutritious and flavorful vegetarian meal.",
-        "content": "- Casareccia\n- Savoy cabbage (finely chopped)\n- Vegan chicken\n- Pesto (alla Genovese or red)\n- Optionally add some mayonnaise and thyme\n\n## Steps\n\n- Cook the pasta and the Savoy cabbage in one pot\n- Add the Vegan chicken to the pasta at the end, just for heating them up\n- Mix with the pesto before serving\n\n## Lombardy\n\nPasta con Crema di Verza originates from the Lombardy region in Italy. Lombardy is known for its rich and hearty dishes, often using local vegetables and cheeses. This dish uses savoy cabbage, which is abundant in the fall and winter in this region.",
-        "images": [
-            "db5f84f3ddd72aea2d64bdeedf6c875b3da2b4db7c6aa1460bbbd4b06baf9fe1.png"
         ]
     },
     "peanut-noodles": {
@@ -489,63 +207,6 @@
         "content": "",
         "images": []
     },
-    "piatto-di-pollo-messicano": {
-        "meta": {
-            "type": "Recipe",
-            "vega": true,
-            "vegan": false,
-            "healthy": "⚖️",
-            "region": "not traditional",
-            "serve": "🍲",
-            "score": "⭐⭐⭐",
-            "base": "penne",
-            "sauce": [
-                "pesto rosso",
-                "2 cans tomatenblokjes",
-                "ui",
-                "red chili sauce",
-                "oregano"
-            ],
-            "topping": [
-                "rozijnen",
-                "belegen strooikaas"
-            ],
-            "prepable": "few days 📅",
-            "protein": "vega kip"
-        },
-        "title": "Piatto di Pollo Messicano",
-        "intro": "Piatto di Pollo Messicano is a dish that yields five servings and consists of various layers and ingredients. For the base, 400 grams of vegan chicken strips and raisins are used. The foundation includes 400 grams of penne pasta and two servings of red pesto. The sauce, which is simmered, contains two cans of diced tomatoes, one onion, Red Yucateco sauce, and thyme. Aged grated cheese is used as a topping, baked until golden brown in the oven for 30 minutes at 180°C. This dish combines the spicy flavor of the Mexican Yucateco sauce with the savory notes of Italian herbs and the rich taste of aged cheese.",
-        "content": "- Penne\n- Vegan chicken strips\n- Raisins\n- Red pesto\n- 2 cans of diced tomatoes\n- 1 onion\n- Red Yucateco\n- Thyme\n- Aged grated cheese\n\n## Steps\n\n- Base\n    - 400 grams of vegan chicken strips\n    - Raisins\n- Main\n    - 400 grams of pasta (penne)\n    - 2 jars of red pesto\n- Sauce (reduce)\n    - 2 cans of diced tomatoes\n    - 1 onion\n    - Red Yucateco\n    - Thyme\n- Topping\n    - Aged grated cheese\n    - 30 minutes at 180°C in the oven until the cheese is golden brown\n\n\n",
-        "images": [
-            "7d42e935359ccb344a1f7468afc3130d77bb1669d32021bb3df03cd1f64763cb.png"
-        ]
-    },
-    "pindapasta": {
-        "meta": {
-            "type": "Recipe",
-            "vega": false,
-            "vegan": false,
-            "healthy": "⚖️",
-            "serve": "🍲",
-            "base": "spaghetti",
-            "prepable": "fresh only 🌿",
-            "protein": "pindakaas",
-            "topping": null,
-            "sauce": [
-                "balsamico",
-                "honey",
-                "citroensap",
-                "pindakaas",
-                "cherry tomatoes",
-                "broccoli"
-            ],
-            "score": "❓"
-        },
-        "title": "Pindapasta",
-        "intro": "- [ ] Koken\n- Knoflook en chili peper bakken\n- Gehalveerde cherrytomaten mee bakken (150 gr p.p.)\n- Mengen\n\t- 3 el pindakaas\n\t- 2 el balsamicoazijn\n\t- honing\n\t- citroensap\n\t- kookvocht\n- Spaghetti\n- Groente (een van meerdere opties)\n\t- kleine stronk broccoli, in kleine roosjes - pureren door de saus\n\t- julienne gesneden wortels\n\t- courgette in kleine stukjes\n\t- gebakken aubergine-blokjes (eerst bakken voor smaakopname)\n\t- gebakken rode paprika (eerst bakken voor smaakopname)",
-        "content": "",
-        "images": []
-    },
     "pizza": {
         "meta": {
             "type": "Recipe",
@@ -564,97 +225,6 @@
         "intro": "## Pizza Rosso\n\n- **Pepperoni:** passata, mozzarella, pepperoni\n- **Diavola:** passata, mozzarella, spicy salami, rode pepers\n- **Napoletana:** passata, ansjovis, kappertjes, oregano, olijven.\n- **Salsiccia:** passata, mozzarella, Italiaanse worst, rode ui, oregano\n- **Tonno:** passata, mozzarella, tonijn, rode ui en oregano\n\n## Pizza Bianca\n\n- **Spinaci:** Spinazie, geitenkaas, knoflook, olijfolie, mozzarella\n- **Caprino:** Geitenkaas, pecannoten, gekarameliseerde ui, verse tijm em honing\n- **Pollo:** Gegrilde kip, artisjokharten, rode ui, ricotta, mozzarella\n- **Vegetariana:** Gegrilde courgette, paprika, rode ui, feta, mozzarella\n- **Prosciutto:** Prosciutto, verse rucola, mozzarella, ricotta\n- **Quattro Formaggi:** mozzarella, gorgonzola, Parmezaanse kaas, Taleggio (of Fontina/Provolone/Asiago)",
         "content": "",
         "images": []
-    },
-    "radiatori-da-philadelphia": {
-        "meta": {
-            "type": "Recipe",
-            "vega": true,
-            "vegan": false,
-            "healthy": "🥬🥬🥬",
-            "region": "not traditional",
-            "serve": "🥗",
-            "base": "radiatori",
-            "prepable": "fresh only 🌿",
-            "protein": "Philadelphia",
-            "topping": [
-                "grinded black pepper",
-                "orgegano"
-            ],
-            "sauce": [
-                "courgette",
-                "snoeptomaatjes",
-                "Philadelphia",
-                "Parmegiano Reggiano"
-            ],
-            "score": "⭐⭐⭐"
-        },
-        "title": "Radiatori da Philadelphia",
-        "intro": "Radiatori da Philadelphia is a dish consisting of radiatori pasta with a sauce made from sautéed zucchini, sliced cherry tomatoes, and low-fat Philadelphia cream cheese as the base, which can be substituted with hummus for a healthier option. Parmigiano Reggiano is added for extra flavor. The zucchini and tomatoes are mixed into the sauce, ensuring the pasta is fully coated. This dish is particularly popular in urban areas such as Rome, Milan, and Florence, where modern cuisine and fusion dishes are more widely accepted.",
-        "content": "- Radiatori\n- Half a zucchini, sautéed in thin small pieces\n- Cherry tomatoes (cut into eighths)\n- Philadelphia (low fat) - do not heat\n- Oregano di Burgio\n- Parmigiano Reggiano\n\n## Steps\n\n- Cook the pasta\n- Slice half a zucchini into 1mm pizza shaped slices\n- Fry the zucchini to boil it down a little\n- Cut tomatoes into eighths\n- Add the tomatoes and boil it down as well with the zucchini\n- When the pasta is ready, add the Philadelphia and Oregano di Burgio, and stir\n- Mix with the pasta",
-        "images": [
-            "cec112e088b54fac808f3251f8adb2680ef5b7e085a37dadede35286d99a1bc2.png"
-        ]
-    },
-    "rigatoni-al-pesto-di-avocado": {
-        "meta": {
-            "type": "Recipe",
-            "vega": true,
-            "vegan": false,
-            "healthy": "🥬🥬🥬",
-            "region": "not traditional",
-            "serve": "🍲",
-            "base": "rigatoni",
-            "prepable": null,
-            "protein": null,
-            "topping": [
-                "basil",
-                "almonds"
-            ],
-            "sauce": [
-                "spinazie 100gr",
-                "grated Parmigiano Reggiano",
-                "avocado",
-                "[[Sauzen|groene pesto]]",
-                "cherry tomatoes"
-            ],
-            "score": "⭐⭐⭐⭐⭐"
-        },
-        "title": "Rigatoni al Pesto di Avocado",
-        "intro": "Rigatoni al Pesto di Avocado combines a creamy avocado sauce with a fresh pesto flavor. The sauce is made from blended avocado, pesto, quartered tomatoes, cheese, and herbs. The rigatoni is cooked, with spinach added during the last 5 minutes. Everything is mixed together and finished with a topping of basil and almonds. This dish is popular in modern Italian cuisine and is often served as a light, nutritious meal.",
-        "content": "- Blend avocado with\n\t- Pesto\n\t- Tomatoes, quartered\n\t- Cheese\n\t- Origano di Burgio\n- Cook rigatoni\n    - Cook spinach with the pasta for the last 5 minutes\n- Mix everything together\n- Topping:\n    - Basil\n    - Almonds",
-        "images": [
-            "5ee925d6a01c4144bbe356795244d30ee88079d4f97a624b433cdb4c604546cb.png"
-        ]
-    },
-    "sedanini-carbonara": {
-        "meta": {
-            "type": "Recipe",
-            "vega": false,
-            "vegan": false,
-            "healthy": "🍔🍔",
-            "region": "Lazio",
-            "serve": "🍲",
-            "base": "rigatoni",
-            "prepable": "fresh only 🌿",
-            "protein": null,
-            "topping": [
-                "Guanciale",
-                "parsil"
-            ],
-            "sauce": [
-                "Pecorino Romano",
-                "Parmigiano Reggiano",
-                "coarsely ground black pepper",
-                "eggs"
-            ],
-            "score": "⭐⭐⭐"
-        },
-        "title": "Sedanini Carbonara",
-        "intro": "For Pasta Carbonara, it's preferable to use hearty pastas like Rigatoni or Spaghettoni. These pastas have a thicker texture that better holds the creamy sauce, resulting in a richer taste experience. Spaghetti, being a thinner pasta, is less capable of carrying the sauce, which means the texture and flavor of the dish do not fully come into their own. The traditional choice of sturdy pasta ensures that every bite is fully enjoyed with the rich, creamy sauce and the crispy pieces of Guanciale.",
-        "content": "- A hearty pasta (Rigatoni, Spaghettoni, Sedanini)\n- Guanciale (or pancetta)\n- Parmigiano Reggiano\n- Pecorino Romano\n- One big egg\n- Ground black pepper\n- Pasta water\n\n## Step by step\n\n- Cook the pasta (1L per 100gr)\n\t- Not too much water, since we really want starchy water for binding our sauce\n- Fry the Guanciale, and set the Guanciale bits aside (for topping)\n    - Do not discard the fat, use it for the sauce\n- Pre-mix (can also be done directly in the pan if you're skilled)\n    - Parmigiano Reggiano and Pecorino Romano (40g or more per person)\n    - About one egg per person. No eggs? Make \"Pasta alla Gricia\" instead\n    - Black pepper (a lot)\n    - Pasta cooking water (needed to make a creamy sauce, the more concentrated, the better - you need those starches)\n        - Reserve about 1 cup of pasta water - you need this when mixing everything together - or do it the Italian way: fish out the pasta from the water using a slotted spoon or skimmer to keep all the water\n- Stir the pasta in the fat from the Guanciale, and add some spoons of pasta water to clean te pan whilst cooking\n    - Add the sauce and heat mildly (not too quickly or too long, or it will become scrambled eggs; it should become a creamy sauce - adding cooking water early ensures the eggs don't cook, and the cheese melts into a creamy sauce)\n- Serve with Guanciale bits on top (looks nicer than mixed in)\n    - Add some extra black pepper (coarsely ground)\n\n## Guanciale\n\nGuanciale is an Italian cured meat made from pork jowl. It is seasoned, air-dried, and has a richer and more intense flavor compared to pancetta, which is often made from pork belly. Guanciale is a popular ingredient in classic Italian dishes such as Pasta Carbonara and Amatriciana. Its unique taste can add a special twist to your pasta experiments!",
-        "images": [
-            "3b7a49d602a8b9a8fd72ebeff7394b830cda47c306605829690ceebbaeef2b87.png"
-        ]
     },
     "spinach-corti-bucati": {
         "meta": {
@@ -705,6 +275,326 @@
         "content": "",
         "images": []
     },
+    "twisted-spinach-pesto": {
+        "meta": {
+            "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
+            "serve": "🍲",
+            "base": "fusilli corti bucati",
+            "prepable": null,
+            "protein": null,
+            "topping": [
+                "parmigiano reggiano"
+            ],
+            "sauce": [
+                "spinazie",
+                "sundried tomatoes",
+                "pijnboompitten",
+                "parmigiano reggiano"
+            ],
+            "score": "❓"
+        },
+        "title": "Twisted Spinach Pesto",
+        "intro": "Combine sundried tomatoes, fresh spinach, Parmigiano cheese, and pine nuts in a food processor to make a vibrant pesto sauce.",
+        "content": "",
+        "images": [
+            "42afe5ff2a8ee6f9d79b42276d6e3958633796a3ce9cf9eb2bf7fcd680445d16.png"
+        ]
+    },
+    "broccoli-calabria": {
+        "meta": {
+            "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
+            "serve": null,
+            "base": null,
+            "prepable": null,
+            "protein": null,
+            "topping": null,
+            "sauce": null,
+            "score": "❓"
+        },
+        "title": "Broccoli Calabria",
+        "intro": "Broccoli Calabria is een pastagerecht dat zijn oorsprong vindt in de Italiaanse regio Calabrië. Het gerecht combineert trofie pasta met een saus van gekookte broccoli, kikkererwten, chili pepers en cherrytomaten. De broccoli wordt eerst gekookt en vervolgens geprakt in de saus, terwijl de kikkererwten heel blijven. Chili pepers worden in olie gebakken om de saus een pittig karakter te geven. Dit gerecht benut de typische ingrediënten en smaken van het zuiden van Italië.\n\n- Basissaus\n\t- Gekookte Broccoli\n- Start\n\t- Chili pepper bakken in olie\n\t- Cherry tomatoes en kikkererwten toevoegen, laten koken\n\t- Broccoli kookvocht toevoegen\n\t- Broccoli toevoegen en prakken (kikkererwten heel laten)\n- Pasta\n\t- Trofie\n- https://www.youtube.com/watch?v=wCDKnMwPQEk",
+        "content": "",
+        "images": [
+            "cbff34f8367b38e242d9e556a7cb49d3539cf6fafce71d77ead25b8331cfb114.png"
+        ]
+    },
+    "broccoli-campania": {
+        "meta": {
+            "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
+            "serve": null,
+            "base": null,
+            "prepable": null,
+            "protein": null,
+            "topping": [
+                "Parmigiano Reggiano"
+            ],
+            "sauce": null,
+            "score": "❓"
+        },
+        "title": "Broccoli Campania",
+        "intro": "Dit gerecht uit Campania kenmerkt zich door de combinatie van spaghetti met een saus van fijngemalen gekookte broccoli. De broccoli wordt in olie en knoflook geprakt tot een smeuïge saus, verrijkt met Italiaanse vissaus voor een umami smaak. Parmigiano Reggiano voegt een nootachtige diepte toe en het broccoli kookwater wordt gebruikt om de saus de juiste consistentie te geven. Het resultaat is een gerecht dat zowel eenvoudig als voedzaam is, typerend voor de keuken van de regio Campania.\n\n- https://www.youtube.com/watch?v=wCDKnMwPQEk\n- Basissaus\n\t- Gekookte broccoli\n- Pasta\n\t- Spaghetti\n- Afmakers\n\t- Broccoli in olie met knoflook fijnprakken\n\t- Italian fish sauce\n\t- Parmigiano Reggiano\n\t- Broccoli kookwater",
+        "content": "",
+        "images": [
+            "8aa3f888304424d6eedf98ae43dfa81f72eda0b5cfafdb8cd76b3c8550c3fdb9.png"
+        ]
+    },
+    "broccoli-peperoni-cruschi": {
+        "meta": {
+            "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
+            "serve": null,
+            "base": null,
+            "prepable": null,
+            "protein": null,
+            "topping": null,
+            "sauce": null,
+            "score": "❓"
+        },
+        "title": "Broccoli Peperoni Cruschi",
+        "intro": "Dit gerecht combineert casareccia pasta met een saus van gekookte broccoli en peperoni cruschi, een specifieke bereidingswijze van gedroogde rode pepers uit de regio Basilicata in Zuid-Italië. De pepers worden in olie gebakken samen met knoflook, waarna de broccoli wordt toegevoegd en geprakt tot een basissaus. Casareccia, een pasta met een gerolde vorm die lijkt op een klein, gerimpeld dekbed, is typisch voor deze streek en past goed bij robuuste sauzen.\n\n- https://www.youtube.com/watch?v=wCDKnMwPQEk\n- Basissaus\n\t- Gekookte Broccoli\n- Start\n\t- Gedroogde pepers bakken in olie en teen knoflook (_Peperoni cruschi_)\n\t- Broccoli toevoegen en prakken\n- Pasta\n\t- Casareccia",
+        "content": "",
+        "images": [
+            "19dfc5409d1f05bed2338cf5b0f0c636c7e4a1a8155ce5ff8629710ba5749039.png"
+        ]
+    },
+    "pindapasta": {
+        "meta": {
+            "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
+            "serve": "🍲",
+            "base": "spaghetti",
+            "prepable": "fresh only 🌿",
+            "protein": "pindakaas",
+            "topping": null,
+            "sauce": [
+                "balsamico",
+                "honey",
+                "citroensap",
+                "pindakaas",
+                "cherry tomatoes",
+                "broccoli"
+            ],
+            "score": "❓"
+        },
+        "title": "Pindapasta",
+        "intro": "- [ ] Koken\n- Knoflook en chili peper bakken\n- Gehalveerde cherrytomaten mee bakken (150 gr p.p.)\n- Mengen\n\t- 3 el pindakaas\n\t- 2 el balsamicoazijn\n\t- honing\n\t- citroensap\n\t- kookvocht\n- Spaghetti\n- Groente (een van meerdere opties)\n\t- kleine stronk broccoli, in kleine roosjes - pureren door de saus\n\t- julienne gesneden wortels\n\t- courgette in kleine stukjes\n\t- gebakken aubergine-blokjes (eerst bakken voor smaakopname)\n\t- gebakken rode paprika (eerst bakken voor smaakopname)",
+        "content": "",
+        "images": []
+    },
+    "broccoli-bucatini": {
+        "meta": {
+            "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
+            "region": "Sicilia",
+            "serve": "🍲",
+            "base": "bucatini",
+            "prepable": "fresh only 🌿",
+            "protein": null,
+            "topping": [
+                "broodkruim"
+            ],
+            "sauce": [
+                "broccoli",
+                "tomatenpuree",
+                "ansjovis",
+                "knoflook",
+                "broodkruim"
+            ],
+            "score": "❓"
+        },
+        "title": "Broccoli Bucatini",
+        "intro": "Italiaans pastagerecht waarin bucatini gecombineerd wordt met een saus van gekookte broccoli. De saus wordt op smaak gebracht door ansjovis, chili peper en knoflook te bakken, waarna tomatenpuree en het kookvocht van de broccoli worden toegevoegd. De broccoli wordt vervolgens geprakt en gemengd met de pasta. Het gerecht wordt vaak afgewerkt met geroosterd broodkruim, dat dient als een alternatief voor kaas.",
+        "content": "- Basissaus\n\t- Gekookte Broccoli\n- Start\n\t- Ansjovis en chili pepper - bakken met stuk knoflook\n\t- Tomato paste\n\t- Kookvocht broccoli\n\t- Broccoli toevoegen, prakken\n- Pasta\n\t- Bucatini (loved in Sicilia)\n- Afmakers\n\t- Toasted breadcumbs (soort kaas alternatief)\n- https://www.youtube.com/watch?v=wCDKnMwPQEk",
+        "images": [
+            "3bdb360af7b7b6be3f428c6a7ddc7e0ae78ecbf0194857471e5be4d74154f212.png"
+        ]
+    },
+    "fusilli-pollo-vegano": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬🥬",
+            "region": "not traditional",
+            "serve": "🥗",
+            "base": "ghiottole",
+            "prepable": "few days 📅",
+            "protein": "vega nuggets",
+            "topping": [
+                "pijnboompitten 🌲"
+            ],
+            "sauce": [
+                "sundried tomatoes julienne cut",
+                "veldsla/rucola",
+                "[[Sauzen|groene pesto]]",
+                "Parmigiano Reggiano"
+            ],
+            "score": "⭐⭐⭐"
+        },
+        "title": "Fusilli Pollo Vegano",
+        "intro": "Fusilli Pollo Vegano is a modern pasta dish often enjoyed by vegetarians. It combines fusilli pasta with plant-based chicken nuggets, sun-dried tomatoes, pine nuts, and green pesto. This dish is often served with lamb's lettuce and arugula, and finished with Parmesan cheese. The diverse ingredients make it both nutritious and flavorful.",
+        "content": "- 500 grams of Fusilli or Ghiottole (Ghiottole is a larger/thicker pasta combines better with the large lamb's lettuce leaves)\n- 300 grams of vegan chicken nuggets (fried, then sliced into strips)\n- Sun-dried tomatoes (cut into strips)\n- Pine nuts\n- Pesto alle Genovese\n- Shavings of Parmigiano Reggiano\n- Bag of lamb's lettuce\n\n## Steps\n\n- Cook the pasta\n- Fry the vegan chicken nuggets, then chop into slices\n- Mix the pasta with the pesto\n- Mix pesto pasta with everything else:\n\t- Lamb's lettuce\n\t- Sun-dried tomatoes\n\t- Sliced vegan chicken nuggets\n- Top off with shavings of Parmigiano Reggiano and Pine nuts",
+        "images": [
+            "b529d957d8c784e5a0fd2d6d02ae6af6266cea39bebbb812e04cbf85130b05d1.png"
+        ]
+    },
+    "italian-salad": {
+        "meta": {
+            "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "⚖️",
+            "region": "Sicilia",
+            "serve": "🥗",
+            "base": "orecchiette",
+            "prepable": "fresh only 🌿",
+            "protein": null,
+            "topping": [
+                "Parmigiano Reggiano"
+            ],
+            "sauce": [
+                "romanasla",
+                "snoeptomaatjes",
+                "[[Sauzen|vinegrette]]",
+                "pesto rosso"
+            ],
+            "score": "❌"
+        },
+        "title": "Italian Salad",
+        "intro": "- romanasla 100gr\n\t- goed drogen en mixen met [[Sauzen|Vinaigrette]]\n- snoeptomaatjes 125gr (in 1/4 stukjes)\n- pasta (80gr) met 1 flinke el. pesto rosso (af laten koelen)\n- topping: 40gr parmazan",
+        "content": "",
+        "images": []
+    },
+    "mezze-maniche-alla-valle-d-aosta": {
+        "meta": {
+            "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "🍔",
+            "region": "Valle d'Aosta",
+            "serve": "🍲",
+            "base": "rigatoni",
+            "prepable": "fresh only 🌿",
+            "protein": "Fontina",
+            "topping": null,
+            "sauce": [
+                "Fontina",
+                "boter",
+                "hamblokjes",
+                "panna"
+            ],
+            "score": "⭐⭐⭐"
+        },
+        "title": "Mezze Maniche alla Valle d'Aosta",
+        "intro": "Mezze Maniche alla Valle d'Aosta is a dish from the Italian region of Valle d'Aosta. This region, located in the northwestern Alps, is known for its culinary traditions rich in dairy products. The dish is made with Mezze Maniche pasta (literally: \"short sleeves\"), ham cubes, butter, Fontina cheese, and cooking cream (panna). The ham is heated with the butter, then the Fontina and cream are added. Everything is mixed well until the sauce comes together and completely coats the pasta. Fontina, a semi-hard cheese, is one of the most famous products from Valle d'Aosta and gives this dish its characteristic flavor.",
+        "content": "- Mezze Maniche pasta\n- 75 grams of ham cubes\n- 75 grams of Fontina cheese (cut into pieces)\n- 100 ml of cream (panna)\n\n## Steps\n\n- Cook the pasta\n- Warm up the Fontina cheese with cooking cream\n- Add the ham cubes\n- If it gets dry, add some pasta water (no need to extra cooking cream)\n- Mix in the pasta\n\n## Need help?\n\n[Watch this video](https://www.youtube.com/watch?v=xplRLCgHwtM)",
+        "images": [
+            "c3bc227912294ec441bfb0bd133618d9c3d72e82484246c3d80d5dfee3e54b26.png"
+        ]
+    },
+    "pasta-con-crema-di-verza": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬🥬🥬",
+            "region": "Lombardia",
+            "serve": "🍲",
+            "base": "casareccia",
+            "prepable": "fresh only 🌿",
+            "protein": "vega kip",
+            "topping": null,
+            "sauce": [
+                "spitskool gekookt",
+                "mosterd",
+                "dille",
+                "[[Sauzen|groene pesto]]",
+                "mayo"
+            ],
+            "score": "⭐⭐⭐"
+        },
+        "title": "Pasta con Crema di Verza",
+        "intro": "Pasta con Crema di Verza is a pasta dish made with casareccia pasta and a sauce of finely chopped savoy cabbage. The cabbage is cooked and mixed with pesto. It is complemented with vegan chicken, a plant-based alternative to chicken. This dish is often served as a nutritious and flavorful vegetarian meal.",
+        "content": "- Casareccia\n- Savoy cabbage (finely chopped)\n- Vegan chicken\n- Pesto (alla Genovese or red)\n- Optionally add some mayonnaise and thyme\n\n## Steps\n\n- Cook the pasta and the Savoy cabbage in one pot\n- Add the Vegan chicken to the pasta at the end, just for heating them up\n- Mix with the pesto before serving\n\n## Lombardy\n\nPasta con Crema di Verza originates from the Lombardy region in Italy. Lombardy is known for its rich and hearty dishes, often using local vegetables and cheeses. This dish uses savoy cabbage, which is abundant in the fall and winter in this region.",
+        "images": [
+            "db5f84f3ddd72aea2d64bdeedf6c875b3da2b4db7c6aa1460bbbd4b06baf9fe1.png"
+        ]
+    },
+    "radiatori-da-philadelphia": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬🥬🥬",
+            "region": "not traditional",
+            "serve": "🥗",
+            "base": "radiatori",
+            "prepable": "fresh only 🌿",
+            "protein": "Philadelphia",
+            "topping": [
+                "grinded black pepper",
+                "orgegano"
+            ],
+            "sauce": [
+                "courgette",
+                "snoeptomaatjes",
+                "Philadelphia",
+                "Parmegiano Reggiano"
+            ],
+            "score": "⭐⭐⭐"
+        },
+        "title": "Radiatori da Philadelphia",
+        "intro": "Radiatori da Philadelphia is a dish consisting of radiatori pasta with a sauce made from sautéed zucchini, sliced cherry tomatoes, and low-fat Philadelphia cream cheese as the base, which can be substituted with hummus for a healthier option. Parmigiano Reggiano is added for extra flavor. The zucchini and tomatoes are mixed into the sauce, ensuring the pasta is fully coated. This dish is particularly popular in urban areas such as Rome, Milan, and Florence, where modern cuisine and fusion dishes are more widely accepted.",
+        "content": "- Radiatori\n- Half a zucchini, sautéed in thin small pieces\n- Cherry tomatoes (cut into eighths)\n- Philadelphia (low fat) - do not heat\n- Oregano di Burgio\n- Parmigiano Reggiano\n\n## Steps\n\n- Cook the pasta\n- Slice half a zucchini into 1mm pizza shaped slices\n- Fry the zucchini to boil it down a little\n- Cut tomatoes into eighths\n- Add the tomatoes and boil it down as well with the zucchini\n- When the pasta is ready, add the Philadelphia and Oregano di Burgio, and stir\n- Mix with the pasta",
+        "images": [
+            "cec112e088b54fac808f3251f8adb2680ef5b7e085a37dadede35286d99a1bc2.png"
+        ]
+    },
+    "sedanini-carbonara": {
+        "meta": {
+            "type": "Recipe",
+            "vega": false,
+            "vegan": false,
+            "healthy": "🍔🍔",
+            "region": "Lazio",
+            "serve": "🍲",
+            "base": "rigatoni",
+            "prepable": "fresh only 🌿",
+            "protein": null,
+            "topping": [
+                "Guanciale",
+                "parsil"
+            ],
+            "sauce": [
+                "Pecorino Romano",
+                "Parmigiano Reggiano",
+                "coarsely ground black pepper",
+                "eggs"
+            ],
+            "score": "⭐⭐⭐"
+        },
+        "title": "Sedanini Carbonara",
+        "intro": "For Pasta Carbonara, it's preferable to use hearty pastas like Rigatoni or Spaghettoni. These pastas have a thicker texture that better holds the creamy sauce, resulting in a richer taste experience. Spaghetti, being a thinner pasta, is less capable of carrying the sauce, which means the texture and flavor of the dish do not fully come into their own. The traditional choice of sturdy pasta ensures that every bite is fully enjoyed with the rich, creamy sauce and the crispy pieces of Guanciale.",
+        "content": "- A hearty pasta (Rigatoni, Spaghettoni, Sedanini)\n- Guanciale (or pancetta)\n- Parmigiano Reggiano\n- Pecorino Romano\n- One big egg\n- Ground black pepper\n- Pasta water\n\n## Step by step\n\n- Cook the pasta (1L per 100gr)\n\t- Not too much water, since we really want starchy water for binding our sauce\n- Fry the Guanciale, and set the Guanciale bits aside (for topping)\n    - Do not discard the fat, use it for the sauce\n- Pre-mix (can also be done directly in the pan if you're skilled)\n    - Parmigiano Reggiano and Pecorino Romano (40g or more per person)\n    - About one egg per person. No eggs? Make \"Pasta alla Gricia\" instead\n    - Black pepper (a lot)\n    - Pasta cooking water (needed to make a creamy sauce, the more concentrated, the better - you need those starches)\n        - Reserve about 1 cup of pasta water - you need this when mixing everything together - or do it the Italian way: fish out the pasta from the water using a slotted spoon or skimmer to keep all the water\n- Stir the pasta in the fat from the Guanciale, and add some spoons of pasta water to clean te pan whilst cooking\n    - Add the sauce and heat mildly (not too quickly or too long, or it will become scrambled eggs; it should become a creamy sauce - adding cooking water early ensures the eggs don't cook, and the cheese melts into a creamy sauce)\n- Serve with Guanciale bits on top (looks nicer than mixed in)\n    - Add some extra black pepper (coarsely ground)\n\n## Guanciale\n\nGuanciale is an Italian cured meat made from pork jowl. It is seasoned, air-dried, and has a richer and more intense flavor compared to pancetta, which is often made from pork belly. Guanciale is a popular ingredient in classic Italian dishes such as Pasta Carbonara and Amatriciana. Its unique taste can add a special twist to your pasta experiments!",
+        "images": [
+            "3b7a49d602a8b9a8fd72ebeff7394b830cda47c306605829690ceebbaeef2b87.png"
+        ]
+    },
     "trofie-al-pesto": {
         "meta": {
             "type": "Recipe",
@@ -734,32 +624,142 @@
             "91bcab878255417a4e4b7605b76e4d981a10358d868a0a23132a5de8853f161c.png"
         ]
     },
-    "twisted-spinach-pesto": {
+    "piatto-di-pollo-messicano": {
         "meta": {
             "type": "Recipe",
-            "vega": false,
+            "vega": true,
             "vegan": false,
             "healthy": "⚖️",
+            "region": "not traditional",
             "serve": "🍲",
-            "base": "fusilli corti bucati",
-            "prepable": null,
+            "score": "⭐⭐⭐",
+            "base": "penne",
+            "sauce": [
+                "pesto rosso",
+                "2 cans tomatenblokjes",
+                "ui",
+                "red chili sauce",
+                "oregano"
+            ],
+            "topping": [
+                "rozijnen",
+                "belegen strooikaas"
+            ],
+            "prepable": "few days 📅",
+            "protein": "vega kip"
+        },
+        "title": "Piatto di Pollo Messicano",
+        "intro": "Piatto di Pollo Messicano is a dish that yields five servings and consists of various layers and ingredients. For the base, 400 grams of vegan chicken strips and raisins are used. The foundation includes 400 grams of penne pasta and two servings of red pesto. The sauce, which is simmered, contains two cans of diced tomatoes, one onion, Red Yucateco sauce, and thyme. Aged grated cheese is used as a topping, baked until golden brown in the oven for 30 minutes at 180°C. This dish combines the spicy flavor of the Mexican Yucateco sauce with the savory notes of Italian herbs and the rich taste of aged cheese.",
+        "content": "- Penne\n- Vegan chicken strips\n- Raisins\n- Red pesto\n- 2 cans of diced tomatoes\n- 1 onion\n- Red Yucateco\n- Thyme\n- Aged grated cheese\n\n## Steps\n\n- Base\n    - 400 grams of vegan chicken strips\n    - Raisins\n- Main\n    - 400 grams of pasta (penne)\n    - 2 jars of red pesto\n- Sauce (reduce)\n    - 2 cans of diced tomatoes\n    - 1 onion\n    - Red Yucateco\n    - Thyme\n- Topping\n    - Aged grated cheese\n    - 30 minutes at 180°C in the oven until the cheese is golden brown\n\n\n",
+        "images": [
+            "7d42e935359ccb344a1f7468afc3130d77bb1669d32021bb3df03cd1f64763cb.png"
+        ]
+    },
+    "linguine-spinaci-e-ricotta": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬🥬🥬",
+            "region": "Lazio",
+            "serve": "🍲",
+            "base": "linguine",
+            "prepable": "fresh only 🌿",
             "protein": null,
             "topping": [
-                "parmigiano reggiano"
+                "pijnboompitten 🌲"
             ],
             "sauce": [
                 "spinazie",
-                "sundried tomatoes",
-                "pijnboompitten",
-                "parmigiano reggiano"
+                "Parmigiano Reggiano"
             ],
-            "score": "❓"
+            "score": "⭐⭐"
         },
-        "title": "Twisted Spinach Pesto",
-        "intro": "Combine sundried tomatoes, fresh spinach, Parmigiano cheese, and pine nuts in a food processor to make a vibrant pesto sauce.",
-        "content": "",
+        "title": "Linguine Spinaci e Ricotta",
+        "intro": "Linguine Spinaci e Ricotta is a pasta dish with spinach and a sauce made from ricotta, lemon zest, and Parmigiano Reggiano. The spinach is briefly sautéed with garlic. The pasta cooking water is used to bind the sauce and give it a creamy texture. This dish combines fresh and savory flavors, popular in Southern Italian cuisine, particularly in the regions of Lazio, Campania, and Puglia.",
+        "content": "- Linguine\n- Crushed garlic (briefly fried in oil, then removed)\n- Chopped spinach (wilted in oil)\n- Ricotta cheese mixed with Parmigiano Reggiano\n\n## Steps\n\n- Cook the pasta\n- Fry some pine nuts\n- Fry the crushed garlic, and remove from pan (you can leave it in, if you really like garlic)\n\t- Add the chopped spinach\n- When boiled down, turn the heat to lowest mode, and add the ricotta cheese mixed with Parmigiano Reggiano\n- Take the Linguine from the pan, and stir into the spinach\n- Top off with Parmigiano Reggiano and fried pine nuts",
         "images": [
-            "42afe5ff2a8ee6f9d79b42276d6e3958633796a3ce9cf9eb2bf7fcd680445d16.png"
+            "d3b8ed5938d11ad540343493d7d656340fb75b8b21e93bc4259644d3b272c754.png"
+        ]
+    },
+    "rigatoni-al-pesto-di-avocado": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬🥬🥬",
+            "region": "not traditional",
+            "serve": "🍲",
+            "base": "rigatoni",
+            "prepable": null,
+            "protein": null,
+            "topping": [
+                "basil",
+                "almonds"
+            ],
+            "sauce": [
+                "spinazie 100gr",
+                "grated Parmigiano Reggiano",
+                "avocado",
+                "[[Sauzen|groene pesto]]",
+                "cherry tomatoes"
+            ],
+            "score": "⭐⭐⭐⭐⭐"
+        },
+        "title": "Rigatoni al Pesto di Avocado",
+        "intro": "Rigatoni al Pesto di Avocado combines a creamy avocado sauce with a fresh pesto flavor. The sauce is made from blended avocado, pesto, quartered tomatoes, cheese, and herbs. The rigatoni is cooked, with spinach added during the last 5 minutes. Everything is mixed together and finished with a topping of basil and almonds. This dish is popular in modern Italian cuisine and is often served as a light, nutritious meal.",
+        "content": "- Blend avocado with\n\t- Pesto\n\t- Tomatoes, quartered\n\t- Cheese\n\t- Origano di Burgio\n- Cook rigatoni\n    - Cook spinach with the pasta for the last 5 minutes\n- Mix everything together\n- Topping:\n    - Basil\n    - Almonds",
+        "images": [
+            "5ee925d6a01c4144bbe356795244d30ee88079d4f97a624b433cdb4c604546cb.png"
+        ]
+    },
+    "paccheri-al-pomodoro-e-fontina": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": false,
+            "healthy": "🥬",
+            "region": null,
+            "serve": "🍲",
+            "base": "rigatoni",
+            "prepable": "fresh only 🌿",
+            "protein": "Fontina",
+            "topping": null,
+            "sauce": [
+                "Fontina",
+                "tomaat"
+            ],
+            "score": "⭐⭐⭐"
+        },
+        "title": "Paccheri al Pomodoro e Fontina",
+        "intro": "Pasta al Pomodoro e Fontina is an Italian dish where Paccheri pasta is combined with a sauce made from diced ripe tomatoes, minced garlic, and fresh basil leaves, all prepared in extra virgin olive oil. The pasta is mixed with grated Fontina cheese, which adds a creamy texture and rich flavor. This dish is often enjoyed in Northern Italy, especially in the Valle d'Aosta region, where Fontina cheese originates and is commonly used in variations of traditional recipes, such as Pasta al Pomodoro.",
+        "content": "- Paccheri or Mezze Maniche\n- Fontina cheese\n- Tomatoes (preferably snack tomatoes/cherry tomatoes)\n- Garlic\n- Small onion\n- Fresh basil\n- Flour\n\n## Steps\n\n- Cook the pasta\n- Cook and puree:\n    - Garlic and onion (not too much onion, optionally no onion even)\n    - Ripe tomatoes, diced\n    - Fresh basil leaves\n- Add 1 tablespoon of flour to the tomato puree (prevents cheese from sticking)\n- Fontina cheese, grated (75g)",
+        "images": [
+            "924ae6add1500c83d8bd56db3504ea83a2bb86a917bc0ee75bc83eb0fc65ec66.png"
+        ]
+    },
+    "paccheri-al-pomodoro": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": true,
+            "healthy": "🥬🥬",
+            "region": null,
+            "serve": "🍲",
+            "base": "paccheri",
+            "prepable": "fresh only 🌿",
+            "protein": null,
+            "topping": null,
+            "sauce": [
+                "tomaat"
+            ],
+            "score": "⭐⭐⭐"
+        },
+        "title": "Paccheri al Pomodoro",
+        "intro": "Pasta al Pomodoro is a traditional Italian dish consisting of pasta served with a sauce made from fresh tomatoes, olive oil, garlic, basil, and sometimes onion. This dish emphasizes the simplicity and quality of the ingredients and is often eaten throughout Italy, especially during the summer when tomatoes are at their best. It holds an important place in Italian cuisine due to its easy preparation and flavorful result.",
+        "content": "- Paccheri or Mezze Maniche\n- 250 gr tomatoes, diced (preferably snack tomatoes/cherry tomatoes)\n- Garlic\n- Small onion\n- Fresh basil (teared into small pieces - don't use a knife, since most flavor will go into your cutting board instead of into your dish)\n\n## Steps\n\n- Cook the pasta\n- Fry the garlic and onion (not too much onion, optionally no onion even)\n- Add the tomatoes, and let it boil down a little\n- Mash the tomatoes\n- Add the pasta and fresh basil leaves",
+        "images": [
+            "7b9153df9bdca81ea3893339e20f38991fe4b83979a217052f85a4d4e613ef84.png"
         ]
     }
 }
