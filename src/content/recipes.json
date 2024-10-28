@@ -874,24 +874,6 @@
             "a79c549ff998e01f7189ada6d7664f4b2841aced3c9261bbcafe3dd2101f3eef.png"
         ]
     },
-    "spinaci-anacardi": {
-        "meta": {
-            "type": "Recipe",
-            "vega": true,
-            "vegan": true,
-            "healthy": "🥬🥬🥬",
-            "season": "🌷🌞🍂",
-            "occasion": "🧊",
-            "region": null,
-            "score": "❓"
-        },
-        "title": "Spinaci Anacardi",
-        "intro": "Many dishes rely on cheese as a key ingredient for flavor and texture, making it a challenge when adapting recipes to be vegan. This cashew-based sauce serves as a counterpart to spinach gorgonzola, offering a plant-based alternative that uses nutritional yeast to replicate the savory, umami-rich qualities of cheese. Combined with oat cream and mustard, it creates a creamy consistency and tang, making it ideal for pasta dishes. This sauce pairs well with pasta shapes like fusilli, rigatoni, mafaldine, or farfalle, which effectively capture its smooth, rich texture.",
-        "content": "- 100 g raw, unsalted cashews (not roasted or fried)\n- 200 g spinach\n- 125 ml oat cream\n- 3 tablespoons nutritional yeast (nooch)\n- 1 tablespoon mustard (Dijon or whole grain, to taste)\n- 1 clove garlic (optional)\n- 1 teaspoon lemon juice (for a bit of brightness)\n- Salt and pepper to taste\n- Water (to soak the cashews)\n\n### Steps\n\n1. Soak the cashews in water for at least 4 hours (or overnight). This softens them, making them easier to blend into a creamy sauce.\n2. Drain the cashews and place them in a blender or food processor.\n3. Add the oat cream, nutritional yeast, mustard, and (optional) garlic clove.\n4. Blend everything until smooth and creamy. If the sauce is too thick, add a bit of water to reach the desired consistency.\n5. Add lemon juice for some freshness, and season with salt and pepper to taste.\n\n### Serve\n\n1. Pour the sauce into a pan and heat it over low heat. Stir regularly to prevent it from sticking or burning. Let it gently simmer until heated through and the flavors meld together, about 5-10 minutes.\n2. Toss the sauce with pasta, and add spinach while heating to combine.\n\n### Pasta Shapes\n\n- Fusilli: The twisted shape holds onto the sauce well, making sure each bite is loaded with flavor.\n- Rigatoni: Large, ridged tubes that are perfect for creamy sauces like this one.\n- Mafaldine: The ruffled edges of this long pasta work great for catching the sauce, and it looks festive on the plate.\n- Farfalle: Butterfly-shaped pasta adds a fun variation and surprisingly holds the sauce well in its folds.\n\n\n",
-        "images": [
-            "e4746545c5326557fe38dc1caeb881d2227be59c068f090bd1b78beae7e8d2c5.png"
-        ]
-    },
     "krautsalad": {
         "meta": {
             "type": "Recipe",
@@ -905,7 +887,7 @@
         },
         "title": "Krautsalat",
         "intro": "Krautsalat is a traditional German cabbage salad, commonly served as a side dish, especially with hearty meals like sausages or schnitzels. The dish typically features finely shredded cabbage, which is lightly blanched to retain some crunch, combined with ingredients like onion, carrots, and a tangy dressing made from oil, vinegar, mustard, and caraway seeds. It reflects the German affinity for preserving and fermenting vegetables, though krautsalat is usually fresh and marinated rather than fermented like sauerkraut. The salad is especially popular in southern Germany and Austria and is often served at family gatherings, barbecues, or beer gardens.",
-        "content": "- 500 grams sliced pointed cabbage (\"spitskool\"), briefly blanched (1-2 minutes)\n  (blanching softens the cabbage slightly while keeping a bit of crunch)\n- 100 grams sliced sweet white onion\n- 150 grams grated young carrots (\"bospeen\", sweeter and finer in texture than regular carrots)\n- 3 tablespoons sunflower oil\n- 2 tablespoon apple cider vinegar\n- 1 teaspoon mild mustard, such as:\n\t- **Löwensenf Original Mild** – A classic German mustard from Düsseldorf. It's mild and perfect for balancing the acidity in krautsalat without overpowering the dish. The flavor is soft but full, pairing well with the fresh cabbage.\n\t- **AlpenSenf Feiner Estragon** – This Tyrolean mustard is refined with tarragon, adding a subtle, herby note that complements the salad. The blend of tarragon and mustard gives the dish a touch of finesse.\n\t- **Händlmaier's Sweet Mustard** – A sweet Bavarian mustard, traditionally served with Weisswurst, but it works beautifully in krautsalat if you prefer a slightly sweeter touch.\n\t- **Düsseldorfer ABB Mustard** – An iconic German mustard with a rich, soft flavor. It's a bit stronger than the others but still mild enough not to overpower the salad.\n- 1 teaspoon sugar\n- 1 teaspoon caraway seeds (\"kummel\")\n- a pinch of smoked paprika powder (optional) for a subtle smoky flavor\n- Salt and pepper to taste\n\n## Preparing the salad\n\n- Dressing\n\t- Heat the oil slightly in a small pan, then whisk it together with the vinegar, mustard, sugar, caraway seeds, salt, and pepper until combined\n- Pour the dressing over the vegetables, then toss everything together well\n- Let it sit in the fridge for at least 30 minutes to allow the flavors to blend\n\n## Serve\n\n- 🥗 Best within the first 24 hours\n- ❄️ Keeps for 2-3 days in the fridge (do not freeze)",
+        "content": "- 500 grams of sliced white or pointed cabbage (\"spitskool\")\n\t- add 1-2 tsp salt and mix well\n\t- let it sit for 20-30 minutes\n- 100 grams fine sliced onion (white or yellow)\n- 150 grams grated young carrots (\"bospeen\", sweeter and finer in texture than regular carrots)\n- Heat with oil:\n\t- 1 teaspoon caraway seeds (\"kummel\")\n- Turn off heat and mix:\n\t- 2 tablespoon apple cider vinegar\n\t- 1 teaspoon mild mustard\n\t- 1 teaspoon sugar\n\t- a pinch of smoked paprika powder for a subtle smoky flavor\n\n## Preparing the salad\n\n- Pour the dressing over the vegetables, then toss everything together well\n- Let it sit in the fridge for at least 30 minutes to allow the flavors to blend\n\n## Serve\n\n- 🥗 Best within the first 24 hours\n- ❄️ Keeps for 2-3 days in the fridge (do not freeze)",
         "images": [
             "c666e9e935a93cfad339b401aed30b5c7874162b4de8a2d9e767ff71727f5cc0.png"
         ]
@@ -923,9 +905,63 @@
         },
         "title": "Spice Blend",
         "intro": "Roasting spices enhances their flavors by releasing essential oils, creating deeper, more complex aromas. This is a common practice in various cuisines, especially in South Asian, Middle Eastern, and Mexican dishes, where freshly roasted and ground spice blends are key to authentic flavor. Roasting is typically done over medium heat in a dry pan to avoid burning. It requires close attention since over-roasting can result in bitterness.\n\nOnce roasted and cooled, spices are often ground and used in masalas, rubs, or blends for curries, stews, and marinades.",
-        "content": "When you roast spices (also known as toasting), you intensify their flavors and develop subtler, deeper aromas. Here's more detailed information on how to roast different spices and tips on doing it right:\n\n## **Cinnamon**\n\n- **Good for roasting:** Yes, both cinnamon sticks and ground cinnamon.\n- **Heat level:** Medium, about 300°F (150°C).\n- **Time:** 2-4 minutes for ground cinnamon; sticks may take a bit longer, about 5-7 minutes.\n- **Note:** You'll smell the cinnamon as soon as it releases its aroma; that's the sign it's roasted enough. Over-roasting can cause bitterness.\n\n## **Star Anise**\n\n- **Good for roasting:** Yes.\n- **Heat level:** Medium, about 300-320°F (150-160°C).\n- **Time:** 2-3 minutes.\n- **Note:** Star anise burns easily, so keep a close watch. Its aroma will become intense, but roasting too long can make the flavor too sharp.\n\n## **Coriander Seeds**\n\n- **Good for roasting:** Yes, ideal for roasting.\n- **Heat level:** Medium, 320-340°F (160-170°C).\n- **Time:** 3-5 minutes.\n- **Note:** Once you start smelling a nutty aroma, the seeds are ready. Remove them from heat quickly to prevent burning.\n\n## **Cumin Seeds**\n\n- **Good for roasting:** Yes.\n- **Heat level:** Medium, around 320°F (160°C).\n- **Time:** 2-4 minutes.\n- **Note:** The seeds will start popping when done. If they turn dark brown, you've roasted them too long.\n\n## **Cloves**\n\n- **Good for roasting:** Yes.\n- **Heat level:** Low to medium, around 280-300°F (140-150°C).\n- **Time:** 2-3 minutes.\n- **Note:** Cloves have a strong aroma, so don't over-roast them, as excessive heat can make the flavor harsh.\n\n## **Cardamom**\n\n- **Good for roasting:** Yes, especially whole pods.\n- **Heat level:** Medium, around 320°F (160°C).\n- **Time:** 2-3 minutes.\n- **Note:** You'll notice the pods change color slightly and release a fragrance. Grind them immediately after roasting for the best flavor.\n\n## General Tips:\n\n- **Heat:** Use a heavy-bottomed pan over medium heat (or an oven at 300-340°F / 150-170°C). A dry skillet works best—no oil needed.\n- **Time:** Depends on the spice, but usually between 2-5 minutes. Stay close and stir or shake the pan regularly.\n- **Too short?** If you don't smell the spice's aroma clearly, it's not done.\n- **Too long?** If the spices start smoking or turning black, they've been roasted too long and might taste bitter.\n- **Let it cool.** After roasting, let the spices cool before grinding them. This helps the flavors blend well and become more nuanced.",
+        "content": "When you roast spices (also known as toasting), you intensify their flavors and develop subtler, deeper aromas. Here's more detailed information on how to roast different spices and tips on doing it right:\n\n## **Cinnamon**\n\n- **Good for roasting:** Yes, both cinnamon sticks and ground cinnamon.\n- **Heat level:** Medium, about 300°F (150°C).\n- **Time:** 2-4 minutes for ground cinnamon; sticks may take a bit longer, about 5-7 minutes.\n- **Note:** You'll smell the cinnamon as soon as it releases its aroma; that's the sign it's roasted enough. Over-roasting can cause bitterness.\n\n## **Star Anise**\n\n- **Good for roasting:** Yes.\n- **Heat level:** Medium, about 300-320°F (150-160°C).\n- **Time:** 2-3 minutes.\n- **Note:** Star anise burns easily, so keep a close watch. Its aroma will become intense, but roasting too long can make the flavor too sharp.\n\n## **Coriander Seeds**\n\n- **Good for roasting:** Yes, ideal for roasting.\n- **Heat level:** Medium, 320-340°F (160-170°C).\n- **Time:** 3-5 minutes.\n- **Note:** Once you start smelling a nutty aroma, the seeds are ready. Remove them from heat quickly to prevent burning.\n\n## **Cumin Seeds**\n\n- **Good for roasting:** Yes.\n- **Heat level:** Medium, around 320°F (160°C).\n- **Time:** 2-4 minutes.\n- **Note:** The seeds will start popping when done. If they turn dark brown, you've roasted them too long.\n\n## **Cloves**\n\n- **Good for roasting:** Yes.\n- **Heat level:** Low to medium, around 280-300°F (140-150°C).\n- **Time:** 2-3 minutes.\n- **Note:** Cloves have a strong aroma, so don't over-roast them, as excessive heat can make the flavor harsh.\n\n## **Cardamom**\n\n- **Good for roasting:** Yes, especially whole pods.\n- **Heat level:** Medium, around 320°F (160°C).\n- **Time:** 2-3 minutes.\n- **Note:** You'll notice the pods change color slightly and release a fragrance. Grind them immediately after roasting for the best flavor.\n\n## General Tips:\n\n- **Heat:** Use a heavy-bottomed pan over medium heat (or an oven at 300-340°F / 150-170°C). A dry skillet works best—no oil needed.\n- **Time:** Depends on the spice, but usually between 2-5 minutes. Stay close and stir or shake the pan regularly.\n- **Too short?** If you don't smell the spice's aroma clearly, it's not done.\n- **Too long?** If the spices start smoking or turning black, they've been roasted too long and might taste bitter.\n- **Let it cool.** After roasting, let the spices cool before grinding them. This helps the flavors blend well and become more nuanced.\n\n\n",
         "images": [
             "82d97c36ab5f902fd1cb372b117ebd9ce1682b93643a81cc1ee790f1c7bda72a.png"
+        ]
+    },
+    "pasta-e-ceci": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": true,
+            "healthy": "🥬🥬",
+            "season": "🌞🍂⛄",
+            "occasion": null,
+            "region": null,
+            "score": "⭐⭐⭐"
+        },
+        "title": "Pasta e Ceci",
+        "intro": "Pasta e Ceci is a traditional Italian dish with roots in peasant cuisine, particularly common in central and southern Italy. It combines pasta with chickpeas, often flavored with garlic, rosemary, and tomatoes, creating a hearty, simple meal.\n\nHistorically, it was a nourishing dish made from inexpensive ingredients, commonly eaten by farmers and laborers. The dish reflects regional variations, with different types of pasta and herbs depending on the area. It is commonly served during colder months, offering a warming and filling option in the Italian diet.",
+        "content": "- Soffritto (takes at least 10 minutes; be sure to chop finely)\n    - 1/2 onion, finely chopped (cook for 6 min)\n    - 1 sprig of rosemary (or half a teaspoon dried)\n    - 1 small carrot, finely chopped (cook for 6 min)\n    - 1 small celery stalk, finely chopped (cook for 10 min)\n    - a pinch of roasted and ground star anise\n- 50g dried chickpeas (soaked for 8-12 hours)\n    - Keep 50% whole\n- 100g passata\n- Cook with 1 mug of water like a risotto (keep stirring)\n\t- 60g pasta (preferably small types like ditalini rigati or orecchiette)\n- Add blended chickpeas\n- Salt and pepper to taste",
+        "images": [
+            "45269f665b7152d2c4369f89ca18160c42c8c3aa6557baff65d0a935b858b524.png"
+        ]
+    },
+    "pumpkin-pasta": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": true,
+            "healthy": "🥬🥬🥬",
+            "season": "🍂⛄",
+            "occasion": "🧊",
+            "region": "Northern Italy",
+            "score": "⭐⭐⭐"
+        },
+        "title": "Pumpkin Pasta",
+        "intro": "Pumpkin pasta combines a creamy squash sauce with uniquely textured pasta shapes, ideal for absorbing the thick, flavorful sauce. Roasted squash and aromatics are blended with oat cream and tahini, creating a rich, plant-based creaminess. Popular autumnal spices like rosemary, thyme, nutmeg, and cinnamon add depth.\n\nPaired pasta shapes like mafaldine, campanelle, or radiatori are chosen for their ability to hold sauces, maximizing flavor in each bite. This dish showcases seasonal flavors and is often enjoyed during cooler months across Europe and North America, celebrated for its comforting texture and warmth.",
+        "content": "- Roast in a convection oven at 375°F (190°C) for 25-30 minutes (makes 4 servings):\n    - 1 butternut squash, peeled and cubed\n    - (Optional) Set aside a few roasted squash cubes to fold in later for extra texture and color.\n- Sauté:\n    - 1 onion, finely chopped\n    - 2-3 cloves of garlic, minced\n- Blend everything together with:\n    - 400 ml oat cream or any plant-based cream\n    - 1 tablespoon tahini (for extra creaminess)\n    - Herbs: rosemary or thyme\n        - Or spices: nutmeg, cinnamon, a pinch of clove\n    - Salt, to taste\n    - For a thicker sauce, either reduce the cream slightly or simmer on low for a few minutes before adding to the pasta\n\t- Pro tip: Add a splash of pasta water while mixing to help the sauce cling to the pasta\n- Cook pasta and toss well with the sauce\n\n## Pasta Types\n\n- Mafaldine – This wide, ridged pasta looks like mini-lasagna sheets and holds the sauce beautifully between the ridges. Fun and a bit less common!\n- Campanelle – Resembling little flowers or horns, this shape lets the sauce settle nicely in its rolled edges. It looks festive on the plate!\n- Fusilli lunghi – Essentially long fusilli (spiral pasta) with a playful twist. The curls hold the sauce well, and it looks impressive.\n- Radiatori – As the name suggests, this pasta looks like mini radiators! The ridges are perfect for a thick sauce like pumpkin puree, and the size makes each bite flavorful.\n- Strozzapreti – These short, twisted pastas look like little rolls. The sauce clings well to the surface, adding texture to every bite.\n\n## Storage\n\n- 2-3 months in freezer\n- 3-5 days in fridge\n\n\n",
+        "images": [
+            "fa8edcdcbaf41da6a38178fa5f173adf2ca422b0ee6cb5f23bf8fe6764f6472e.png"
+        ]
+    },
+    "spinaci-anacardi": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": true,
+            "healthy": "🥬🥬🥬",
+            "season": "🌷🌞🍂",
+            "occasion": "🧊",
+            "region": null,
+            "score": "❓"
+        },
+        "title": "Spinaci Anacardi",
+        "intro": "Many dishes rely on cheese as a key ingredient for flavor and texture, making it a challenge when adapting recipes to be vegan. This cashew-based sauce serves as a counterpart to spinach gorgonzola, offering a plant-based alternative that uses nutritional yeast to replicate the savory, umami-rich qualities of cheese. Combined with oat cream and mustard, it creates a creamy consistency and tang, making it ideal for pasta dishes. This sauce pairs well with pasta shapes like fusilli, rigatoni, mafaldine, or farfalle, which effectively capture its smooth, rich texture.",
+        "content": "- Sauce prep (2 portions)\n\t- 100 g raw, unsalted cashews (not roasted or fried)\n\t- 125 ml oat cream\n\t- 1 cup nutritional yeast (nooch)\n\t- 2-3 tablespoon mustard (Dijon or whole grain, to taste)\n\t- 🧊 Keep in freezer for up to 3 months\n- Cook (p.p.)\n\t- 1 clove garlic\n\t- 250 g spinach\n\t- lime juice (fresh, prefer not to freeze)\n\t- Salt to taste (at least a pinch)\n\n### Steps\n\n1. Soak the cashews in water for at least 4 hours (or overnight). This softens them, making them easier to blend into a creamy sauce.\n2. Drain the cashews and place them in a food processor.\n3. Add the oat cream, nutritional yeast, mustard, and (optional) garlic clove.\n4. Blend everything until smooth and creamy. If the sauce is too thick, add a bit of water to reach the desired consistency.\n5. Heat up in a pan with the spinach, some lemon juice for freshness, and season with salt and pepper to taste.\n6. Add the cooked pasta, and serve\n\n### Pasta Shapes\n\n- Fusilli: The twisted shape holds onto the sauce well, making sure each bite is loaded with flavor.\n- Rigatoni: Large, ridged tubes that are perfect for creamy sauces like this one.\n- Mafaldine: The ruffled edges of this long pasta work great for catching the sauce, and it looks festive on the plate.\n- Farfalle: Butterfly-shaped pasta adds a fun variation and surprisingly holds the sauce well in its folds.\n\n\n",
+        "images": [
+            "e4746545c5326557fe38dc1caeb881d2227be59c068f090bd1b78beae7e8d2c5.png"
         ]
     }
 }
