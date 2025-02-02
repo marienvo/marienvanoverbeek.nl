@@ -75,6 +75,10 @@ jobs:
         with:
           name: github-pages
           path: ${{ env.BUILD_PATH }}/dist
+      - name: Check uploaded artifact
+        run: |
+          echo "Artifact contents:"
+          ls -R ${{ env.BUILD_PATH }}/dist
 
   deploy:
     environment:
@@ -84,6 +88,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
+      - name: List available artifacts
+        run: |
+          echo "Available artifacts:"
+          ls -R $GITHUB_WORKSPACE
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
