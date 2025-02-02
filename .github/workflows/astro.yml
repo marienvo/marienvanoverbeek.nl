@@ -88,6 +88,13 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: ./artifact
+      - name: Debug downloaded artifact
+        run: ls -R ./artifact
       - name: List available artifacts
         run: |
           echo "Available artifacts:"
