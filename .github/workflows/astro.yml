@@ -94,7 +94,7 @@ jobs:
           name: github-pages
           path: ./github-pages
       - name: Debug downloaded artifact
-        run: ls -R ./artifact
+        run: ls -R ./github-pages
       - name: List available artifacts
         run: |
           echo "Available artifacts:"
