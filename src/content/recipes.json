@@ -923,7 +923,7 @@
         },
         "title": "Pasta e Ceci",
         "intro": "Pasta e Ceci is a traditional Italian dish with roots in peasant cuisine, particularly common in central and southern Italy. It combines pasta with chickpeas, often flavored with garlic, rosemary, and tomatoes, creating a hearty, simple meal.\n\nHistorically, it was a nourishing dish made from inexpensive ingredients, commonly eaten by farmers and laborers. The dish reflects regional variations, with different types of pasta and herbs depending on the area. It is commonly served during colder months, offering a warming and filling option in the Italian diet.",
-        "content": "- Soffritto (takes at least 10 minutes; be sure to chop finely)\n    - 1/2 onion, finely chopped (cook for 6 min)\n    - 1 sprig of rosemary (or half a teaspoon dried)\n    - 1 small carrot, finely chopped (cook for 6 min)\n    - 1 small celery stalk, finely chopped (cook for 10 min)\n    - a pinch of roasted and ground star anise\n- 50g dried chickpeas (soaked for 8-12 hours)\n    - Keep 50% whole\n- 100g passata\n- Cook with 1 mug of water like a risotto (keep stirring)\n\t- 60g pasta (preferably small types like ditalini rigati or orecchiette)\n- Add blended chickpeas\n- Salt and pepper to taste",
+        "content": "- Soffritto (takes at least 10 minutes; be sure to chop finely)\n    - 1/2 onion, finely chopped (cook for 6 min)\n    - 1 sprig of rosemary (or half a teaspoon dried)\n    - 1 small carrot, finely chopped (cook for 6 min)\n    - 1 small celery stalk, finely chopped (cook for 10 min)\n    - a pinch of roasted and ground star anise\n- 50g dried chickpeas (soaked for 8-12 hours)\n    - Keep 50% whole\n- 100g passata\n- Cook with 1 mug of water like a risotto (keep stirring)\n\t- 60g pasta (preferably small types like ditalini rigati or orecchiette)\n- Add blended chickpeas\n- Salt and pepper to taste\n\n## Pasta shape\n\nAlthough it's from a northern region, a great pasta shape to use is Subbiotti Rigati from Felicetti, made in the Fiemme Valley. Pastas like Mezzi Tubetti Lisci (De Cecco) and Ditalini Rigati (Barilla) are a bit too small to balance well with the size of the chickpeas.\n\nOther pasta shapes you might consider:\n\n- Tubetti Rigati (e.g., from De Cecco)\n- Ditaloni (e.g., from Garofalo)\n\nMaltagliati (a classic stew pasta) or Quadretti (often used in soups) are also great options.",
         "images": [
             "45269f665b7152d2c4369f89ca18160c42c8c3aa6557baff65d0a935b858b524.png"
         ]
@@ -962,6 +962,24 @@
         "content": "- Sauce prep (2 portions)\n\t- 100 g raw, unsalted cashews (not roasted or fried)\n\t- 125 ml oat cream\n\t- 1 cup nutritional yeast (nooch)\n\t- 2-3 tablespoon mustard (Dijon or whole grain, to taste)\n\t- 🧊 Keep in freezer for up to 3 months\n- Cook (p.p.)\n\t- 1 clove garlic\n\t- 250 g spinach\n\t- lime juice (fresh, prefer not to freeze)\n\t- Salt to taste (at least a pinch)\n\n### Steps\n\n1. Soak the cashews in water for at least 4 hours (or overnight). This softens them, making them easier to blend into a creamy sauce.\n2. Drain the cashews and place them in a food processor.\n3. Add the oat cream, nutritional yeast, mustard, and (optional) garlic clove.\n4. Blend everything until smooth and creamy. If the sauce is too thick, add a bit of water to reach the desired consistency.\n5. Heat up in a pan with the spinach, some lemon juice for freshness, and season with salt and pepper to taste.\n6. Add the cooked pasta, and serve\n\n### Pasta Shapes\n\n- Fusilli: The twisted shape holds onto the sauce well, making sure each bite is loaded with flavor.\n- Rigatoni: Large, ridged tubes that are perfect for creamy sauces like this one.\n- Mafaldine: The ruffled edges of this long pasta work great for catching the sauce, and it looks festive on the plate.\n- Farfalle: Butterfly-shaped pasta adds a fun variation and surprisingly holds the sauce well in its folds.\n\n\n",
         "images": [
             "e4746545c5326557fe38dc1caeb881d2227be59c068f090bd1b78beae7e8d2c5.png"
+        ]
+    },
+    "endive-and-potato-mash": {
+        "meta": {
+            "type": "Recipe",
+            "vega": true,
+            "vegan": true,
+            "healthy": "🥬🥬🥬",
+            "season": "🍂⛄",
+            "occasion": null,
+            "region": "Netherlands",
+            "score": "⭐⭐⭐"
+        },
+        "title": "Endive and Potato Mash",
+        "intro": "This is a plant-based recipe for Endive and Potato Mash, a modern twist on the traditional Dutch \"stamppot.\" Commonly enjoyed in the Netherlands, stamppot blends mashed potatoes with raw or cooked vegetables, often served as a hearty winter dish. This version substitutes oat cream and plant-based butter for dairy, catering to vegan preferences, and includes sun-dried tomatoes for added flavor. The dish is typically enjoyed as a main course, sometimes paired with plant-based sausages or other proteins.",
+        "content": "- 250 g endive (chopped, raw)\n- 300 g starchy potatoes\n- 50 ml oat cream\n- 1/2 tbsp olive oil\n- 4-5 sun-dried tomatoes (in oil, finely chopped)\n- Salt and pepper to taste",
+        "images": [
+            "332fa543fb56a0d56799eb7045a1e2cd40edb5e1922436d9f6435fc0cf2c1c57.png"
         ]
     }
 }
