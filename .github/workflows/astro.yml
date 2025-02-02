@@ -92,7 +92,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: github-pages
-          path: ./artifact
+          path: ./github-pages
       - name: Debug downloaded artifact
         run: ls -R ./artifact
       - name: List available artifacts
