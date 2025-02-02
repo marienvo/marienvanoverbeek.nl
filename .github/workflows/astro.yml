@@ -76,12 +76,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          name: pages
           path: ${{ env.BUILD_PATH }}/dist
-      - name: Check uploaded artifact
-        run: |
-          echo "Artifact contents:"
-          ls -R ${{ env.BUILD_PATH }}/dist
 
   deploy:
     environment:
@@ -91,25 +86,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: pages
-          path: .
-      - name: Debug downloaded artifact
-        run: ls -R .
-      - name: List available artifacts
-        run: |
-          echo "Available artifacts:"
-          ls -R $GITHUB_WORKSPACE
-      - name: Debug GITHUB_TOKEN
-        run: |
-          echo 'GitHub Token: ${{ secrets.GITHUB_TOKEN }}'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        with:
-          artifact_name: pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
