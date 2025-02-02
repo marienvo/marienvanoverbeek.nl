@@ -103,8 +103,8 @@ jobs:
           echo "Available artifacts:"
           ls -R $GITHUB_WORKSPACE
       - name: Debug GITHUB_TOKEN
-        run:
-          echo "GitHub Token: ${{ secrets.GITHUB_TOKEN }}"
+        run: |
+          echo 'GitHub Token: ${{ secrets.GITHUB_TOKEN }}'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
