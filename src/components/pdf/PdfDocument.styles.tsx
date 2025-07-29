@@ -1,6 +1,6 @@
 import { StyleSheet } from "@react-pdf/renderer";
 
-const paddingBottom = 80;
+const paddingBottom = 70;
 const paddingBottomHeader = 50;
 
 export const styles = StyleSheet.create({

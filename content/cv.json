@@ -24,11 +24,7 @@
       "position": "SENIOR FRONT-END DEVELOPER",
       "startDate": "2022-09-01",
       "endDate": "2024-02-01",
-      "skills": [
-        "TypeScript",
-        "Micro Frontend Architecture (Nx)",
-        "Mentorship"
-      ],
+      "skills": ["TypeScript", "Nx Monorepo", "Mentorship"],
       "description": "PAY. is a fintech company that aims to make payments easier for everyone. At Pay, I developed a design system with micro front-ends for a maintainable setup, enabling quick, flexible front-end modifications, including admin portals, registration flows, and checkout screens."
     },
     {
@@ -40,7 +36,7 @@
       "endDate": "2022-05-01",
       "skills": [
         "TypeScript",
-        "Micro Frontend Architecture (Nx)",
+        "Nx Monorepo",
         "React",
         "Scrum",
         "Team Leadership"
