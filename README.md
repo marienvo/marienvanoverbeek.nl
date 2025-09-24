@@ -40,3 +40,9 @@ exposed as a route based on its file name.
 ## 👀 Want to learn more?
 
 Feel free to check [the Astro documentation](https://docs.astro.build) or jump into their [Discord server](https://astro.build/chat).
+
+## Update recipes
+
+- From my notes, run: `python ./Scripts/publish-recipes.py`
+- Build site (includes fetching recipes)
+- Preview and deploy (by pushing to GH)
